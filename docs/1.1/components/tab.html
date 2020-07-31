@@ -1,0 +1,570 @@
+---
+layout: default
+title: Tab
+version: 1.1
+permalink: /docs/1.1/components/tab/
+page: tab
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1 id="t1">Tabs</h1>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-container">
+                        <ul class="ms-tabs nav nav-tabs nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#apple">Apple</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#apricot">Apricot</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#avocado">Avocado</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane container-fluid fade" id="apple">Apple</div>
+                            <div class="tab-pane container-fluid active" id="apricot">Apricot</div>
+                            <div class="tab-pane container-fluid fade" id="avocado">Avocado</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Tabs -->
+<ul class="ms-tabs nav nav-tabs nav-justified">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#apple">Apple</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#apricot">Apricot</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#avocado">Avocado</a>
+    </li>
+</ul>
+<!-- Tab Panes -->
+<div class="tab-content">
+    <div class="tab-pane container-fluid fade" id="apple">Apple</div>
+    <div class="tab-pane container-fluid active" id="apricot">Apricot</div>
+    <div class="tab-pane container-fluid fade" id="avocado">Avocado</div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>With Icons</h4>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-container" id="t2">
+                        <ul class="ms-tabs icon-top nav nav-tabs nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#movies">
+                                    <i class="material-icons">movie_creation</i> Movies
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#music">
+                                    <i class="material-icons">music_note</i> Music
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#pictures">
+                                    <i class="material-icons">panorama</i> Pictures
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane container-fluid fade" id="movies">Movies</div>
+                            <div class="tab-pane container-fluid active" id="music">Music</div>
+                            <div class="tab-pane container-fluid fade" id="pictures">Pictures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Tabs -->
+<ul class="ms-tabs icon-top nav nav-tabs nav-justified">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#movies">
+            <i class="material-icons">movie_creation</i> Movies
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#music">
+            <i class="material-icons">music_note</i> Music
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#pictures">
+            <i class="material-icons">panorama</i> Pictures
+        </a>
+    </li>
+</ul>
+<!-- Tab Panes -->
+<div class="tab-content">
+    <div class="tab-pane container-fluid fade" id="movies">Movies</div>
+    <div class="tab-pane container-fluid active" id="music">Music</div>
+    <div class="tab-pane container-fluid fade" id="pictures">Pictures</div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-container" id="t3">
+                        <ul class="ms-tabs icon-right nav nav-tabs nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#movies2">
+                                    <i class="material-icons">movie_creation</i> Movies
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#music2">
+                                    <i class="material-icons">music_note</i> Music
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#pictures2">
+                                    <i class="material-icons">panorama</i> Pictures
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane container-fluid fade" id="movies2">Movies</div>
+                            <div class="tab-pane container-fluid active" id="music2">Music</div>
+                            <div class="tab-pane container-fluid fade" id="pictures2">Pictures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Tabs -->
+<ul class="ms-tabs icon-right nav nav-tabs nav-justified">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#movies2">
+            <i class="material-icons">movie_creation</i> Movies
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#music2">
+            <i class="material-icons">music_note</i> Music
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#pictures2">
+            <i class="material-icons">panorama</i> Pictures
+        </a>
+    </li>
+</ul>
+<!-- Tab Panes -->
+<div class="tab-content">
+    <div class="tab-pane container-fluid fade" id="movies2">Movies</div>
+    <div class="tab-pane container-fluid active" id="music2">Music</div>
+    <div class="tab-pane container-fluid fade" id="pictures2">Pictures</div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-container" id="t4">
+                        <ul class="ms-tabs icon-bottom nav nav-tabs nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#movies3">
+                                    <i class="material-icons">movie_creation</i> Movies
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#music3">
+                                    <i class="material-icons">music_note</i> Music
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#pictures3">
+                                    <i class="material-icons">panorama</i> Pictures
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane container-fluid fade" id="movies3">Movies</div>
+                            <div class="tab-pane container-fluid active" id="music3">Music</div>
+                            <div class="tab-pane container-fluid fade" id="pictures3">Pictures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code4">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Tabs -->
+<ul class="ms-tabs icon-bottom nav nav-tabs nav-justified">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#movies3">
+            <i class="material-icons">movie_creation</i> Movies
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#music3">
+            <i class="material-icons">music_note</i> Music
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#pictures3">
+            <i class="material-icons">panorama</i> Pictures
+        </a>
+    </li>
+</ul>
+<!-- Tab Panes -->
+<div class="tab-content">
+    <div class="tab-pane container-fluid fade" id="movies3">Movies</div>
+    <div class="tab-pane container-fluid active" id="music3">Music</div>
+    <div class="tab-pane container-fluid fade" id="pictures3">Pictures</div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-container" id="t5">
+                        <ul class="ms-tabs icon-left nav nav-tabs nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#movies4">
+                                    <i class="material-icons">movie_creation</i> Movies
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#music4">
+                                    <i class="material-icons">music_note</i> Music
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#pictures4">
+                                    <i class="material-icons">panorama</i> Pictures
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane container-fluid fade" id="movies4">Movies</div>
+                            <div class="tab-pane container-fluid active" id="music4">Music</div>
+                            <div class="tab-pane container-fluid fade" id="pictures4">Pictures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code5">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Tabs -->
+<ul class="ms-tabs icon-left nav nav-tabs nav-justified">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#movies4">
+            <i class="material-icons">movie_creation</i> Movies
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#music4">
+            <i class="material-icons">music_note</i> Music
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#pictures4">
+            <i class="material-icons">panorama</i> Pictures
+        </a>
+    </li>
+</ul>
+<!-- Tab Panes -->
+<div class="tab-content">
+    <div class="tab-pane container-fluid fade" id="movies4">Movies</div>
+    <div class="tab-pane container-fluid active" id="music4">Music</div>
+    <div class="tab-pane container-fluid fade" id="pictures4">Pictures</div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>With Primary and Accent colors</h4>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-container" id="t6">
+                        <ul class="ms-tabs nav nav-tabs nav-justified accent-pink primary-blue">
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#apple1">Apple</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#apricot1">Apricot</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#avocado1">Avocado</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane container-fluid fade" id="apple1">Apple</div>
+                            <div class="tab-pane container-fluid active" id="apricot1">Apricot</div>
+                            <div class="tab-pane container-fluid fade" id="avocado1">Avocado</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code6">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code6">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Tabs with Primary and Accent Colors -->
+<ul class="ms-tabs nav nav-tabs nav-justified accent-pink primary-blue">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#apple1">Apple</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#apricot1">Apricot</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#avocado1">Avocado</a>
+    </li>
+</ul>
+<!-- Tab Panes -->
+<div class="tab-content">
+    <div class="tab-pane container-fluid fade" id="apple1">Apple</div>
+    <div class="tab-pane container-fluid active" id="apricot1">Apricot</div>
+    <div class="tab-pane container-fluid fade" id="avocado1">Avocado</div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>Tabs automatically become scrollable when there are too many to fit on screen</h4>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-container" id="t7">
+                        <ul class="ms-tabs nav nav-tabs nav-justified primary-blue accent-pink">
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#apple2">Apple</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#apricot2">Apricot</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#avocado2">Avocado</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#banana2">Banana</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#blackberry2">Blackberry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#blackcurrant2">Blackcurrant</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#blueberry2">Blueberry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#boysenberry2">Boysenberry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#cherry2">Cherry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#coconut2">Coconut</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#grape2">Grape</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#kiwi2">Kiwi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#lychee2">Lychee</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#mango2">Mango</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#melon2">Melon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#orange2">Orange</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#peach2">Peach</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code7">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code7">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Scrollable Tabs -->
+<ul class="ms-tabs nav nav-tabs nav-justified primary-blue accent-pink">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#apple2">Apple</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#apricot2">Apricot</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#avocado2">Avocado</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#banana2">Banana</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#blackberry2">Blackberry</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#blackcurrant2">Blackcurrant</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#blueberry2">Blueberry</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#boysenberry2">Boysenberry</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#cherry2">Cherry</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#coconut2">Coconut</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#grape2">Grape</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#kiwi2">Kiwi</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#lychee2">Lychee</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#mango2">Mango</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#melon2">Melon</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#orange2">Orange</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#peach2">Peach</a>
+    </li>
+</ul>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="t1">Tabs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="t2">with icon on top</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="t3">with icon on right</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="t4">with icon on bottom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="t5">with icon on left</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="t6">With Primary and Accent Colors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="t7">Scrollable Tabs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

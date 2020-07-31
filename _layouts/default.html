@@ -5,156 +5,32 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description"
-          content="Material Style is an easy to use UI wrapper that lets you add Material Design styles and animations to Bootstrap 4 components.">
-    <meta name="theme-color" content="#212121"/>
+          content="Material Style is an easy to use UI Library based on Bootstrap 4.5 that lets you add Material Design styles and animations to Bootstrap components.">
+    <meta name="theme-color" content="#0D47A1"/>
 
-    <!-- Bootstrap 4 CSS -->
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous">
-    <!-- Material Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Material Style CSS -->
-    <link rel="stylesheet" href="https://cdn.materialstyle.io/1.2.0/css/material-style.css">
-
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    {% include {{ page.version }}/styles.html %}
 </head>
-<body>
+<body class="bg-dark">
+
 {% include navigation.html %}
-{{ content }}
 
-<footer class="footer bg-grey-50">
-    <div id="collapsePrivacy" class="collapse" data-parent="footer">
-        <div class="card-body">
-            <h2>Privacy Policy</h2>
-            <p>
-                We here at Material Style respect your privacy and we value
-                your trust in us. Your privacy is of extreme importance to us
-                and we are always committed to safeguarding it.
-            </p>
+<section class="ms-root">
 
-            <h4>What personal data we collect and why we collect it.</h4>
-            <p>
-                Material Style does not collect any personal information about
-                you such as your name, address, phone number or email ID without
-                your knowledge.<br>
+    {% if page.showSidebar != false %}
+        {% include {{ page.version }}/sidebar.html %}
+        <div class="ms-container bg-grey-50 pb-0">
+    {% else %}
+        <div class="ms-container home-container">
+    {% endif %}
 
-                When you provide your email ID while posting a feedback,
-                we never share it with anyone. Your email ID will only be used
-                for responding to your feedback if requested and will never be made
-                publicly available.<br>
+            {{ content }}
 
-                When you leave a feedback on the site, we collect the data shown
-                in the feedback form. We don't associate IP addresses with
-                feedback or store them.
-            </p>
-
-            <h4>Who we share your data with.</h4>
-            <p>We do not share or sell any personal data with anyone.</p>
-
-            <h4>How long we retain your data.</h4>
-            <p>
-                If you leave a feedback, the feedback, your name and email ID
-                are retained indefinitely until we manually remove it.
-            </p>
-
-            <h4>Changes to privacy policy.</h4>
-            <p>
-                Although most changes are likely to be minor, we may change our
-                privacy policy from time to time, and at our sole discretion.
-                If we decide to make changes to our privacy policy, we'll post
-                those changes on this page. We encourage visitors to periodically
-                check this page to ensure you are familiar with the most current
-                version. Your continued use of this site after any change in
-                this privacy policy will constitute your acceptance of such change.
-            </p>
         </div>
-    </div>
+</section>
 
-    <div id="collapseFeedback" class="collapse" data-parent="footer">
-        <form id="feed-form" method="POST" action="javascript:">
-            <div id="feed-form-container"
-                 class="card-body d-flex flex-column align-items-center justify-content-center">
-                <h2>Feedback</h2>
-                <div class="form-group col-md-6">
-                    <div class="ms-text-field-wrapper">
-                        <label for="feed-name" class="floating-label bg-grey-100">Name</label>
-                        <input id="feed-name" type="text" name="feed-name" value=""
-                               class="bg-grey-100 form-control ms-text-field-outline">
-                    </div>
-                </div>
+{% include footer.html %}
 
-                <div class="form-group col-md-6">
-                    <div class="ms-text-field-wrapper">
-                        <label for="feed-email" class="floating-label bg-grey-100">Email</label>
-                        <input id="feed-email" type="email" name="feed-email" value=""
-                               class="bg-grey-100 form-control ms-text-field-outline">
-                    </div>
-                </div>
+{% include {{ page.version }}/scripts.html %}
 
-                <div class="form-group col-md-6">
-                    <div class="ms-text-field-wrapper">
-                        <label for="feed-feedback" class="floating-label bg-grey-100">Feedback</label>
-                        <textarea class="bg-grey-100 form-control ms-text-field-outline" name="feed-feedback" rows="3"
-                                  id="feed-feedback"></textarea>
-                    </div>
-                </div>
-
-                <button id="feedback-submit" type="button" class="btn btn-ms btn-blue-600 ripple">
-                    Submit
-                </button>
-            </div>
-            <div id="feed-wait" class="card-body d-flex flex-column align-items-center justify-content-center">
-                <div class="ms-spinner spinner-blue"></div>
-            </div>
-            <div id="feed-thanks" class="card-body d-flex flex-column align-items-center justify-content-center">
-                <i class="material-icons text-blue" style="font-size:100px;">sentiment_very_satisfied</i>
-                <h2 class="text-blue">Thanks for your feedback.</h2>
-            </div>
-            <div id="feed-error" class="card-body d-flex flex-column align-items-center justify-content-center">
-                <i class="material-icons text-red" style="font-size:100px;">sentiment_very_dissatisfied</i>
-                <h2 class="text-red">OOPS! Something went wrong.</h2>
-            </div>
-        </form>
-    </div>
-
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a id="privacy-link" class="collapsed nav-link text-blue-600" data-toggle="collapse" href="#collapsePrivacy">Privacy Policy</a>
-        </li>
-        <li class="nav-item">
-            <a id="feedback-link" class="collapsed nav-link text-blue-600" data-toggle="collapse" href="#collapseFeedback">Feedback</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-blue-600" href="https://github.com/nkdas91/material-style/blob/master/LICENSE" target="_blank">MIT License</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-blue-600" href="https://github.com/nkdas91/material-style" target="_blank">
-                GitHub
-            </a>
-        </li>
-    </ul>
-</footer>
-
-<!-- JQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-        crossorigin="anonymous"></script>
-<!-- Popper JS -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-<!-- Bootstrap 4 JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-
-<!-- Material Style JS -->
-<script src="https://cdn.materialstyle.io/1.2.0/js/material-style.js"></script>
-<script src="/assets/js/site.js"></script>
 </body>
 </html>

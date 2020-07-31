@@ -1,0 +1,117 @@
+---
+title: Navigation and Drawer
+version: 1.1
+permalink: /docs/1.1/demo/visible-sidebar/
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialstyle.io/1.0.0/css/material-style.css">
+    <style>
+        footer {
+            padding: 15px;
+        }
+
+        .sample {
+            padding: 35px;
+            text-align: center;
+            font-size: 30px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="ms-nav navbar navbar-expand-sm bg-blue navbar-dark">
+        <i class="ms-sidebar-toggle material-icons text-white">&#xE5D2;</i>
+        <a class="navbar-brand" href="javascript:">
+            Brand
+        </a>
+    </nav>
+
+    <section class="ms-root">
+        <aside class="ms-sidebar --visible bg-light">
+            <div class="sidebar-brand bg-light">
+                <i class="nav-close-btn material-icons">&#xE5CD;</i>
+            </div>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="javascript:">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="javascript:">
+                        Link
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-dark sub-menu-link" href="javascript:">
+                        Menu A <i class="material-icons">keyboard_arrow_right</i>
+                    </a>
+                </li>
+                <li class="nav-item sub-menu-container">
+                    <ul class=" nav flex-column sub-menu" data-ic-class="sub-menu">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="javascript:">
+                                Menu Item
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="javascript:">
+                                Menu Item
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark sub-menu-link" href="javascript:">
+                        Menu B <i class="material-icons">keyboard_arrow_right</i>
+                    </a>
+                </li>
+                <li class="nav-item sub-menu-container">
+                    <ul class=" nav flex-column sub-menu" data-ic-class="sub-menu">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="javascript:">
+                                Menu Item
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="javascript:">
+                                Menu Item
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+        <div class="ms-container">
+            <label class="sample bg-blue">
+                S<br>O<br>M<br>E<br><br>
+                I<br>N<br>T<br>E<br>R<br>E<br>S<br>T<br>I<br>N<br>G<br><br>
+                S<br>T<br>U<br>F<br>F
+            </label>
+        </div>
+    </section>
+
+    <footer class="bg-grey-800 text-white">
+        Footer
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.materialstyle.io/1.0.0/js/material-style.js"></script>
+</body>
+</html>

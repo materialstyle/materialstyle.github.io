@@ -1,0 +1,166 @@
+---
+layout: default
+title: Modal
+version: 2.0
+permalink: /docs/2.0/components/modal/
+page: modal
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1>Modal</h1>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-black btn-ms ripple"
+                                data-toggle="modal" data-target="#myModal">
+                            Open modal
+                        </button>
+                        <br>
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                Modal body..
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal fade ms-modal" id="myModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="ms-text-field-wrapper">
+                                    <label class="floating-label">Phone</label>
+                                    <input type="text" class="form-control ms-text-field primary-blue-500 accent-pink-a400" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="ms-select">
+                                    <label class="floating-label">Car</label>
+                                    <select class="form-control text-grey" name="car">
+                                        <option value=""></option>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3">Dodge</option>
+                                        <option value="4">Ferrari</option>
+                                        <option value="5">koenigsegg</option>
+                                        <option value="6" selected>Lamborghini</option>
+                                        <option value="7">Pagani</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <button type="button" class="btn btn-ms btn-indigo ripple">
+                                    Button
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="ms-file-input-wrapper">
+                                    <input type="file" name="myfile">
+                                    <button type="button" class="btn btn-ms btn-indigo file-upload-button">
+                                        <i class="material-icons">attach_file</i> Browse</button>
+                                    <label class="files"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="ms-checkbox accent-pink">Checkbox
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark ripple"></span>
+                                </label>
+                                <label class="ms-checkbox accent-pink">Checkbox
+                                    <input type="checkbox">
+                                    <span class="checkmark ripple"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="ms-radio accent-pink">Radio
+                                    <input type="radio" name="radiomodal" checked="checked">
+                                    <span class="checkmark ripple"></span>
+                                </label>
+                                <label class="ms-radio accent-pink">Radio
+                                    <input type="radio" name="radiomodal">
+                                    <span class="checkmark ripple"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="ms-switch">
+                                    <input type="checkbox" checked="checked">
+                                    <span class="ms-slider ripple"></span>
+                                </label>
+                                <label class="ms-switch">
+                                    <input type="checkbox">
+                                    <span class="ms-slider ripple"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-ms ripple"
+                                data-dismiss="modal">Close
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

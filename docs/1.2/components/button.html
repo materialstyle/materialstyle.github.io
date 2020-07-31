@@ -1,0 +1,576 @@
+---
+layout: default
+title: Button
+version: 1.2
+permalink: /docs/1.2/components/button/
+page: button
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1>Button</h1>
+        <div class="component-wrapper">
+            <h3 id="b1">Standard Button</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-indigo">Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Button</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>With Ripple</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Button -->
+<button type="button" class="btn btn-ms btn-indigo">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Button with Ripple effect -->
+<button type="button" class="btn btn-ms btn-indigo ripple">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Button -->
+<button type="button" class="btn btn-ms btn-indigo" disabled>
+    Button
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="b2">Buttons with icon</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-indigo">
+                            Like <i class="material-icons">thumb_up</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Button</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-indigo ripple">
+                            Like <i class="material-icons">thumb_up</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>With Ripple</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-indigo" disabled>
+                            Like <i class="material-icons">thumb_up</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Button -->
+<button type="button" class="btn btn-ms btn-indigo">
+    Like <i class="material-icons">thumb_up</i>
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Button with Ripple effect -->
+<button type="button" class="btn btn-ms btn-indigo ripple">
+    Like <i class="material-icons">thumb_up</i>
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Button -->
+<button type="button" class="btn btn-ms btn-indigo" disabled>
+    Like<i class="material-icons">thumb_up</i>
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="b3">Flat Buttons</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-flat btn-indigo">Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Flat Button</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-flat btn-indigo ripple">Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>With Ripple</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-flat btn-indigo" disabled>Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Flat Button -->
+<button type="button" class="btn btn-ms btn-flat btn-indigo">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Flat Button with Ripple effect -->
+<button type="button" class="btn btn-ms btn-flat btn-indigo ripple">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Flat Button -->
+<button type="button" class="btn btn-ms btn-flat btn-indigo" disabled>
+    Button
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="b4">Outline Buttons</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-outline-indigo">Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Outline Button</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-outline-indigo ripple">Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>With Ripple</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-outline-indigo" disabled>Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code4">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outline Button -->
+<button type="button" class="btn btn-ms btn-outline-indigo">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outline Button with Ripple effect -->
+<button type="button" class="btn btn-ms btn-outline-indigo ripple">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Outline Button -->
+<button type="button" class="btn btn-ms btn-outline-indigo" disabled>
+    Button
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="b5">Flat Outline Buttons</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-flat btn-outline-indigo">Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Flat Outline Button</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-flat btn-outline-indigo ripple">Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>With Ripple</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-flat btn-outline-indigo" disabled>Button</button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code5">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Flat Outline Button -->
+<button type="button" class="btn btn-ms btn-flat btn-outline-indigo">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Flat Outline Button with Ripple effect -->
+<button type="button" class="btn btn-ms btn-flat btn-outline-indigo ripple">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Flat Outline Button -->
+<button type="button" class="btn btn-ms btn-flat btn-outline-indigo" disabled>
+    Button
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="b6">File Upload Button</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <div class="ms-file-input-wrapper">
+                            <input type="file" name="myfile">
+                            <button type="button" class="btn btn-ms btn-indigo file-upload-button">
+                                <i class="material-icons">attach_file</i> Browse</button>
+                            <label class="files"></label>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>File upload</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <div class="ms-file-input-wrapper">
+                            <input type="file" name="myfiles[]" multiple>
+                            <button type="button" class="btn btn-ms btn-indigo file-upload-button">
+                                <i class="material-icons">attach_file</i> Browse</button>
+                            <label class="files"></label>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Multiple file upload</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code6">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code6">
+                    <div class="code-container">
+{% highlight html %}
+<!-- File upload button -->
+<div class="ms-file-input-wrapper">
+    <input type="file" name="myfile">
+    <button type="button" class="btn btn-ms btn-indigo file-upload-button">
+        <i class="material-icons">attach_file</i> Browse
+    </button>
+    <label class="files"></label>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Multiple file upload button -->
+<div class="ms-file-input-wrapper">
+    <input type="file" name="myfiles[]" multiple>
+    <button type="button" class="btn btn-ms btn-indigo file-upload-button">
+        <i class="material-icons">attach_file</i> Browse
+    </button>
+    <label class="files"></label>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="b7">Button Groups</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-ms btn-indigo">Button</button>
+                            <button type="button" class="btn btn-ms btn-indigo">Button</button>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Button Group</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+                            <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>With Ripple</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+                            <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code7">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code7">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Button Group -->
+<div class="btn-group">
+    <button type="button" class="btn btn-ms btn-indigo">Button</button>
+    <button type="button" class="btn btn-ms btn-indigo">Button</button>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Button Group with Ripple effect -->
+<div class="btn-group">
+    <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+    <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Button Group -->
+<div class="btn-group">
+    <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+    <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="b8">Vertical Button Groups</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-ms btn-indigo">Button</button>
+                            <button type="button" class="btn btn-ms btn-indigo">Button</button>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Vertical Button Group</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+                            <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>With Ripple</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+                            <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code8">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code8">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Vertical Button Group -->
+<div class="btn-group-vertical">
+    <button type="button" class="btn btn-ms btn-indigo">Button</button>
+    <button type="button" class="btn btn-ms btn-indigo">Button</button>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Vertical Button Group with Ripple effect -->
+<div class="btn-group-vertical">
+    <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+    <button type="button" class="btn btn-ms btn-indigo ripple">Button</button>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Vertical Button Group -->
+<div class="btn-group-vertical">
+    <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+    <button type="button" class="btn btn-ms btn-indigo" disabled>Button</button>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b1">Buttons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b2">Buttons with Icon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b3">Flat Buttons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b4">Outline Buttons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b5">Flat Outline Buttons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b6">File upload button</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b7">Button groups</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b8">Vertical Button groups</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

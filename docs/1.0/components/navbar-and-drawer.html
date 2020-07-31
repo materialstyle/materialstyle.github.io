@@ -1,0 +1,401 @@
+---
+layout: default
+title: Navigation and Drawer
+version: 1.0
+permalink: /docs/1.0/components/navbar-and-drawer/
+page: navbar-and-drawer
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1>Navbar and Drawer (With Layout)</h1>
+
+        <div class="component-wrapper">
+            <div class="row" id="nav1">
+                <div class="col-md-12">
+                    <div class="nav-container">
+                        <a href="/docs/1.0/demo/sidebar" target="_blank">
+                            View Demo <i class="material-icons">open_in_new</i>
+                        </a>
+                    </div>
+                    <div class="description-container">
+                        <label>Sidebar</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<body>
+    <!-- Top Navbar -->
+    <nav class="ms-nav navbar navbar-expand-sm bg-teal-700 navbar-dark">
+        <!-- Hamburger button for the sidebar -->
+        <i class="ms-sidebar-toggle material-icons text-white">&#xE5D2;</i>
+        <a class="navbar-brand" href="javascript:">
+            Brand
+        </a>
+    </nav>
+
+    <section class="ms-root">
+        <!-- Sidebar -->
+        <aside class="ms-sidebar bg-light">
+            <!-- Sidebar branding area -->
+            <div class="sidebar-brand bg-light">
+                <a class="navbar-brand text-dark" href="javascript:">
+                     Brand
+                </a>
+                <!-- Sidebar Close button -->
+                <i class="nav-close-btn material-icons">&#xE5CD;</i>
+            </div>
+            <ul class="nav flex-column">
+                <!-- Menu -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark" href="javascript:">
+                         Link
+                     </a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link text-dark" href="javascript:">
+                         Link
+                     </a>
+                </li>
+                <!-- Sub Menu Link A -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark sub-menu-link" href="javascript:">
+                         Menu A <i class="material-icons">keyboard_arrow_right</i>
+                     </a>
+                </li>
+                <!-- Sub Menu A -->
+                <li class="nav-item sub-menu-container">
+                     <ul class=" nav flex-column sub-menu" data-ic-class="sub-menu">
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                     </ul>
+                </li>
+                <!-- Sub Menu Link B -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark sub-menu-link" href="javascript:">
+                         Menu B <i class="material-icons">keyboard_arrow_right</i>
+                     </a>
+                </li>
+                <!-- Sub Menu B -->
+                <li class="nav-item sub-menu-container">
+                     <ul class=" nav flex-column sub-menu" data-ic-class="sub-menu">
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                     </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Container -->
+        <div class="ms-container">
+            <label class="sample">
+                Your Contents Here
+            </label>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-grey-800 text-white">
+        Footer
+    </footer>
+</body>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row" id="nav2">
+                <div class="col-md-12">
+                    <div class="nav-container">
+                        <a href="/docs/1.0/demo/visible-sidebar" target="_blank">
+                            View Demo <i class="material-icons">open_in_new</i>
+                        </a>
+                    </div>
+                    <div class="description-container">
+                        <label>Always Visible Sidebar</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<body>
+    <!-- Top Navbar -->
+    <nav class="ms-nav navbar navbar-expand-sm bg-teal-700 navbar-dark">
+        <!-- Hamburger button for the sidebar -->
+        <i class="ms-sidebar-toggle material-icons text-white">&#xE5D2;</i>
+        <a class="navbar-brand" href="javascript:">
+            Brand
+        </a>
+    </nav>
+
+    <section class="ms-root">
+        <!-- Sidebar -->
+        <aside class="ms-sidebar --visible bg-light">
+            <!-- Sidebar branding area -->
+            <div class="sidebar-brand bg-light">
+                <a class="navbar-brand text-dark" href="javascript:">
+                     Brand
+                </a>
+                <!-- Sidebar Close button -->
+                <i class="nav-close-btn material-icons">&#xE5CD;</i>
+            </div>
+            <ul class="nav flex-column">
+                <!-- Menu -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark" href="javascript:">
+                         Link
+                     </a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link text-dark" href="javascript:">
+                         Link
+                     </a>
+                </li>
+                <!-- Sub Menu Link A -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark sub-menu-link" href="javascript:">
+                         Menu A <i class="material-icons">keyboard_arrow_right</i>
+                     </a>
+                </li>
+                <!-- Sub Menu A -->
+                <li class="nav-item sub-menu-container">
+                     <ul class=" nav flex-column sub-menu" data-ic-class="sub-menu">
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                     </ul>
+                </li>
+                <!-- Sub Menu Link B -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark sub-menu-link" href="javascript:">
+                         Menu B <i class="material-icons">keyboard_arrow_right</i>
+                     </a>
+                </li>
+                <!-- Sub Menu B -->
+                <li class="nav-item sub-menu-container">
+                     <ul class=" nav flex-column sub-menu" data-ic-class="sub-menu">
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                     </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Container -->
+        <div class="ms-container">
+            <label class="sample">
+                Your Contents Here
+            </label>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-grey-800 text-white">
+        Footer
+    </footer>
+</body>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row" id="nav3">
+                <div class="col-md-12">
+                    <div class="nav-container">
+                        <a href="/docs/1.0/demo/fixed-sidebar" target="_blank">
+                            View Demo <i class="material-icons">open_in_new</i>
+                        </a>
+                    </div>
+                    <div class="description-container">
+                        <label>Always Visible Fixed Sidebar</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<body>
+    <!-- Top Navbar -->
+    <nav class="ms-nav navbar navbar-expand-sm bg-teal-700 navbar-dark fixed-top">
+        <!-- Hamburger button for the sidebar -->
+        <i class="ms-sidebar-toggle material-icons text-white">&#xE5D2;</i>
+        <a class="navbar-brand" href="javascript:">
+            Brand
+        </a>
+    </nav>
+
+    <section class="ms-root">
+        <!-- Sidebar -->
+        <aside class="ms-sidebar --visible --fixed bg-light">
+            <!-- Sidebar branding area -->
+            <div class="sidebar-brand bg-light">
+                <a class="navbar-brand text-dark" href="javascript:">
+                     Brand
+                </a>
+                <!-- Sidebar Close button -->
+                <i class="nav-close-btn material-icons">&#xE5CD;</i>
+            </div>
+            <ul class="nav flex-column">
+                <!-- Menu -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark" href="javascript:">
+                         Link
+                     </a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link text-dark" href="javascript:">
+                         Link
+                     </a>
+                </li>
+                <!-- Sub Menu Link A -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark sub-menu-link" href="javascript:">
+                         Menu A <i class="material-icons">keyboard_arrow_right</i>
+                     </a>
+                </li>
+                <!-- Sub Menu A -->
+                <li class="nav-item sub-menu-container">
+                     <ul class=" nav flex-column sub-menu" data-ic-class="sub-menu">
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                     </ul>
+                </li>
+                <!-- Sub Menu Link B -->
+                <li class="nav-item">
+                     <a class="nav-link text-dark sub-menu-link" href="javascript:">
+                         Menu B <i class="material-icons">keyboard_arrow_right</i>
+                     </a>
+                </li>
+                <!-- Sub Menu B -->
+                <li class="nav-item sub-menu-container">
+                     <ul class=" nav flex-column sub-menu" data-ic-class="sub-menu">
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link text-dark" href="javascript:">
+                                 Menu Item
+                             </a>
+                         </li>
+                     </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Container -->
+        <div class="ms-container">
+            <label class="sample">
+                Your Contents Here
+            </label>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-grey-800 text-white">
+        Footer
+    </footer>
+</body>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="nav1">Sidebar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="nav2">Always Visible Sidebar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="nav3">Always Visible Fixed Sidebar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
