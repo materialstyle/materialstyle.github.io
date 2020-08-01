@@ -12,7 +12,7 @@ html {
 }
 
 html, body {
-  background: linear-gradient(180deg, #212121 150px, #EEEEEE 0);
+  background: #EEEEEE;
 }
 
 .version-selector .selected-item {
@@ -57,8 +57,14 @@ html, body {
     font-weight: bold;
   }
   .list-heading {
-    //padding-left: 8px;
     padding: .3rem 1rem;
+  }
+  .sidebar-brand {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    border-bottom: 1px solid #e9ecef;
   }
 }
 
@@ -73,7 +79,7 @@ h2, h3, h4, h5 {
   }
   .home-odd, .home-even {
     padding: 50px 10% 50px 10%;
-    margin: 0;
+    margin: -15px 0 0 0;
   }
 
   .ms-shape-container {
