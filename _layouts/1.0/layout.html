@@ -12,7 +12,7 @@
 </head>
 <body>
 
-{% include navigation.html %}
+{% include {{ page.version }}/navigation.html %}
 
 <section class="ms-root">
 
@@ -32,7 +32,7 @@
     <i class="material-icons">arrow_upward</i>
 </button>
 
-{% include footer.html %}
+{% include {{ page.version }}/footer.html %}
 
 {% include {{ page.version }}/scripts.html %}
 
