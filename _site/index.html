@@ -2,245 +2,240 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Material Style 2.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description"
-          content="Material Style is an easy to use UI wrapper that lets you add Material Design styles and animations to Bootstrap 4 components.">
-    <meta name="theme-color" content="#212121"/>
+          content="Material Style is an easy to use UI Library based on Bootstrap 4.5 that lets you add Material Design styles and animations to Bootstrap components.">
+    <meta name="theme-color" content="#0D47A1"/>
 
-    <!-- Bootstrap 4 CSS -->
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous">
-    <!-- Material Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Material Style CSS -->
-    <link rel="stylesheet" href="https://cdn.materialstyle.io/1.2.0/css/material-style.css">
+<link rel="stylesheet" href="/assets/2.0/css/material-style.min.css">
 
-    <link rel="stylesheet" href="/assets/css/styles.css">
+<!-- Site -->
+<link rel="stylesheet" href="/assets/css/styles.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+
 </head>
 <body>
-<nav class="site-home-top-nav ms-nav navbar navbar-expand-sm bg-dark navbar-dark fixed-top raised-4dp">
-    <div class="d-flex justify-content-center align-items-center">
-        <!--
-        @if(isset($components))
-        <i class="ms-sidebar-toggle material-icons text-white">&#xE5D2;</i>
-        @endif
-        -->
-        <a class="navbar-brand py-0" id="site-head" href="/">
-            <div class="d-inline-flex align-items-center">
-                <img src="https://cdn.materialstyle.io/images/msicon2.png" alt="Logo" style="width:40px; height:40px;">
 
-                <div class="d-inline-flex flex-column ml-2">
-                    <span class="d-block">Material Style</span>
-                    <span style="font-size:12px;">2.0.0 Beta</span>
-                </div>
-            </div>
+<nav id="site-home-top-nav" class="ms-nav navbar navbar-expand-sm fixed-top auto-hide raised-4dp bg-dark navbar-dark">
+    <div class="d-flex justify-content-center align-items-center">
+
+        
+
+        
+
+        <a class="navbar-brand py-0 d-flex align-items-center" href="/">
+            <img src="/assets/images/MSIconNewColorV2.svg" alt="Logo" style="width:40px; height:40px;">
+            <span class="text-white ml-1">Material Style</span>
         </a>
     </div>
 
-    <ul class="navbar-nav">
+    <ul class="navbar-nav d-flex align-items-center">
         <li class="nav-item">
-            <a class="nav-link text-white" href="/getting-started/1.2">Get Started</a>
+            <a class="nav-link text-white" href="/docs/2.0/getting-started/installation">Get Started</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" href="/components">Components</a>
+            <a class="nav-link text-white" href="/docs/2.0/components/alert">Components</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="https://github.com/materialstyle/materialstyle">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <div class="dropdown">
+                <button class="btn btn-text-white dropdown-toggle" data-toggle="dropdown" aria-expanded="false" data-display="static" style="text-transform:none;">
+                    v2.0
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" style="min-width:auto;">
+                    <li><a class="dropdown-item px-3" href="/">2.0</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a class="dropdown-item px-3" href="/docs/1.2/">1.2</a></li>
+                    <li><a class="dropdown-item px-3" href="/docs/1.1/">1.1</a></li>
+                    <li><a class="dropdown-item px-3" href="/docs/1.0/">1.0</a></li>
+                </ul>
+            </div>
         </li>
     </ul>
 </nav>
 
-<section class="ms-root">
-    <div class="ms-container home-container">
 
-        <div class="home-even bg-dark text-white py-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="d-flex flex-column justify-content-center align-items-center">
-                        <img src="https://cdn.materialstyle.io/images/msicon2.png"
-                             alt="Material Style Logo"
-                             style="width:70px; height:70px;">
-                        <h2 class="my-3 text-center">Restyle Bootstrap 4 with Material Style</h2>
-                        <p class="text-center mb-4">
-                            Material Style is an easy to use UI wrapper that lets you add Material Design styles
-                            and animations to Bootstrap 4 components.
-                        </p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <div class="ms-btn-shape-container shape-parent-bg-dark m-2">
-                                <a href="getting-started/1.1" class="btn btn-blue-600 btn-ms ripple py-2">
-                                    Get Started
-                                </a>
-                                <div class="angle-top-right"></div>
-                                <div class="angle-bottom-left"></div>
-                            </div>
-                        </div>
+<section class="m-root">
+
+    
+        <div class="m-container home-container">
+    
+
+            <div class="home-even bg-dark text-white py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <img src="/assets/images/MSIconNewColorV2.svg"
+                alt="Material Style Logo"
+                style="width:100px; height:100px;">
+
+                <h2 class="my-3 text-center">Restyle Bootstrap with Material Style</h2>
+                <p class="text-center mb-4">
+                    Material Style is an easy to use UI Library based on Bootstrap 4.5 that lets you add Material Design
+                    styles and animations to Bootstrap components.
+                </p>
+
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="m-btn-shape-container shape-parent-bg-dark">
+                        <a href="/docs/2.0/getting-started/installation" class="btn btn-ms ripple btn-blue ripple"
+                           role="button">
+                            Get Started
+                        </a>
+                        <div class="angle-top-left"></div>
+                        <div class="angle-bottom-right"></div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <div class="home-even bg-white text-dark">
-            <div class="row">
-                <div class="col-md-12 mb-2">
-                    <h4>Is it free?</h4>
-                    <p class="text-blue-600">Yes. Every component is free to use.</p>
-                </div>
-                <div class="col-md-12 mb-2">
-                    <h4>Can I use it in my commercial projects?</h4>
-                    <p class="text-blue-600">
-                        Of course. Material Style is MIT licensed project. You can learn more on the
-                        <a class="text-red-a400"
-                           href="https://github.com/nkdas91/material-style/blob/master/LICENSE" target="_blank">license page</a>.
-                    </p>
-                </div>
-                <div class="col-md-12 mb-2">
-                    <h4>How do I install and use it?</h4>
-                    <p class="text-blue-600">
-                        Installation is as simple as adding CSS and JS to your markup as described on the
-                        <a class="text-red-a400"
-                           href="getting-started/1.1" target="_blank">Get started</a> page.
-                        There's a code sample for each Material Style <a class="text-red-a400" href="components" target="_blank">Component</a>
-                        which can be copied and used.
-                    </p>
+<div class="home-odd bg-white py-5 pb-2">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <h3 class="text-center">Beautifully crafted components</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 d-flex justify-content-center align-items-center" style="flex-wrap: wrap;">
+            <div class="form-group m-2"  style="width:200px;">
+                <div class="m-text-field-outline primary-teal accent-blue-800">
+                    <label for="textfield" class="floating-label bg-white">Text Field</label>
+                    <input id="textfield" type="text" value="" class="form-control">
                 </div>
             </div>
-        </div>
 
+            <div class="form-group m-2" style="width:200px;">
+                <div class="m-select searchable primary-teal accent-blue-800">
+                    <label class="floating-label">Select</label>
+                    <select class="form-control" name="car">
+                        <option value=""></option>
+                        <option value="1">Audi</option>
+                        <option value="2">BMW</option>
+                        <option value="3">Dodge</option>
+                        <option value="4">Ferrari</option>
+                        <option value="5">koenigsegg</option>
+                        <option value="6">Lamborghini</option>
+                        <option value="7">Pagani</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="m-btn-shape-container shape-parent-bg-white m-2">
+                <button class="btn btn-ms ripple btn-teal ripple ">
+                    Shaped Button
+                </button>
+                <div class="angle-top-left"></div>
+                <div class="angle-bottom-right"></div>
+            </div>
+
+            <button type="button" class="btn btn-ms btn-fab extended-mini-fab btn-teal ripple m-2">
+                <i class="material-icons">search</i> Button
+            </button>
+
+            <button type="button" class="btn btn-ms btn-fab leaf-fab-inverted btn-teal ripple m-2">
+                <i class="material-icons">favorite_border</i>
+            </button>
+        </div>
     </div>
+</div>
+
+<div class="home-odd bg-white text-dark pt-2">
+    <div class="row">
+        <div class="col-md-12 d-flex justify-content-center align-items-center">
+            <h4 class="text-center m-0">
+                There's more! Have a look at our
+                <div class="m-btn-shape-container shape-parent-bg-white m-1" style="vertical-align: middle;">
+                    <a href="/docs/2.0/components/alert" class="btn btn-ms ripple btn-red ripple"
+                       role="button">
+                        Components
+                    </a>
+                    <div class="angle-top-left"></div>
+                    <div class="angle-bottom-right"></div>
+                </div>
+            </h4>
+
+        </div>
+    </div>
+</div>
+
+<div class="home-odd bg-light text-dark">
+    <div class="row">
+        <div class="col-md-12 mb-2">
+            <h4>Can I use it in my commercial projects?</h4>
+            <p class="text-blue-800">
+                Of course. Material Style is MIT licensed project. You can learn more on the
+                <a class="text-red-a400"
+                   href="https://github.com/materialstyle/materialstyle/blob/master/LICENSE" target="_blank">
+                    license page
+                </a>.
+            </p>
+        </div>
+        <div class="col-md-12 mb-2">
+            <h4>How do I install and use it?</h4>
+            <p class="text-blue-800">
+                Installation is as simple as adding CSS and JS to your markup as described on the
+                <a class="text-red-a400"
+                   href="/docs/2.0/getting-started/installation" target="_blank">Get Started</a> page.
+                There's a code sample for each <a class="text-red-a400" href="/docs/2.0/components/alert" target="_blank">Material Style
+                Component</a>
+                which can be copied and used.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+        </div>
 </section>
 
+<button id="top-btn" type="button" class="btn btn-fab leaf-fab-inverted btn-red">
+    <i class="material-icons">arrow_upward</i>
+</button>
 
-<footer class="footer bg-grey-50">
-    <div id="collapsePrivacy" class="collapse" data-parent="footer">
-        <div class="card-body">
-            <h2>Privacy Policy</h2>
-            <p>
-                We here at Material Style respect your privacy and we value
-                your trust in us. Your privacy is of extreme importance to us
-                and we are always committed to safeguarding it.
-            </p>
-
-            <h4>What personal data we collect and why we collect it.</h4>
-            <p>
-                Material Style does not collect any personal information about
-                you such as your name, address, phone number or email ID without
-                your knowledge.<br>
-
-                When you provide your email ID while posting a feedback,
-                we never share it with anyone. Your email ID will only be used
-                for responding to your feedback if requested and will never be made
-                publicly available.<br>
-
-                When you leave a feedback on the site, we collect the data shown
-                in the feedback form. We don't associate IP addresses with
-                feedback or store them.
-            </p>
-
-            <h4>Who we share your data with.</h4>
-            <p>We do not share or sell any personal data with anyone.</p>
-
-            <h4>How long we retain your data.</h4>
-            <p>
-                If you leave a feedback, the feedback, your name and email ID
-                are retained indefinitely until we manually remove it.
-            </p>
-
-            <h4>Changes to privacy policy.</h4>
-            <p>
-                Although most changes are likely to be minor, we may change our
-                privacy policy from time to time, and at our sole discretion.
-                If we decide to make changes to our privacy policy, we'll post
-                those changes on this page. We encourage visitors to periodically
-                check this page to ensure you are familiar with the most current
-                version. Your continued use of this site after any change in
-                this privacy policy will constitute your acceptance of such change.
-            </p>
-        </div>
-    </div>
-
-    <div id="collapseFeedback" class="collapse" data-parent="footer">
-        <form id="feed-form" method="POST" action="javascript:">
-            <div id="feed-form-container"
-                 class="card-body d-flex flex-column align-items-center justify-content-center">
-                <h2>Feedback</h2>
-                <div class="form-group col-md-6">
-                    <div class="ms-text-field-wrapper">
-                        <label for="feed-name" class="floating-label bg-grey-100">Name</label>
-                        <input id="feed-name" type="text" name="feed-name" value=""
-                               class="bg-grey-100 form-control ms-text-field-outline">
-                    </div>
-                </div>
-
-                <div class="form-group col-md-6">
-                    <div class="ms-text-field-wrapper">
-                        <label for="feed-email" class="floating-label bg-grey-100">Email</label>
-                        <input id="feed-email" type="email" name="feed-email" value=""
-                               class="bg-grey-100 form-control ms-text-field-outline">
-                    </div>
-                </div>
-
-                <div class="form-group col-md-6">
-                    <div class="ms-text-field-wrapper">
-                        <label for="feed-feedback" class="floating-label bg-grey-100">Feedback</label>
-                        <textarea class="bg-grey-100 form-control ms-text-field-outline" name="feed-feedback" rows="3"
-                                  id="feed-feedback"></textarea>
-                    </div>
-                </div>
-
-                <button id="feedback-submit" type="button" class="btn btn-ms btn-blue-600 ripple">
-                    Submit
-                </button>
-            </div>
-            <div id="feed-wait" class="card-body d-flex flex-column align-items-center justify-content-center">
-                <div class="ms-spinner spinner-blue"></div>
-            </div>
-            <div id="feed-thanks" class="card-body d-flex flex-column align-items-center justify-content-center">
-                <i class="material-icons text-blue" style="font-size:100px;">sentiment_very_satisfied</i>
-                <h2 class="text-blue">Thanks for your feedback.</h2>
-            </div>
-            <div id="feed-error" class="card-body d-flex flex-column align-items-center justify-content-center">
-                <i class="material-icons text-red" style="font-size:100px;">sentiment_very_dissatisfied</i>
-                <h2 class="text-red">OOPS! Something went wrong.</h2>
-            </div>
-        </form>
-    </div>
-
-    <ul class="nav justify-content-center">
+<footer class="footer bg-grey-200">
+    <ul class="nav">
         <li class="nav-item">
-            <a id="privacy-link" class="collapsed nav-link text-blue-600" data-toggle="collapse" href="#collapsePrivacy">Privacy Policy</a>
+            <a class="nav-link text-blue-800" href="https://github.com/materialstyle/materialstyle/blob/master/LICENSE" target="_blank">License</a>
         </li>
         <li class="nav-item">
-            <a id="feedback-link" class="collapsed nav-link text-blue-600" data-toggle="collapse" href="#collapseFeedback">Feedback</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-blue-600" href="https://github.com/nkdas91/material-style/blob/master/LICENSE" target="_blank">MIT License</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-blue-600" href="https://github.com/nkdas91/material-style" target="_blank">
+            <a class="nav-link text-blue-800" href="https://github.com/materialstyle/materialstyle" target="_blank">
                 GitHub
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-blue-800" href="https://www.facebook.com/materialstyle.io" target="_blank">
+                Facebook
             </a>
         </li>
     </ul>
 </footer>
 
-<!-- JQuery -->
+
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
-<!-- Popper JS -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-<!-- Bootstrap 4 JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-
-<!-- Material Style JS -->
-<script src="https://cdn.materialstyle.io/1.2.0/js/material-style.js"></script>
+<script src="/assets/2.0/js/material-style.min.js"></script>
 <script src="/assets/js/site.js"></script>
+
+<script>
+    $(function () {
+        $('.m-text-field').textfield();
+        $('.m-text-field-outline').textfield();
+        $('.m-select').select();
+        $('.m-select-outline').select();
+    })
+</script>
+
+
 </body>
 </html>
