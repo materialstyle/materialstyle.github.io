@@ -17,11 +17,11 @@
 <section class="ms-root">
 
     {% if page.showSidebar != false %}
-        {% include {{ page.version }}/sidebar.html %}
-        <div class="ms-container bg-grey-50 pb-0">
-    {% else %}
+    {% include {{ page.version }}/sidebar.html %}
+    <div class="ms-container bg-grey-50 pb-0">
+        {% else %}
         <div class="ms-container home-container">
-    {% endif %}
+            {% endif %}
 
             {{ content }}
 
