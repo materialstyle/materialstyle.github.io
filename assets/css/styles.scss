@@ -47,6 +47,9 @@ html, body {
 }
 
 .site-sidebar {
+  .nav-item:hover {
+    background: #FFF !important;
+  }
   .nav-link {
     padding: .3rem 1rem;
     &:hover {
