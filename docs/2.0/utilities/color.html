@@ -7,37 +7,231 @@ page: color
 ---
 <div class="col single-page-container pb-4">
     <div class="component-showcase">
-        <h1>Colors</h1>
+        <h1>Color</h1>
+
         <div class="row">
             <div class="col-md-12 form-group">
-                <p class="text-grey-800">
-                    These color palettes comprises shades of colors indicated by
+                <h2 class="text-grey-800">1. Theme Colors</h2>
+            </div>
+
+            <div class="col-md-4 form-group">
+                <p class="text-grey-800 m-0"><b>To use a theme color, create a class with the following structure:</b></p>
+                <div class="border" style="max-width: 320px;">
+                    <div class="bg-white color-syntax">
+                        <label><span class="text-pink">[ property ]</span>-<span class="text-indigo">[ theme color ]</span></label>
+                    </div>
+                    <div class="bg-grey-100 color-syntax">
+                        <div>
+                            <span class="text-pink">bg</span>-<span class="text-indigo">danger</span><br>
+                            <span class="text-pink">list-group-item</span>-<span class="text-indigo">success</span><br>
+                            <span class="text-pink">btn</span>-<span class="text-indigo">primary</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 form-group">
+                <p class="text-grey-800 m-0">
+                    <b>The following properties are supported:</b>
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-grey-800">
+                            Background Color <span class="text-blue">(bg-)</span><br>
+                            Text Color <span class="text-blue">(text-)</span><br>
+                            Border Color <span class="text-blue">(border-)</span><br>
+                            Button <span class="text-blue">(btn-, btn-outline-, btn-text-)</span><br>
+                            Alert <span class="text-blue">(alert-)</span><br>
+                            Badge <span class="text-blue">(badge-)</span><br>
+                            List Group Item <span class="text-blue">(list-group-item-)</span><br>
+                            Card <span class="text-blue">(card-outline-)</span><br>
+                            Checkbox <span class="text-blue">(input-)</span><br>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-grey-800">
+                            Radio <span class="text-blue">(input-)</span><br>
+                            Switch <span class="text-blue">(input-)</span><br>
+                            Range Slider <span class="text-blue">(range-)</span><br>
+                            Spinner <span class="text-blue">(spinner-)</span><br>
+                            Table <span class="text-blue">(table-)</span><br>
+                            Tab <span class="text-blue">(accent-, primary-)</span><br>
+                            Select <span class="text-blue">(accent-, primary-)</span><br>
+                            Text Field <span class="text-blue">(accent-, primary-)</span><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="theme-colors-container d-flex flex-wrap">
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-red">
+                        <label class="card-text text-white">red</label>
+                        <label class="card-text text-white align-right">#F44336</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-danger">
+                        <label class="card-text text-white">danger</label>
+                        <label class="card-text text-white align-right">#D32F2F</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-pink">
+                        <label class="card-text text-white">pink</label>
+                        <label class="card-text text-white align-right">#E91E63</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-purple">
+                        <label class="card-text text-white">purple</label>
+                        <label class="card-text text-white align-right">#9C27B0</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-deep-purple">
+                        <label class="card-text text-white">deep-purple</label>
+                        <label class="card-text text-white align-right">#673AB7</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-indigo">
+                        <label class="card-text text-white">indigo</label>
+                        <label class="card-text text-white align-right">#3F51B5</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-blue">
+                        <label class="card-text text-dark">blue | primary</label>
+                        <label class="card-text text-dark align-right">#2196F3</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-light-blue">
+                        <label class="card-text text-dark">light-blue</label>
+                        <label class="card-text text-dark align-right">#03A9F4</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-cyan">
+                        <label class="card-text text-dark">cyan | info</label>
+                        <label class="card-text text-dark align-right">#00BCD4</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-teal">
+                        <label class="card-text text-white">teal</label>
+                        <label class="card-text text-white align-right">#009688</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-green">
+                        <label class="card-text text-dark">green | success</label>
+                        <label class="card-text text-dark align-right">#4CAF50</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-light-green">
+                        <label class="card-text text-dark">light-green</label>
+                        <label class="card-text text-dark align-right">#8BC34A</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-lime">
+                        <label class="card-text text-dark">lime</label>
+                        <label class="card-text text-dark align-right">#CDDC39</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-yellow">
+                        <label class="card-text text-dark">yellow</label>
+                        <label class="card-text text-dark align-right">#FFEB3B</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-amber">
+                        <label class="card-text text-dark">amber | warning</label>
+                        <label class="card-text text-dark align-right">#FFC107</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-orange">
+                        <label class="card-text text-dark">orange</label>
+                        <label class="card-text text-dark align-right">#FF9800</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-deep-orange">
+                        <label class="card-text text-dark">deep-orange</label>
+                        <label class="card-text text-dark align-right">#FF5722</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-brown">
+                        <label class="card-text text-white">brown</label>
+                        <label class="card-text text-white align-right">#795548</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-grey">
+                        <label class="card-text text-dark">grey | secondary</label>
+                        <label class="card-text text-dark align-right">#9E9E9E</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-blue-grey">
+                        <label class="card-text text-white">blue-grey</label>
+                        <label class="card-text text-white align-right">#607D8B</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-dark">
+                        <label class="card-text text-white">dark</label>
+                        <label class="card-text text-white align-right">#212121</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-light">
+                        <label class="card-text text-dark">light</label>
+                        <label class="card-text text-dark align-right">#FAFAFA</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-black">
+                        <label class="card-text text-white">black</label>
+                        <label class="card-text text-white align-right">#000</label>
+                    </div>
+                </div>
+                <div class="card ms-card m-2">
+                    <div class="card-body bg-white">
+                        <label class="card-text text-dark">white</label>
+                        <label class="card-text text-dark align-right">#FFF</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 form-group mt-5">
+                <h2 class="text-grey-800">2. Material Design Colors</h2>
+            </div>
+
+            <div class="col-md-12">
+                <p class="text-grey-800 m-0">
+                    Material Design color palettes comprises shades of colors indicated by
                     alphanumeric values on the left
                     <span class="text-blue">(50 ... 900, a100 ... a700)</span> and HEX
                     values on the right.<br><br>
-
-                    To use a color, you have to create a class with the following syntax:<br>
-                    <span class="text-pink">
-                    [ property ]-[ color ]<br>
-                    [ property ]-[ color ]-[ shade ]<br>
-                    [ property ]-[ bootstrap's conceptual class ]
-                </span><br><br>
-
-                    The following properties are supported:<br>
-                    Alert <span class="text-blue">(ms-alert)</span><br>
-                    Badge <span class="text-blue">(badge)</span><br>
-                    Background Color <span class="text-blue">(bg)</span><br>
-                    Button <span class="text-blue">(btn)</span><br>
-                    List Item <span class="text-blue">(list-group-item)</span><br>
-                    Text Color <span class="text-blue">(text)</span><br>
-
-
                 </p>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-4 form-group">
-                <div class="border">
+
+        <div class="row">
+            <div class="col-md-4">
+                <p class="text-grey-800 m-0"><b>To use a Material color, create a class with the following structure:</b></p>
+                <div class="border mb-2" style="max-width: 320px;">
                     <div class="bg-white color-syntax">
                         <label><span class="text-indigo">[ property ]</span>-<span class="text-pink">[ color ]</span></label>
                     </div>
@@ -49,10 +243,8 @@ page: color
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4 form-group">
-                <div class="border">
+                <div class="border mb-2" style="max-width: 320px;">
                     <div class="bg-white color-syntax">
                         <label>
                             <span class="text-indigo">[ property ]</span>-<span class="text-pink">[ color ]</span>-<span class="text-green-800">[ shade ]</span>
@@ -61,33 +253,27 @@ page: color
                     <div class="bg-grey-100 color-syntax">
                         <div>
                             <span class="text-indigo">btn</span>-<span class="text-pink">red</span>-<span class="text-green-800">300</span><br>
-                            <span class="text-indigo">list-group-item</span>-<span class="text-pink">red</span>-<span class="text-green-800">a700</span><br>
+                            <span class="text-indigo">border</span>-<span class="text-pink">red</span>-<span class="text-green-800">a700</span><br>
                             default shade is 500
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 form-group">
-                <div class="border">
-                    <div class="bg-white color-syntax">
-                        <label><span class="text-pink">[ property ]</span>-<span class="text-green-800">[ bootstrap's conceptual class ]</span></label>
-                    </div>
-                    <div class="bg-grey-100 color-syntax">
-                        <div>
-                            <span class="text-pink">bg</span>-<span class="text-green-800">danger</span><br>
-                            <span class="text-pink">list-group-item</span>-<span class="text-green-800">success</span><br>
-                            <span class="text-pink">btn</span>-<span class="text-green-800">primary</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <p class="text-grey-800 m-0">
+                    <b>The following properties are supported:</b>
+                </p>
+                <p class="text-grey-800">
+                    Background Color <span class="text-blue">(bg-)</span><br>
+                    Text Color <span class="text-blue">(text-)</span><br>
+                    Border Color <span class="text-blue">(border-)</span><br>
+                    Button <span class="text-blue">(btn-)</span><br>
+                </p>
             </div>
         </div>
 
         <div class="row color-palette-container">
-            <div class="col-md-12 form-group">
-                <br><h2 class="text-grey-800">Color Palettes</h2>
-            </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
                 <div class="card ms-card">
                     <div class="card-body color-main-header bg-red">
