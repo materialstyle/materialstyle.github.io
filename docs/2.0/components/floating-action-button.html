@@ -11,9 +11,9 @@ page: floating-action-button
         <div class="component-wrapper">
             <h3>FAB</h3>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab btn-pink">
+                        <button type="button" class="btn btn-fab btn-pink">
                             <i class="material-icons">favorite</i>
                         </button>
                     </div>
@@ -21,19 +21,9 @@ page: floating-action-button
                         <label>FAB</label>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab btn-pink ripple">
-                            <i class="material-icons">favorite</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>With Ripple</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab btn-pink" disabled>
+                        <button type="button" class="btn btn-fab btn-pink" disabled>
                             <i class="material-icons">favorite</i>
                         </button>
                     </div>
@@ -44,8 +34,8 @@ page: floating-action-button
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code1">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -54,54 +44,38 @@ page: floating-action-button
                     <div class="code-container">
 {% highlight html %}
 <!-- FAB -->
-<button type="button" class="btn btn-ms btn-fab btn-pink">
-    <i class="material-icons">favorite</i>
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- FAB with Ripple effect -->
-<button type="button" class="btn btn-ms btn-fab btn-pink ripple">
+<button type="button" class="btn btn-fab btn-pink">
     <i class="material-icons">favorite</i>
 </button>{% endhighlight %}
                     </div>
                     <div class="code-container">
 {% highlight html %}
 <!-- Disabled FAB -->
-<button type="button" class="btn btn-ms btn-fab btn-pink" disabled>
+<button type="button" class="btn btn-fab btn-pink" disabled>
     <i class="material-icons">favorite</i>
 </button>{% endhighlight %}
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="component-wrapper">
-            <h3 id="fab2">Flat FAB</h3>
+            <h3 id="fab2">Leaf FAB</h3>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab btn-flat btn-pink">
-                            <i class="material-icons">favorite</i>
+                        <button type="button" class="btn btn-fab leaf-fab btn-purple">
+                            <i class="material-icons">favorite_border</i>
                         </button>
                     </div>
                     <div class="multi-col-description-container">
-                        <label>Flat FAB</label>
+                        <label>FAB</label>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab btn-flat btn-pink ripple">
-                            <i class="material-icons">favorite</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>With Ripple</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab btn-flat btn-pink" disabled>
-                            <i class="material-icons">favorite</i>
+                        <button type="button" class="btn btn-fab leaf-fab btn-purple" disabled>
+                            <i class="material-icons">favorite_border</i>
                         </button>
                     </div>
                     <div class="multi-col-description-container">
@@ -111,8 +85,8 @@ page: floating-action-button
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code2">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -120,34 +94,27 @@ page: floating-action-button
                 <div class="col collapse" id="code2">
                     <div class="code-container">
 {% highlight html %}
-<!-- Flat FAB -->
-<button type="button" class="btn btn-ms btn-fab btn-flat btn-pink">
-    <i class="material-icons">favorite</i>
+<!-- FAB -->
+<button type="button" class="btn btn-fab leaf-fab btn-purple">
+    <i class="material-icons">favorite_border</i>
 </button>{% endhighlight %}
                     </div>
                     <div class="code-container">
 {% highlight html %}
-<!-- Flat FAB with Ripple effect -->
-<button type="button" class="btn btn-ms btn-fab btn-flat btn-pink ripple">
-    <i class="material-icons">favorite</i>
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Disabled Flat FAB -->
-<button type="button" class="btn btn-ms btn-fab btn-flat btn-pink" disabled>
-    <i class="material-icons">favorite</i>
+<!-- Disabled FAB -->
+<button type="button" class="btn btn-fab leaf-fab btn-purple" disabled>
+    <i class="material-icons">favorite_border</i>
 </button>{% endhighlight %}
                     </div>
                 </div>
             </div>
         </div>
         <div class="component-wrapper">
-            <h3 id="fab7">Leaf FAB</h3>
+            <h3 id="fab3">Leaf FAB Inverted</h3>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab leaf-fab btn-purple">
+                        <button type="button" class="btn btn-fab leaf-fab-inverted btn-purple">
                             <i class="material-icons">favorite_border</i>
                         </button>
                     </div>
@@ -155,19 +122,9 @@ page: floating-action-button
                         <label>FAB</label>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab leaf-fab btn-purple ripple">
-                            <i class="material-icons">favorite_border</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>With Ripple</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab leaf-fab btn-purple" disabled>
+                        <button type="button" class="btn btn-fab leaf-fab-inverted btn-purple" disabled>
                             <i class="material-icons">favorite_border</i>
                         </button>
                     </div>
@@ -178,142 +135,8 @@ page: floating-action-button
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code7">
-                        View Code
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code7">
-                    <div class="code-container">
-{% highlight html %}
-<!-- FAB -->
-<button type="button" class="btn btn-ms btn-fab leaf-fab btn-purple">
-    <i class="material-icons">favorite_border</i>
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- FAB with Ripple effect -->
-<button type="button" class="btn btn-ms btn-fab leaf-fab btn-purple ripple">
-    <i class="material-icons">favorite_border</i>
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Disabled FAB -->
-<button type="button" class="btn btn-ms btn-fab leaf-fab btn-purple" disabled>
-    <i class="material-icons">favorite_border</i>
-</button>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="component-wrapper">
-            <h3 id="fab8">Leaf FAB Inverted</h3>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab leaf-fab-inverted btn-purple">
-                            <i class="material-icons">favorite_border</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>FAB</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab leaf-fab-inverted btn-purple ripple">
-                            <i class="material-icons">favorite_border</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>With Ripple</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab leaf-fab-inverted btn-purple" disabled>
-                            <i class="material-icons">favorite_border</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Disabled</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code8">
-                        View Code
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code8">
-                    <div class="code-container">
-{% highlight html %}
-<!-- FAB -->
-<button type="button" class="btn btn-ms btn-fab leaf-fab-inverted btn-purple">
-    <i class="material-icons">favorite_border</i>
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- FAB with Ripple effect -->
-<button type="button" class="btn btn-ms btn-fab leaf-fab-inverted btn-purple ripple">
-    <i class="material-icons">favorite_border</i>
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Disabled FAB -->
-<button type="button" class="btn btn-ms btn-fab leaf-fab-inverted btn-purple" disabled>
-    <i class="material-icons">favorite_border</i>
-</button>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="component-wrapper">
-            <h3 id="fab3">Mini FAB</h3>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab mini-fab btn-teal">
-                            <i class="material-icons">mood</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Mini FAB</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab mini-fab btn-teal ripple">
-                            <i class="material-icons">mood</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>With Ripple</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab mini-fab btn-teal" disabled>
-                            <i class="material-icons">mood</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Disabled</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code3">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -321,54 +144,37 @@ page: floating-action-button
                 <div class="col collapse" id="code3">
                     <div class="code-container">
 {% highlight html %}
-<!-- Mini FAB -->
-<button type="button" class="btn btn-ms btn-fab mini-fab btn-teal">
-    <i class="material-icons">mood</i>
+<!-- FAB -->
+<button type="button" class="btn btn-fab leaf-fab-inverted btn-purple">
+    <i class="material-icons">favorite_border</i>
 </button>{% endhighlight %}
                     </div>
                     <div class="code-container">
 {% highlight html %}
-<!-- Mini FAB with Ripple effect -->
-<button type="button" class="btn btn-ms btn-fab mini-fab btn-teal ripple">
-    <i class="material-icons">mood</i>
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Disabled Mini FAB -->
-<button type="button" class="btn btn-ms btn-fab mini-fab btn-teal" disabled>
-    <i class="material-icons">mood</i>
+<!-- Disabled FAB -->
+<button type="button" class="btn btn-fab leaf-fab-inverted btn-purple" disabled>
+    <i class="material-icons">favorite_border</i>
 </button>{% endhighlight %}
                     </div>
                 </div>
             </div>
         </div>
         <div class="component-wrapper">
-            <h3 id="fab4">Flat Mini FAB</h3>
+            <h3 id="fab4">Mini FAB</h3>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab mini-fab btn-flat btn-teal">
+                        <button type="button" class="btn btn-fab mini-fab btn-teal">
                             <i class="material-icons">mood</i>
                         </button>
                     </div>
                     <div class="multi-col-description-container">
-                        <label>Flat Mini FAB</label>
+                        <label>Mini FAB</label>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab mini-fab btn-flat btn-teal ripple">
-                            <i class="material-icons">mood</i>
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>With Ripple</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab mini-fab btn-flat btn-teal" disabled>
+                        <button type="button" class="btn btn-fab mini-fab btn-teal" disabled>
                             <i class="material-icons">mood</i>
                         </button>
                     </div>
@@ -379,8 +185,8 @@ page: floating-action-button
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code4">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code4">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -388,34 +194,28 @@ page: floating-action-button
                 <div class="col collapse" id="code4">
                     <div class="code-container">
 {% highlight html %}
-<!-- Mini Flat FAB -->
-<button type="button" class="btn btn-ms btn-fab mini-fab btn-flat btn-teal">
+<!-- Mini FAB -->
+<button type="button" class="btn btn-fab mini-fab btn-teal">
     <i class="material-icons">mood</i>
 </button>{% endhighlight %}
                     </div>
                     <div class="code-container">
 {% highlight html %}
-<!-- Mini Flat FAB with Ripple effect -->
-<button type="button" class="btn btn-ms btn-fab mini-fab btn-flat btn-teal ripple">
-    <i class="material-icons">mood</i>
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Disabled Flat Mini FAB -->
-<button type="button" class="btn btn-ms btn-fab mini-fab btn-flat btn-teal" disabled>
+<!-- Disabled Mini FAB -->
+<button type="button" class="btn btn-fab mini-fab btn-teal" disabled>
     <i class="material-icons">mood</i>
 </button>{% endhighlight %}
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="component-wrapper">
             <h3 id="fab5">Extended FAB</h3>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab extended-fab btn-pink-800">
+                        <button type="button" class="btn btn-fab extended-fab btn-pink-800">
                             <i class="material-icons">search</i> Search
                         </button>
                     </div>
@@ -423,19 +223,9 @@ page: floating-action-button
                         <label>Extended FAB</label>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab extended-fab btn-pink-800 ripple">
-                            <i class="material-icons">search</i> Search
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>With Ripple</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab extended-fab btn-pink-800" disabled>
+                        <button type="button" class="btn btn-fab extended-fab btn-pink-800" disabled>
                             <i class="material-icons">search</i> Search
                         </button>
                     </div>
@@ -446,8 +236,8 @@ page: floating-action-button
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code5">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code5">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -456,90 +246,33 @@ page: floating-action-button
                     <div class="code-container">
 {% highlight html %}
 <!-- Extended FAB -->
-<button type="button" class="btn btn-ms btn-fab extended-fab btn-pink-800">
-    <i class="material-icons">search</i> Search
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Extended FAB with Ripple effect -->
-<button type="button" class="btn btn-ms btn-fab extended-fab btn-pink-800 ripple">
+<button type="button" class="btn btn-fab extended-fab btn-pink-800">
     <i class="material-icons">search</i> Search
 </button>{% endhighlight %}
                     </div>
                     <div class="code-container">
 {% highlight html %}
 <!-- Disabled Extended FAB -->
-<button type="button" class="btn btn-ms btn-fab extended-fab btn-pink-800" disabled>
+<button type="button" class="btn btn-fab extended-fab btn-pink-800" disabled>
     <i class="material-icons">search</i> Search
 </button>{% endhighlight %}
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="component-wrapper">
-            <h3 id="fab6">Extended Mini FAB</h3>
+            <h3 id="fab6">Javascript</h3>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab extended-mini-fab btn-pink-800">
-                            <i class="fab-icon material-icons">play_circle_outline</i> Play
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Extended Mini FAB</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab extended-mini-fab btn-pink-800 ripple">
-                            <i class="fab-icon material-icons">play_circle_outline</i> Play
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>With Ripple</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-fab extended-mini-fab btn-pink-800" disabled>
-                            <i class="fab-icon material-icons">play_circle_outline</i> Play
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Disabled</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code6">
-                        View Code
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code6">
+                <div class="col">
                     <div class="code-container">
-{% highlight html %}
-<!-- Extended Mini FAB -->
-<button type="button" class="btn btn-ms btn-fab extended-mini-fab btn-pink-800">
-    <i class="fab-icon material-icons">play_circle_outline</i> Play
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Extended Mini FAB with Ripple effect -->
-<button type="button" class="btn btn-ms btn-fab extended-mini-fab btn-pink-800 ripple">
-    <i class="fab-icon material-icons">play_circle_outline</i> Play
-</button>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Disabled Mini Extended FAB -->
-<button type="button" class="btn btn-ms btn-fab extended-mini-fab btn-pink-800" disabled>
-    <i class="fab-icon material-icons">play_circle_outline</i> Play
-</button>{% endhighlight %}
+{% highlight js %}
+<script>
+    $(function() {
+        // Add ripple to buttons
+        $('.btn').ripple();
+    });
+</script>{% endhighlight %}
                     </div>
                 </div>
             </div>
@@ -563,25 +296,19 @@ page: floating-action-button
                             <a class="nav-link" href="javascript:" data-link="fab1">Floating Action Buttons (FAB)</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="fab2">Flat FAB</a>
+                            <a class="nav-link" href="javascript:" data-link="fab2">Leaf FAB</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="fab7">Leaf FAB</a>
+                            <a class="nav-link" href="javascript:" data-link="fab3">Leaf FAB Inverted</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="fab8">Leaf FAB Inverted</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="fab3">Mini FAB</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="fab4">Flat Mini FAB</a>
+                            <a class="nav-link" href="javascript:" data-link="fab4">Mini FAB</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:" data-link="fab5">Extended FAB</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="fab6">Extended Mini FAB</a>
+                            <a class="nav-link" href="javascript:" data-link="fab6">Javascript</a>
                         </li>
                     </ul>
                 </div>
