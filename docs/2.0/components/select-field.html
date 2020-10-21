@@ -1,39 +1,58 @@
 ---
 layout: 2
-title: Menu and Dropdown
+title: Select Field
 version: 2.0
-permalink: /docs/2.0/components/menu-and-dropdown/
-page: menu-and-dropdown
+permalink: /docs/2.0/components/select-field/
+page: select-field
 ---
 <div class="col single-page-container pb-4">
     <div class="component-showcase">
-        <h1 id="m1">Menu</h1>
+        <h1 id="select1">Select Field</h1>
         <div class="component-wrapper">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="button-container">
-                        <div class="offset-md-4 col-md-4">
-                            <div class="dropdown">
-                                <button type="button" class="btn btn-indigo dropdown-toggle btn-ms ripple" data-toggle="dropdown">
-                                    Menu
-                                </button>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="javascript:">Link 1</a>
-                                    <a class="dropdown-item" href="javascript:">Link 2</a>
-                                    <a class="dropdown-item" href="javascript:">Link 3</a>
-                                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select">
+                                <label class="static-label">Static Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
                             </div>
                         </div>
                     </div>
-                    <div class="description-container">
-                        <label>Menu</label>
+                    <div class="multi-col-description-container">
+                        <label>Filled</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline">
+                                <label class="static-label">Static Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Outlined</label>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code1">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -41,16 +60,33 @@ page: menu-and-dropdown
                 <div class="col collapse" id="code1">
                     <div class="code-container">
 {% highlight html %}
+<!-- Select -->
 <div class="form-group">
-    <div class="dropdown">
-        <button type="button" class="btn btn-indigo dropdown-toggle btn-ms ripple" data-toggle="dropdown">
-            Menu
-        </button>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="javascript:">Link 1</a>
-            <a class="dropdown-item" href="javascript:">Link 2</a>
-            <a class="dropdown-item" href="javascript:">Link 3</a>
-        </div>
+    <div class="m-select">
+        <label class="static-label">Static Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined select -->
+<div class="form-group">
+    <div class="m-select-outline">
+        <label class="static-label">Static Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
     </div>
 </div>{% endhighlight %}
                     </div>
@@ -60,29 +96,48 @@ page: menu-and-dropdown
 
         <div class="component-wrapper">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="button-container" id="m2">
-                        <div class="offset-md-4 col-md-4">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-ms btn-indigo ripple">Pineapple</button>
-                                <button type="button" class="btn btn-ms btn-indigo dropdown-toggle dropdown-toggle-split ripple" data-toggle="dropdown">
-                                </button>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="javascript:">Fruits</a>
-                                    <a class="dropdown-item" href="javascript:">Vegetables</a>
-                                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select2">
+                        <div class="form-group">
+                            <div class="m-select">
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline">
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
                     <div class="description-container">
-                        <label>Split button menu</label>
+                        <label>With Floating Label</label>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code2">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -90,16 +145,33 @@ page: menu-and-dropdown
                 <div class="col collapse" id="code2">
                     <div class="code-container">
 {% highlight html %}
+<!-- Select with floating label -->
 <div class="form-group">
-    <div class="btn-group">
-        <button type="button" class="btn btn-ms btn-indigo ripple">Pineapple</button>
-        <button type="button" class="btn btn-ms btn-indigo dropdown-toggle dropdown-toggle-split ripple"
-                data-toggle="dropdown">
-        </button>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="javascript:">Fruits</a>
-            <a class="dropdown-item" href="javascript:">Vegetables</a>
-        </div>
+    <div class="m-select">
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined select with floating label -->
+<div class="form-group">
+    <div class="m-select-outline">
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
     </div>
 </div>{% endhighlight %}
                     </div>
@@ -109,35 +181,48 @@ page: menu-and-dropdown
 
         <div class="component-wrapper">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="text-box-container" id="m3">
-                        <div class="offset-md-4 col-md-4">
-                            <div class="form-group">
-                                <div class="ms-select">
-                                    <label class="floating-label">Cars</label>
-                                    <select class="form-control" name="car">
-                                        <option value=""></option>
-                                        <option value="1">Audi</option>
-                                        <option value="2">BMW</option>
-                                        <option value="3">Dodge</option>
-                                        <option value="4">Ferrari</option>
-                                        <option value="5">koenigsegg</option>
-                                        <option value="6">Lamborghini</option>
-                                        <option value="7">Pagani</option>
-                                    </select>
-                                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select3">
+                        <div class="form-group">
+                            <div class="m-select primary-blue accent-pink">
+                                <label class="floating-label">Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline primary-blue accent-pink">
+                                <label class="floating-label">Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
                     <div class="description-container">
-                        <label>Select Box</label>
+                        <label>With Primary and Accent colors</label>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code3">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -145,74 +230,32 @@ page: menu-and-dropdown
                 <div class="col collapse" id="code3">
                     <div class="code-container">
 {% highlight html %}
+<!-- Select with primary and accent colors -->
 <div class="form-group">
-    <div class="ms-select">
-        <label class="floating-label">Cars</label>
-        <select class="form-control" name="car">
-            <option value="1">Audi</option>
-            <option value="2">BMW</option>
-            <option value="3">Dodge</option>
-            <option value="4">Ferrari</option>
-            <option value="5">koenigsegg</option>
-            <option value="6">Lamborghini</option>
-            <option value="7">Pagani</option>
+    <div class="m-select primary-blue accent-pink">
+        <label class="floating-label">Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
         </select>
     </div>
 </div>{% endhighlight %}
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="component-wrapper">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="text-box-container" id="m4">
-                        <div class="offset-md-4 col-md-4">
-                            <div class="form-group">
-                                <div class="ms-select primary-blue accent-pink">
-                                    <label class="floating-label">Cars</label>
-                                    <select class="form-control" name="car">
-                                        <option value=""></option>
-                                        <option value="1">Audi</option>
-                                        <option value="2">BMW</option>
-                                        <option value="3">Dodge</option>
-                                        <option value="4">Ferrari</option>
-                                        <option value="5">koenigsegg</option>
-                                        <option value="6">Lamborghini</option>
-                                        <option value="7">Pagani</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="description-container">
-                        <label>With primary and accent colors</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code4">
-                        View Code
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code4">
                     <div class="code-container">
 {% highlight html %}
+<!-- Outlined select with primary and accent colors -->
 <div class="form-group">
-    <div class="ms-select primary-blue accent-pink">
-        <label class="floating-label">Cars</label>
-        <select class="form-control" name="car">
-            <option value="1">Audi</option>
-            <option value="2">BMW</option>
-            <option value="3">Dodge</option>
-            <option value="4">Ferrari</option>
-            <option value="5">koenigsegg</option>
-            <option value="6">Lamborghini</option>
-            <option value="7">Pagani</option>
+    <div class="m-select-outline primary-blue accent-pink">
+        <label class="floating-label">Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
         </select>
     </div>
 </div>{% endhighlight %}
@@ -223,26 +266,39 @@ page: menu-and-dropdown
 
         <div class="component-wrapper">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="text-box-container" id="m5">
-                        <div class="offset-md-4 col-md-4">
-                            <div class="form-group">
-                                <div class="ms-select searchable primary-blue accent-pink">
-                                    <label class="floating-label">Cars</label>
-                                    <select class="form-control" name="car">
-                                        <option value=""></option>
-                                        <option value="1">Audi</option>
-                                        <option value="2">BMW</option>
-                                        <option value="3">Dodge</option>
-                                        <option value="4">Ferrari</option>
-                                        <option value="5">koenigsegg</option>
-                                        <option value="6">Lamborghini</option>
-                                        <option value="7">Pagani</option>
-                                    </select>
-                                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select4">
+                        <div class="form-group">
+                            <div class="m-select searchable">
+                                <label class="floating-label">Searchable</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline searchable">
+                                <label class="floating-label">Searchable</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
                     <div class="description-container">
                         <label>Searchable</label>
                     </div>
@@ -250,8 +306,93 @@ page: menu-and-dropdown
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code5">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code4">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Searchable Select -->
+<div class="form-group">
+    <div class="m-select searchable">
+        <label class="floating-label">Searchable</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Searchable outlined select -->
+<div class="form-group">
+    <div class="m-select-outline searchable">
+        <label class="floating-label">Searchable</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select5">
+                        <div class="form-group has-error">
+                            <div class="m-select primary-blue accent-green">
+                                <label class="floating-label">Label</label>
+                                <select class="form-control">
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                                <span class="help-block">Error Message.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group has-error">
+                            <div class="m-select-outline primary-blue accent-green">
+                                <label class="floating-label">Label</label>
+                                <select class="form-control">
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                                <span class="help-block">Error Message.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>With help block</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code5">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -259,18 +400,33 @@ page: menu-and-dropdown
                 <div class="col collapse" id="code5">
                     <div class="code-container">
 {% highlight html %}
-<div class="form-group">
-    <div class="ms-select searchable primary-blue accent-pink">
-        <label class="floating-label">Cars</label>
-        <select class="form-control" name="car">
-            <option value="1">Audi</option>
-            <option value="2">BMW</option>
-            <option value="3">Dodge</option>
-            <option value="4">Ferrari</option>
-            <option value="5">koenigsegg</option>
-            <option value="6">Lamborghini</option>
-            <option value="7">Pagani</option>
+<!-- Select with help block -->
+<div class="form-group has-error">
+    <div class="m-select primary-blue accent-green">
+        <label class="floating-label">Label</label>
+        <select class="form-control">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
         </select>
+        <span class="help-block">Error Message.</span>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined select with help block -->
+<div class="form-group has-error">
+    <div class="m-select-outline primary-blue accent-green">
+        <label class="floating-label">Label</label>
+        <select class="form-control">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+        <span class="help-block">Error Message.</span>
     </div>
 </div>{% endhighlight %}
                     </div>
@@ -280,35 +436,54 @@ page: menu-and-dropdown
 
         <div class="component-wrapper">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="text-box-container" id="m6">
-                        <div class="offset-md-4 col-md-4">
-                            <div class="form-group">
-                                <div class="ms-select searchable primary-blue accent-pink animate-left">
-                                    <label class="floating-label">Cars</label>
-                                    <select class="form-control" name="car">
-                                        <option value=""></option>
-                                        <option value="1">Audi</option>
-                                        <option value="2">BMW</option>
-                                        <option value="3">Dodge</option>
-                                        <option value="4">Ferrari</option>
-                                        <option value="5">koenigsegg</option>
-                                        <option value="6">Lamborghini</option>
-                                        <option value="7">Pagani</option>
-                                    </select>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select6">
+                        <div class="form-group">
+                            <div class="m-select">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
                                 </div>
+                                <label class="static-label">Static Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="static-label">Static Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
                     <div class="description-container">
-                        <label>With left to right animation</label>
+                        <label>With Prepend</label>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code6">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code6">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -316,17 +491,38 @@ page: menu-and-dropdown
                 <div class="col collapse" id="code6">
                     <div class="code-container">
 {% highlight html %}
+<!-- Select with prepend -->
 <div class="form-group">
-    <div class="ms-select searchable primary-blue accent-pink animate-left">
-        <label class="floating-label">Cars</label>
-        <select class="form-control" name="car">
-            <option value="1">Audi</option>
-            <option value="2">BMW</option>
-            <option value="3">Dodge</option>
-            <option value="4">Ferrari</option>
-            <option value="5">koenigsegg</option>
-            <option value="6">Lamborghini</option>
-            <option value="7">Pagani</option>
+    <div class="m-select">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="static-label">Static Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined select with prepend -->
+<div class="form-group">
+    <div class="m-select-outline">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="static-label">Static Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
         </select>
     </div>
 </div>{% endhighlight %}
@@ -337,35 +533,54 @@ page: menu-and-dropdown
 
         <div class="component-wrapper">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="text-box-container" id="m7">
-                        <div class="offset-md-4 col-md-4">
-                            <div class="form-group">
-                                <div class="ms-select searchable primary-blue accent-pink animate-right">
-                                    <label class="floating-label">Cars</label>
-                                    <select class="form-control" name="car">
-                                        <option value=""></option>
-                                        <option value="1">Audi</option>
-                                        <option value="2">BMW</option>
-                                        <option value="3">Dodge</option>
-                                        <option value="4">Ferrari</option>
-                                        <option value="5">koenigsegg</option>
-                                        <option value="6">Lamborghini</option>
-                                        <option value="7">Pagani</option>
-                                    </select>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select7">
+                        <div class="form-group">
+                            <div class="m-select">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
                                 </div>
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
                     <div class="description-container">
-                        <label>With right to left animation</label>
+                        <label>With Prepend and Floating Label</label>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code7">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code7">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -373,17 +588,38 @@ page: menu-and-dropdown
                 <div class="col collapse" id="code7">
                     <div class="code-container">
 {% highlight html %}
+<!-- Select with prepend and floating label -->
 <div class="form-group">
-    <div class="ms-select searchable primary-blue accent-pink animate-right">
-        <label class="floating-label">Cars</label>
-        <select class="form-control" name="car">
-            <option value="1">Audi</option>
-            <option value="2">BMW</option>
-            <option value="3">Dodge</option>
-            <option value="4">Ferrari</option>
-            <option value="5">koenigsegg</option>
-            <option value="6">Lamborghini</option>
-            <option value="7">Pagani</option>
+    <div class="m-select">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined select with prepend and floating label -->
+<div class="form-group">
+    <div class="m-select-outline">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
         </select>
     </div>
 </div>{% endhighlight %}
@@ -394,34 +630,54 @@ page: menu-and-dropdown
 
         <div class="component-wrapper">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="text-box-container row" id="m8">
-                        <div class="offset-md-4 col-md-4">
-                            <div class="form-group">
-                                <div class="ms-select searchable multi-select accent-pink primary-blue-600">
-                                    <label class="floating-label">Cars</label>
-                                    <select name="cars[]" class="form-control" style="width: 100%;" multiple>
-                                        <option value="1">Audi</option>
-                                        <option value="2">BMW</option>
-                                        <option value="3" selected>Dodge</option>
-                                        <option value="4">Ferrari</option>
-                                        <option value="5" selected>koenigsegg</option>
-                                        <option value="6">Lamborghini</option>
-                                        <option value="7">Pagani</option>
-                                    </select>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select8">
+                        <div class="form-group">
+                            <div class="m-select">
+                                <div class="append">
+                                    <i class="material-icons">keyboard</i>
                                 </div>
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline">
+                                <div class="append">
+                                    <i class="material-icons">keyboard</i>
+                                </div>
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
                     <div class="description-container">
-                        <label>Multi Select</label>
+                        <label>With Append</label>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code8">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code8">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -429,17 +685,38 @@ page: menu-and-dropdown
                 <div class="col collapse" id="code8">
                     <div class="code-container">
 {% highlight html %}
+<!-- Select with append -->
 <div class="form-group">
-    <div class="ms-select searchable multi-select accent-pink primary-blue-600">
-        <label class="floating-label">Cars</label>
-        <select class="form-control" name="cars[]" multiple>
-            <option value="1">Audi</option>
-            <option value="2">BMW</option>
-            <option value="3" selected>Dodge</option>
-            <option value="4">Ferrari</option>
-            <option value="5" selected>koenigsegg</option>
-            <option value="6">Lamborghini</option>
-            <option value="7">Pagani</option>
+    <div class="m-select">
+        <div class="append">
+            <i class="material-icons">keyboard</i>
+        </div>
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined select with append -->
+<div class="form-group">
+    <div class="m-select-outline">
+        <div class="append">
+            <i class="material-icons">keyboard</i>
+        </div>
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control">
+            <option value=""></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
         </select>
     </div>
 </div>{% endhighlight %}
@@ -447,6 +724,468 @@ page: menu-and-dropdown
                 </div>
             </div>
         </div>
+
+        <h1>Multi Select</h1>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select9">
+                        <div class="form-group">
+                            <div class="m-select multi-select">
+                                <label class="static-label">Static Label</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline multi-select">
+                                <label class="static-label">Static Label</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>Multi Select</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code9">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code9">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Multi select -->
+<div class="form-group">
+    <div class="m-select multi-select">
+        <label class="static-label">Static Label</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined multi select -->
+<div class="form-group">
+    <div class="m-select-outline multi-select">
+        <label class="static-label">Static Label</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select10">
+                        <div class="form-group">
+                            <div class="m-select multi-select searchable">
+                                <label class="floating-label">Searchable</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline multi-select searchable">
+                                <label class="floating-label">Searchable</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>Multi Select Searchable</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code10">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code10">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Searchable multi select -->
+<div class="form-group">
+    <div class="m-select multi-select searchable">
+        <label class="floating-label">Searchable</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Searchable outlined multi select -->
+<div class="form-group">
+    <div class="m-select-outline multi-select searchable">
+        <label class="floating-label">Searchable</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select11">
+                        <div class="form-group">
+                            <div class="m-select multi-select">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="static-label">Static Label</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline multi-select">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="static-label">Static Label</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>Multi Select with Prepend</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code11">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code11">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Multi select with prepend -->
+<div class="form-group">
+    <div class="m-select multi-select">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="static-label">Static Label</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined multi select with prepend -->
+<div class="form-group">
+    <div class="m-select-outline multi-select">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="static-label">Static Label</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select12">
+                        <div class="form-group">
+                            <div class="m-select multi-select">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline multi-select">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>Multi Select with Prepend and Floating Label</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code12">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code12">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Multi select with prepend and floating label -->
+<div class="form-group">
+    <div class="m-select multi-select">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined multi select with prepend and floating label -->
+<div class="form-group">
+    <div class="m-select-outline multi-select">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="select13">
+                        <div class="form-group">
+                            <div class="m-select multi-select">
+                                <div class="append">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-select-outline multi-select">
+                                <div class="append">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="floating-label">Floating Label</label>
+                                <select class="form-control" name="cars[]" multiple>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                    <option value="4">Option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>Multi Select with Append</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code13">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code13">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Multi select with append -->
+<div class="form-group">
+    <div class="m-select multi-select">
+        <div class="append">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined multi select with append -->
+<div class="form-group">
+    <div class="m-select-outline multi-select">
+        <div class="append">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="floating-label">Floating Label</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3 id="select14">Javascript</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(function() {
+        // Initialize Select Fields
+        $('.m-select').selectfield();
+        $('.m-select-outline').selectfield();
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class="component-map">
@@ -463,28 +1202,46 @@ page: menu-and-dropdown
                     <h4>On this page</h4>
                     <ul class="nav flex-column this-page-links">
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="m1">Menu</a>
+                            <a class="nav-link" href="javascript:" data-link="select1">Select Field</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="m2">Split button menu</a>
+                            <a class="nav-link" href="javascript:" data-link="select2">Select with Floating Label</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="m3">Select box</a>
+                            <a class="nav-link" href="javascript:" data-link="select3">Select with Primary and Accent colors</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="m4">Select box with primary and accent colors</a>
+                            <a class="nav-link" href="javascript:" data-link="select4">Searchable Select</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="m5">Searchable select box</a>
+                            <a class="nav-link" href="javascript:" data-link="select5">Select with help block</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="m6">Select box with left to right animation</a>
+                            <a class="nav-link" href="javascript:" data-link="select6">select with Prepend</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="m7">Select box with right to left animation</a>
+                            <a class="nav-link" href="javascript:" data-link="select7">Select with Prepend and Floating Label</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="m8">Multi select box</a>
+                            <a class="nav-link" href="javascript:" data-link="select8">Select with Append</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="select9">Multi Select</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="select10">Searchable Multi Select</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="select11">Multi Select with Prepend</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="select12">Multi Select with Prepend and Floating Label</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="select13">Multi Select with Append</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="select14">Javascript</a>
                         </li>
                     </ul>
                 </div>
