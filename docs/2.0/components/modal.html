@@ -12,7 +12,7 @@ page: modal
             <div class="row">
                 <div class="col-md-12">
                     <div class="button-container">
-                        <button type="button" class="btn btn-black btn-ms ripple"
+                        <button type="button" class="btn btn-black"
                                 data-toggle="modal" data-target="#myModal">
                             Open modal
                         </button>
@@ -20,6 +20,10 @@ page: modal
                     </div>
                     <div class="code-container">
 {% highlight html %}
+<button type="button" class="btn btn-black" data-toggle="modal" data-target="#myModal">
+    Open modal
+</button>
+
 <div class="modal fade" id="myModal">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -47,109 +51,143 @@ page: modal
             </div>
         </div>
 
-        <!-- The Modal -->
-        <div class="modal fade ms-modal" id="myModal">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
-
-                    <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Modal Heading</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
                     </div>
 
-                    <!-- Modal body -->
-                    <div class="modal-body row">
-                        <div class="col-md-6">
+                    <div class="modal-body">
+                        <div class="m-3">
+                            <label class="d-block">File input button</label>
+                            <div class="m-file-input">
+                                <input type="file" name="myfile">
+                                <button type="button" class="btn btn-dark btn-file">
+                                    <i class="material-icons">attach_file</i> Browse Single</button>
+                                <label class="files"></label>
+                            </div>
+                        </div>
+
+                        <div class="m-3">
+                            <div class="custom-control custom-checkbox custom-control-inline input-indigo">
+                                <input type="checkbox" class="custom-control-input" id="customCheckbox" name="example" value="">
+                                <label class="custom-control-label" for="customCheckbox">Inline Checkbox</label>
+                            </div>
+                            <div class="custom-control custom-checkbox custom-control-inline input-indigo">
+                                <input type="checkbox" class="custom-control-input" id="customCheckbox2" name="example" value="">
+                                <label class="custom-control-label" for="customCheckbox2">Inline Checkbox</label>
+                            </div>
+                        </div>
+
+                        <div class="m-3">
                             <div class="form-group">
-                                <div class="ms-text-field-wrapper">
-                                    <label class="floating-label">Phone</label>
-                                    <input type="text" class="form-control ms-text-field primary-blue-500 accent-pink-a400" value="">
+                                <div class="m-text-field">
+                                    <label for="name" class="static-label label">First Name</label>
+                                    <input type="text" value="" class="form-control" autocomplete="off"/>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+
+                        <div class="m-3">
                             <div class="form-group">
-                                <div class="ms-select">
-                                    <label class="floating-label">Car</label>
-                                    <select class="form-control text-grey" name="car">
+                                <div class="m-text-field-outline">
+                                    <div class="prepend">
+                                        <i class="material-icons">vpn_key</i>
+                                    </div>
+                                    <label for="password" class="floating-label">Password</label>
+                                    <input type="password" value="" class="form-control" autocomplete="off"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="m-3">
+                            <div class="form-group">
+                                <div class="m-select">
+                                    <div class="prepend">
+                                        <i class="material-icons">account_box</i>
+                                    </div>
+                                    <label class="floating-label">Cars</label>
+                                    <select class="form-control">
                                         <option value=""></option>
-                                        <option value="1">Audi</option>
-                                        <option value="2">BMW</option>
-                                        <option value="3">Dodge</option>
-                                        <option value="4">Ferrari</option>
-                                        <option value="5">koenigsegg</option>
-                                        <option value="6" selected>Lamborghini</option>
-                                        <option value="7">Pagani</option>
+                                        <option value="1">Lamborghini</option>
+                                        <option value="2">Buggati</option>
+                                        <option value="3">Koenigsegg</option>
+                                        <option value="4">Lykan</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+
+                        <div class="m-3">
                             <div class="form-group">
-                                <button type="button" class="btn btn-ms btn-indigo ripple">
-                                    Button
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <div class="ms-file-input-wrapper">
-                                    <input type="file" name="myfile">
-                                    <button type="button" class="btn btn-ms btn-indigo file-upload-button">
-                                        <i class="material-icons">attach_file</i> Browse</button>
-                                    <label class="files"></label>
+                                <div class="m-select-outline">
+                                    <div class="prepend">
+                                        <i class="material-icons">account_box</i>
+                                    </div>
+                                    <label class="static-label">Cars</label>
+                                    <select class="form-control">
+                                        <option value=""></option>
+                                        <option value="1">Lamborghini</option>
+                                        <option value="2">Buggati</option>
+                                        <option value="3">Koenigsegg</option>
+                                        <option value="4">Lykan</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+
+                        <div class="m-3">
                             <div class="form-group">
-                                <label class="ms-checkbox accent-pink">Checkbox
-                                    <input type="checkbox" checked="checked">
-                                    <span class="checkmark ripple"></span>
-                                </label>
-                                <label class="ms-checkbox accent-pink">Checkbox
-                                    <input type="checkbox">
-                                    <span class="checkmark ripple"></span>
-                                </label>
+                                <ul class="nav nav-tabs nav-justified primary-dark accent-indigo">
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#apple">Apple</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#apricot">Apricot</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#avocado">Avocado</a>
+                                    </li>
+                                </ul>
+                                <!-- Tab Panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane container-fluid fade" id="apple">Apple</div>
+                                    <div class="tab-pane container-fluid active" id="apricot">Apricot</div>
+                                    <div class="tab-pane container-fluid fade" id="avocado">Avocado</div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="ms-radio accent-pink">Radio
-                                    <input type="radio" name="radiomodal" checked="checked">
-                                    <span class="checkmark ripple"></span>
-                                </label>
-                                <label class="ms-radio accent-pink">Radio
-                                    <input type="radio" name="radiomodal">
-                                    <span class="checkmark ripple"></span>
-                                </label>
+                        <div class="m-3">
+                            <div class="progress">
+                                <div class="progress-bar bg-indigo m-progress"></div>
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="ms-switch">
-                                    <input type="checkbox" checked="checked">
-                                    <span class="ms-slider ripple"></span>
-                                </label>
-                                <label class="ms-switch">
-                                    <input type="checkbox">
-                                    <span class="ms-slider ripple"></span>
-                                </label>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-dark" id="show-modal-snackbar">
+                                Show Snackbar
+                            </button>
+                        </div>
+
+                        <div class="m-3">
+                            <div class="m-shape-container shape-parent-bg-white">
+                                <button type="button" class="btn btn-dark">
+                                    Shaped Button
+                                </button>
+                                <div class="angle-top-right"></div>
+                                <div class="angle-bottom-left"></div>
                             </div>
                         </div>
 
                     </div>
 
-                    <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary btn-ms ripple"
-                                data-dismiss="modal">Close
-                        </button>
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -164,3 +202,5 @@ page: modal
         </div>
     </div>
 </div>
+
+<div class="snackbar snackbar-left" id="modal-snackbar">This is a Snackbar</div>

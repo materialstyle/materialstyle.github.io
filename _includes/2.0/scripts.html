@@ -42,5 +42,18 @@
             });
         });
 
+        $("#myModal").on('shown.bs.modal', function () {
+            $('.m-text-field').textfield('redraw');
+            $('.m-text-field-outline').textfield('redraw');
+            $('.m-select').selectfield('redraw');
+            $('.m-select-outline').selectfield('redraw');
+
+            $('.nav-tabs').tab('redraw');
+            $('.btn').ripple();
+
+            $('#show-modal-snackbar').on('click', function () {
+                $('#modal-snackbar').snackbar();
+            });
+        });
     })
 </script>
