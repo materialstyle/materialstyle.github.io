@@ -12,7 +12,7 @@ page: snackbar
             <div class="row">
                 <div class="col-md-4">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar" data-target="#snackbar-left">Show Snackbar</button>
+                        <button type="button" class="btn btn-indigo" id="show-snackbar-left">Show Snackbar</button>
                         <div class="snackbar snackbar-left" id="snackbar-left">This is a Snackbar</div>
                     </div>
                     <div class="multi-col-description-container">
@@ -21,7 +21,7 @@ page: snackbar
                 </div>
                 <div class="col-md-4">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar" data-target="#snackbar">Show Snackbar</button>
+                        <button type="button" class="btn btn-indigo" id="show-snackbar">Show Snackbar</button>
                         <div class="snackbar" id="snackbar">This is a Snackbar</div>
                     </div>
                     <div class="multi-col-description-container">
@@ -30,7 +30,7 @@ page: snackbar
                 </div>
                 <div class="col-md-4">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar" data-target="#snackbar-right">Show Snackbar</button>
+                        <button type="button" class="btn btn-indigo" id="show-snackbar-right">Show Snackbar</button>
                         <div class="snackbar snackbar-right" id="snackbar-right">This is a Snackbar</div>
                     </div>
                     <div class="multi-col-description-container">
@@ -40,8 +40,8 @@ page: snackbar
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code1">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -50,28 +50,25 @@ page: snackbar
                     <div class="code-container">
 {% highlight html %}
 <!-- Left Snackbar -->
-<button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar"
-        data-target="#snackbar-left">
-    Show Snackbar
-</button>
-<div class="snackbar snackbar-left" id="snackbar-left">This is a Snackbar</div>{% endhighlight %}
+<button type="button" class="btn btn-indigo" id="show-snackbar-left">Show Snackbar</button>
+<div class="snackbar snackbar-left" id="snackbar-left">This is a Snackbar</div>
+                        {% endhighlight %}
+
+{% highlight js %}
+<script>
+    $('#show-snackbar-left').on('click', function () {
+        $('#snackbar-left').snackbar();
+    });
+</script>{% endhighlight %}
                     </div>
                     <div class="code-container">
 {% highlight html %}
 <!-- Snackbar -->
-<button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar"
-        data-target="#snackbar">
-    Show Snackbar
-</button>
 <div class="snackbar" id="snackbar">This is a Snackbar</div>{% endhighlight %}
                     </div>
                     <div class="code-container">
 {% highlight html %}
 <!-- Right Snackbar -->
-<button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar"
-        data-target="#snackbar-right">
-    Show Snackbar
-</button>
 <div class="snackbar snackbar-right" id="snackbar-right">This is a Snackbar</div>{% endhighlight %}
                     </div>
                 </div>
@@ -79,14 +76,14 @@ page: snackbar
         </div>
 
         <div class="component-wrapper">
-            <h3 id="s2">Snackbar with actions</h3>
+            <h3 id="s2">Snackbar with options</h3>
             <div class="row">
                 <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar" data-target="#snackbar-left-action">Show Snackbar</button>
-                        <div class="snackbar snackbar-left" id="snackbar-left-action">
+                        <button type="button" class="btn btn-indigo" id="show-snackbar-dismissible">Show Snackbar</button>
+                        <div class="snackbar" id="snackbar-dismissible">
                             This is a Snackbar
-                            <button type="button" class="btn btn-ms btn-flat btn-lime ripple" data-toggle="hide-snackbar">
+                            <button type="button" class="btn btn-text-lime" data-dismiss="snackbar">
                                 Dismiss
                             </button>
                         </div>
@@ -97,23 +94,22 @@ page: snackbar
                 </div>
                 <div class="col-md-6">
                     <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar" data-target="#snackbar-link">Show Snackbar</button>
-                        <div class="snackbar snackbar-right" id="snackbar-link">
-                            Go to
-                            <a class="btn btn-ms btn-flat btn-lime ripple" href="https://materialstyle.io/">
-                                Home page
-                            </a>
+                        <button type="button" class="btn btn-indigo" id="show-snackbar-custom-duration">
+                            Show Snackbar
+                        </button>
+                        <div class="snackbar" id="snackbar-custom-duration">
+                            This snackbar will be visible for 5000ms
                         </div>
                     </div>
                     <div class="multi-col-description-container">
-                        <label>Snackbar with Link</label>
+                        <label>Snackbar with cutom visible duration</label>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
-                        View Code
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code2">
+                        &lt;Code&gt;
                     </btn>
                 </div>
             </div>
@@ -122,60 +118,41 @@ page: snackbar
                     <div class="code-container">
 {% highlight html %}
 <!-- Dismissible Snackbar -->
-<button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar"
-        data-target="#snackbar-left-action">
+<button type="button" class="btn btn-indigo" id="show-snackbar-dismissible">
     Show Snackbar
 </button>
-<div class="snackbar snackbar-left" id="snackbar-left-action">
+<div class="snackbar" id="snackbar-dismissible">
     This is a Snackbar
-    <button type="button" class="btn btn-ms btn-flat btn-lime ripple" data-toggle="hide-snackbar">
+    <button type="button" class="btn btn-text-lime" data-dismiss="snackbar">
         Dismiss
     </button>
-</div>{% endhighlight %}
+</div>
+                        {% endhighlight %}
+{% highlight js %}
+<script>
+    $('#show-snackbar-dismissible').on('click', function () {
+        $('#snackbar-dismissible').snackbar({
+            'autoClose': false
+        });
+    });
+</script>{% endhighlight %}
                     </div>
                     <div class="code-container">
 {% highlight html %}
-<!-- Snackbar with a link -->
-<button type="button" class="btn btn-ms btn-indigo ripple" data-toggle="snackbar"
-        data-target="#snackbar-link">
+<!-- Snackbar with custom visible duration -->
+<button type="button" class="btn btn-indigo" id="show-snackbar-custom-duration">
     Show Snackbar
 </button>
-<div class="snackbar snackbar-right" id="snackbar-link">
-    Go to
-    <a class="btn btn-ms btn-flat btn-lime ripple" href="https://materialstyle.io/">
-        Home page
-    </a>
-</div>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="component-wrapper">
-            <h3 id="s3">Trigger via Javascript</h3>
-            <p>Call <span class="text-pink">showSnackbar()</span> and pass the snackbar component.</p>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="button-container">
-                        <label id="snack" class="text-blue">Click here to open a Snackbar</label>
-                        <div class="snackbar" id="js_snackbar">Snackbar triggered via Javascript</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="code-container">
-{% highlight html %}
-<!-- HTML -->
-<label id="snack">Click here to open a Snackbar</label>
-<div class="snackbar" id="js_snackbar">Snackbar triggered via Javascript</div>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
+<div class="snackbar" id="snackbar-custom-duration">
+    This snackbar will be visible for 5000ms
+</div>
+                        {% endhighlight %}
 {% highlight js %}
-<!-- JS -->
 <script>
-    $("#snack").on("click", function() {
-        showSnackbar($("#js_snackbar"));
+    $('#show-snackbar-custom-duration').on('click', function () {
+        $('#snackbar-custom-duration').snackbar({
+            'visibleDuration': 5000
+        });
     });
 </script>{% endhighlight %}
                     </div>
@@ -202,10 +179,7 @@ page: snackbar
                             <a class="nav-link" href="javascript:" data-link="s1">Snackbar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="s2">Snackbar with actions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="s3">Trigger Snackbar via Javascript</a>
+                            <a class="nav-link" href="javascript:" data-link="s2">Snackbar with options</a>
                         </li>
                     </ul>
                 </div>
