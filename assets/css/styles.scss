@@ -149,6 +149,10 @@ h2, h3, h4, h5 {
 .button-container, .description-container, .multi-col-description-container,
 .nav-container, .checkbox-container, .radio-container {
   text-align: center;
+
+  .toast {
+    text-align: left;
+  }
 }
 
 .description-container, .multi-col-description-container {

@@ -3,6 +3,7 @@
         crossorigin="anonymous"></script>
 
 <script src="/assets/2.0/js/material-style.min.js"></script>
+
 <script src="/assets/js/site.js"></script>
 
 <script>
@@ -49,11 +50,16 @@
             $('.m-select-outline').selectfield('redraw');
 
             $('.nav-tabs').tab('redraw');
-            $('.btn').ripple();
+            $('.nav-tabs .nav-link').ripple('redraw');
+            $('.btn').ripple('redraw');
 
             $('#show-modal-snackbar').on('click', function () {
                 $('#modal-snackbar').snackbar();
             });
+        });
+
+        $('#show-toast').on('click', function(){
+            $('.toast').toast('show');
         });
     })
 </script>

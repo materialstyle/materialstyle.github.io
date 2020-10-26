@@ -9,14 +9,6 @@ page: installation
 <div class="col single-page-container pb-4">
     <div class="component-showcase">
         <h1>Installation</h1>
-        <p>
-            We recommend that you use our CDN hosted at
-            <a class="text-black" target="_blank" href="https://www.stackpath.com/">Stackpath <i style="font-size: 18px;" class="material-icons">open_in_new</i></a>.
-            You can also download them to host them yourself.
-        </p>
-        <p class="inline-code">
-            Just add the following {{ '<link>' | escape }} and {{ '<script>' | escape }} elements into your HTML pages
-        </p>
 
         <div class="form-group">
             <h3>Styles</h3>
@@ -34,7 +26,7 @@ page: installation
 <!-- Material Icons -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <!-- Material Style CSS -->
-<link rel="stylesheet" href="https://cdn.materialstyle.io/1.2.0/css/material-style.css">{% endhighlight %}
+<link rel="stylesheet" href="https://unpkg.com/@materialstyle/materialstyle@1.2.0/dist/css/materialstyle.min.css">{% endhighlight %}
             </div>
         </div>
 
@@ -71,14 +63,14 @@ page: installation
             <div class="code-container">
 {% highlight html %}
 <!-- Material Style JS -->
-<script src="https://cdn.materialstyle.io/1.2.0/js/material-style.js"></script>{% endhighlight %}
+<script src="https://unpkg.com/@materialstyle/materialstyle@1.2.0/dist/js/materialstyle.min.js"></script>{% endhighlight %}
             </div>
         </div>
 
         <p>That's it! You are now ready to add Material Style components on your site.</p>
         <div class="description-container">
             <div class="ms-btn-shape-container shape-parent-bg-white">
-                <a href="https://cdn.materialstyle.io/store/material-style-1.2.0.zip" class="btn btn-blue-600 btn-ms ripple">
+                <a href="https://materialstyle.github.io/store/materialstyle-1.2.0.zip" class="btn btn-blue-600 btn-ms ripple">
                     Download v{{ page.version }}
                 </a>
                 <div class="angle-top-left"></div>
