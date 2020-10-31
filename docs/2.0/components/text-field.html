@@ -715,6 +715,17 @@ page: text-field
     });
 </script>{% endhighlight %}
                     </div>
+                    <p>If a Text Field is inside a Modal and is already initialized on page load, Redraw it by passing the parameter: 'redraw'.</p>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $("#myModal").on('shown.bs.modal', function () {
+        // Redraw Text Fields
+        $('.m-text-field').textfield('redraw');
+        $('.m-text-field-outline').textfield('redraw');
+    });
+</script>{% endhighlight %}
+                    </div>
                 </div>
             </div>
         </div>

@@ -314,6 +314,16 @@ page: button
     });
 </script>{% endhighlight %}
                     </div>
+                    <p>If a Button with Ripple is inside a Modal and is already initialized on page load, Redraw it by passing the parameter: 'redraw'.</p>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $("#myModal").on('shown.bs.modal', function () {
+        // Redraw ripple
+        $('.btn').ripple('redraw');
+    });
+</script>{% endhighlight %}
+                    </div>
                 </div>
             </div>
         </div>

@@ -557,6 +557,19 @@ page: tab
     });
 </script>{% endhighlight %}
                     </div>
+                    <p>If a Tab component is inside a Modal and is already initialized on page load, Redraw it by passing the parameter: 'redraw'.</p>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $("#myModal").on('shown.bs.modal', function () {
+        // Redraw Tabs
+        $('.nav-tabs').tab('redraw');
+
+        // Redraw ripple
+        $('.nav-tabs .nav-link').ripple('redraw');
+    });
+</script>{% endhighlight %}
+                    </div>
                 </div>
             </div>
         </div>

@@ -1196,6 +1196,28 @@ page: select-field
     });
 </script>{% endhighlight %}
                     </div>
+                    <p>If a Select Field is inside a Modal and is already initialized on page load, Redraw it by passing the parameter: 'redraw'.</p>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $("#myModal").on('shown.bs.modal', function () {
+        // Redraw Select Fields
+        $('.m-select').selectfield('redraw');
+        $('.m-select-outline').selectfield('redraw');
+    });
+</script>{% endhighlight %}
+                    </div>
+                    <p>If options of a select field are changed dynamically, Rebuild it by passing the parameter: 'rebuild'.</p>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $("#myModal").on('shown.bs.modal', function () {
+        // Rebuild Select Fields
+        $('.m-select').selectfield('rebuild');
+        $('.m-select-outline').selectfield('rebuild');
+    });
+</script>{% endhighlight %}
+                    </div>
                 </div>
             </div>
         </div>
