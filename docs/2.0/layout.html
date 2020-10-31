@@ -16,7 +16,7 @@ page: layout
             </div>
             <div class="media-body p-3 d-flex flex-column justify-content-center">
                 <p class="m-0">
-                    Its very important to follow the code structure provided below.
+                    Its very important to follow the structure provided below.
                 </p>
             </div>
         </div>
@@ -26,24 +26,24 @@ page: layout
                 <div class="nav-container d-flex align-items-center justify-content-center">
                     <img class="lazy border" width="100%" style="max-width:800px;"
                          src="/assets/images/default.jpg"
-                         data-src="/assets/images/layout_without_sidebar_v2.jpg"
-                         data-srcset="/assets/images/layout_without_sidebar_v2.jpg"
-                         alt="layout without sidebar">
+                         data-src="/assets/images/layout_without_drawer_v2.jpg"
+                         data-srcset="/assets/images/layout_without_drawer_v2.jpg"
+                         alt="layout without drawer">
                 </div>
                 <div class="description-container">
-                    <label>Layout without left sidebar</label>
+                    <label>Layout without drawer</label>
                 </div>
                 <div class="code-container">
 {% highlight html %}
 <body>
-    <!-- Top Navbar -->
-    <nav class="ms-nav navbar">
+    <!-- Navbar -->
+    <nav class="navbar">
         . . .
     </nav>
 
-    <section class="ms-root">
+    <section class="m-root">
         <!-- Container -->
-        <div class="ms-container">
+        <div class="m-container">
             . . .
         </div>
     </section>
@@ -62,29 +62,29 @@ page: layout
                 <div class="nav-container d-flex align-items-center justify-content-center">
                     <img class="lazy border" width="100%" style="max-width:800px;"
                          src="/assets/images/default.jpg"
-                         data-src="/assets/images/layout_with_sidebar_v2.jpg"
-                         data-srcset="/assets/images/layout_with_sidebar_v2.jpg"
-                         alt="layout with sidebar">
+                         data-src="/assets/images/layout_with_drawer_v2.jpg"
+                         data-srcset="/assets/images/layout_with_drawer_v2.jpg"
+                         alt="layout with drawer">
                 </div>
                 <div class="description-container">
-                    <label>Layout with left sidebar</label>
+                    <label>Layout with drawer</label>
                 </div>
                 <div class="code-container">
 {% highlight html %}
 <body>
-    <!-- Top Navbar -->
-    <nav class="ms-nav navbar">
+    <!-- Navbar -->
+    <nav class="navbar">
         . . .
     </nav>
 
-    <section class="ms-root">
-        <!-- Sidebar -->
-        <aside class="ms-sidebar">
+    <section class="m-root">
+        <!-- Drawer -->
+        <aside class="drawer">
             . . .
         </aside>
 
         <!-- Container -->
-        <div class="ms-container">
+        <div class="m-container">
             . . .
         </div>
     </section>
@@ -113,10 +113,10 @@ page: layout
                     <h4>On this page</h4>
                     <ul class="nav flex-column this-page-links">
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="lay1">Layout without left sidebar</a>
+                            <a class="nav-link" href="javascript:" data-link="lay1">Layout without drawer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="lay2">Layout with left sidebar</a>
+                            <a class="nav-link" href="javascript:" data-link="lay2">Layout with drawer</a>
                         </li>
                     </ul>
                 </div>
