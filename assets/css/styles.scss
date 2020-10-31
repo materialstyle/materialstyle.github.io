@@ -307,8 +307,9 @@ h2, h3, h4, h5 {
 }
 
 .adspace {
-  height: 220px;
+  //height: 220px;
   padding: 10px;
+  border-bottom: 5px solid #fafafa;
 
   .ad {
     height: 200px;

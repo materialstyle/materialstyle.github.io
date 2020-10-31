@@ -9,7 +9,12 @@ function getHighlightedText() {
 }
 
 $(function() {
-    $('.adspace').hide();
+    $('.adspace').html(
+        `<a class="d-flex flex-column align-items-center" href="/" style="text-decoration:none;">
+            <img src="/assets/images/MSIconNewColorV2.svg" alt="Logo" style="width:150px; height:150px;">
+            <span class="text-dark text-center m-1">Material Style 2.0 is here!</span>
+        </a>`
+    );
 
     $('.code-container').append('<span class="copy-btn"><b>click</b> or <b>highlight</b> to copy</span>');
 
