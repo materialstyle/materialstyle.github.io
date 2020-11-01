@@ -1,0 +1,543 @@
+---
+layout: 1
+title: List
+version: 1.2
+permalink: /docs/1.2/components/list/
+page: list
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1 id="l1">List</h1>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-container">
+                        <div class="offset-md-4 col-md-4">
+                            <ul class="list-group ms-list">
+                                <li class="list-group-item active">First item</li>
+                                <li class="list-group-item">Second item</li>
+                                <li class="list-group-item">Third item</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>List</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<ul class="list-group ms-list">
+    <li class="list-group-item active">First item</li>
+    <li class="list-group-item">Second item</li>
+    <li class="list-group-item">Third item</li>
+</ul>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-container" id="l2">
+                        <div class="offset-md-4 col-md-4">
+                            <ul class="list-group ms-list">
+                                <li class="list-group-item list-group-item-primary">First item</li>
+                                <li class="list-group-item list-group-item-success">Second item</li>
+                                <li class="list-group-item list-group-item-danger">Third item</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Contextual List</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<ul class="list-group ms-list">
+    <li class="list-group-item list-group-item-primary">First item</li>
+    <li class="list-group-item list-group-item-success">Second item</li>
+    <li class="list-group-item list-group-item-danger">Third item</li>
+</ul>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-container" id="l3">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="list-group ms-list">
+                                <a href="javascript:" class="list-group-item list-group-item-action">First item</a>
+                                <a href="javascript:" class="list-group-item list-group-item-action">Second item</a>
+                                <a href="javascript:" class="list-group-item list-group-item-action">Third item</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With Links</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<div class="list-group ms-list">
+    <a href="javascript:" class="list-group-item list-group-item-action">First item</a>
+    <a href="javascript:" class="list-group-item list-group-item-action">Second item</a>
+    <a href="javascript:" class="list-group-item list-group-item-action">Third item</a>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-container" id="l4">
+                        <div class="offset-md-4 col-md-4">
+                            <ul class="list-group ms-list">
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">favorite</i>
+                                </span>
+                                    Love It
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">thumb_up</i>
+                                </span>
+                                    Like It
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">thumb_down</i>
+                                </span>
+                                    Hate It
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With Icons</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code4">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<ul class="list-group ms-list">
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">favorite</i>
+        </span>
+        Love It
+    </li>
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">thumb_up</i>
+        </span>
+        Like It
+    </li>
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">thumb_down</i>
+        </span>
+        Hate It
+    </li>
+</ul>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-container" id="l5">
+                        <div class="offset-md-4 col-md-4">
+                            <ul class="list-group ms-list">
+                                <li class="list-group-item">
+                                <span class="list-item">
+                                    <span class="primary-text">Line item</span>
+                                    <span class="secondary-text">Secondary text</span>
+                                </span>
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-item">
+                                    <span class="primary-text">Line item</span>
+                                    <span class="secondary-text">Secondary text</span>
+                                </span>
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-item">
+                                    <span class="primary-text">Line item</span>
+                                    <span class="secondary-text">Secondary text</span>
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With Primary and Secondary text</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code5">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<ul class="list-group ms-list">
+    <li class="list-group-item">
+        <span class="list-item">
+            <span class="primary-text">Line item</span>
+            <span class="secondary-text">Secondary text</span>
+        </span>
+    </li>
+    <li class="list-group-item">
+        <span class="list-item">
+            <span class="primary-text">Line item</span>
+            <span class="secondary-text">Secondary text</span>
+        </span>
+    </li>
+    <li class="list-group-item">
+        <span class="list-item">
+            <span class="primary-text">Line item</span>
+            <span class="secondary-text">Secondary text</span>
+        </span>
+    </li>
+</ul>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-container" id="l6">
+                        <div class="offset-md-4 col-md-4">
+                            <ul class="list-group ms-list">
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">folder</i>
+                                </span>
+                                    <span class="list-item">
+                                    <span class="primary-text">Landscape</span>
+                                    <span class="secondary-text">29 Aug 2018</span>
+                                </span>
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">folder</i>
+                                </span>
+                                    <span class="list-item">
+                                    <span class="primary-text">Wildlife</span>
+                                    <span class="secondary-text">18 Aug 2018</span>
+                                </span>
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">folder</i>
+                                </span>
+                                    <span class="list-item">
+                                    <span class="primary-text">Fashion</span>
+                                    <span class="secondary-text">22 Aug 2018</span>
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With Primary, Secondary text and Icon</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code6">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code6">
+                    <div class="code-container">
+{% highlight html %}
+<ul class="list-group ms-list">
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">folder</i>
+        </span>
+        <span class="list-item">
+            <span class="primary-text">Landscape</span>
+            <span class="secondary-text">29 Aug 2018</span>
+        </span>
+    </li>
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">folder</i>
+        </span>
+        <span class="list-item">
+            <span class="primary-text">Wildlife</span>
+            <span class="secondary-text">18 Aug 2018</span>
+        </span>
+    </li>
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">folder</i>
+        </span>
+        <span class="list-item">
+            <span class="primary-text">Fashion</span>
+            <span class="secondary-text">22 Aug 2018</span>
+        </span>
+    </li>
+</ul>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-container" id="l7">
+                        <div class="offset-md-4 col-md-4">
+                            <ul class="list-group ms-list">
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">folder</i>
+                                </span>
+                                    <span class="list-item">
+                                    <span class="primary-text">Landscape</span>
+                                    <span class="secondary-text">29 Aug 2018</span>
+                                </span>
+                                    <span class="list-icon-right">
+                                    <i class="material-icons">info</i>
+                                </span>
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">folder</i>
+                                </span>
+                                    <span class="list-item">
+                                    <span class="primary-text">Wildlife</span>
+                                    <span class="secondary-text">18 Aug 2018</span>
+                                </span>
+                                    <span class="list-icon-right">
+                                    <i class="material-icons">info</i>
+                                </span>
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">folder</i>
+                                </span>
+                                    <span class="list-item">
+                                    <span class="primary-text">Fashion</span>
+                                    <span class="secondary-text">22 Aug 2018</span>
+                                </span>
+                                    <span class="list-icon-right align-middle">
+                                    <i class="material-icons">info</i>
+                                </span>
+                                </li>
+                                <li class="list-group-item list-divider"></li>
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">folder</i>
+                                </span>
+                                    <span class="list-item">
+                                    <span class="primary-text">4K</span>
+                                    <span class="secondary-text">21 Aug 2018</span>
+                                </span>
+                                    <span class="list-icon-right align-middle">
+                                    <i class="material-icons">info</i>
+                                </span>
+                                </li>
+                                <li class="list-group-item">
+                                <span class="list-icon">
+                                    <i class="material-icons">folder</i>
+                                </span>
+                                    <span class="list-item">
+                                    <span class="primary-text">HD</span>
+                                    <span class="secondary-text">15 Aug 2018</span>
+                                </span>
+                                    <span class="list-icon-right">
+                                    <i class="material-icons">info</i>
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With Primary, Secondary text, Icon and Separator</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code7">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code7">
+                    <div class="code-container">
+{% highlight html %}
+<ul class="list-group ms-list">
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">folder</i>
+        </span>
+        <span class="list-item">
+            <span class="primary-text">Landscape</span>
+            <span class="secondary-text">29 Aug 2018</span>
+        </span>
+        <span class="list-icon-right">
+            <i class="material-icons">info</i>
+        </span>
+    </li>
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">folder</i>
+        </span>
+        <span class="list-item">
+            <span class="primary-text">Wildlife</span>
+            <span class="secondary-text">18 Aug 2018</span>
+        </span>
+        <span class="list-icon-right">
+            <i class="material-icons">info</i>
+        </span>
+    </li>
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">folder</i>
+        </span>
+        <span class="list-item">
+            <span class="primary-text">Fashion</span>
+            <span class="secondary-text">22 Aug 2018</span>
+        </span>
+        <span class="list-icon-right">
+            <i class="material-icons">info</i>
+        </span>
+    </li>
+
+    <li class="list-group-item list-divider"></li>
+
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">folder</i>
+        </span>
+        <span class="list-item">
+            <span class="primary-text">4K</span>
+            <span class="secondary-text">21 Aug 2018</span>
+        </span>
+        <span class="list-icon-right align-middle">
+            <i class="material-icons">info</i>
+        </span>
+    </li>
+    <li class="list-group-item">
+        <span class="list-icon">
+            <i class="material-icons">folder</i>
+        </span>
+        <span class="list-item">
+            <span class="primary-text">HD</span>
+            <span class="secondary-text">15 Aug 2018</span>
+        </span>
+        <span class="list-icon-right">
+            <i class="material-icons">info</i>
+        </span>
+    </li>
+</ul>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="l1">List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="l2">Contextual List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="l3">List with links</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="l4">List with icons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="l5">List with Primary and Secondary text</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="l6">List with Primary, Secondary text and Icon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="l7">List with Primary, Secondary text, Icon and Separator</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

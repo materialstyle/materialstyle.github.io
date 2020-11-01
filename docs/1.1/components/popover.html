@@ -1,0 +1,333 @@
+---
+layout: 1
+title: Popover
+version: 1.1
+permalink: /docs/1.1/components/popover/
+page: popover
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1 id="pop1">Popover</h1>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button-container">
+                        <a href="javascript:" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>On a Link</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Popover on a Link -->
+<a href="#" data-toggle="popover" title="Popover Header"
+   data-content="Some content inside the popover">
+    Toggle popover
+</a>{% endhighlight %}
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Popovers must be initialized with jQuery. Select the specified element and call the <span class="text-pink">popover()</span> method</label>
+                    </div>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper" id="pop2">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-ms btn-blue-600 ripple" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">
+                            Toggle Popover
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>On a Button</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Popover on a Button -->
+<button type="button" class="btn btn-ms btn-blue-600 ripple" data-toggle="popover"
+    title="Popover Header" data-content="Some content inside the popover">
+    Toggle popover
+</button>{% endhighlight %}
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Popovers must be initialized with jQuery. Select the specified element and call the <span class="text-pink">popover()</span> method</label>
+                    </div>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper" id="pop3">
+            <h3>Positioning Popovers</h3>
+            <p>
+                Use the <span class="text-pink">data-placement</span> attribute to set the position of the popover on top,
+                bottom, left or the right side of the element
+            </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <a href="javascript:" data-toggle="popover" data-placement="top" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Top</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <a href="javascript:" data-toggle="popover" data-placement="right" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Right</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <a href="javascript:" data-toggle="popover" data-placement="left" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Left</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <a href="javascript:" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Bottom</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Popover Top -->
+<a href="#" data-toggle="popover" data-placement="top"
+   title="Popover Header" data-content="Some content inside the popover">
+    Toggle popover
+</a>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Popover Right -->
+<a href="#" data-toggle="popover" data-placement="right"
+   title="Popover Header" data-content="Some content inside the popover">
+    Toggle popover
+</a>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Popover Left -->
+<a href="#" data-toggle="popover" data-placement="left"
+   title="Popover Header" data-content="Some content inside the popover">
+    Toggle popover
+</a>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Popover Bottom -->
+<a href="#" data-toggle="popover" data-placement="bottom"
+   title="Popover Header" data-content="Some content inside the popover">
+    Toggle popover
+</a>{% endhighlight %}
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Popovers must be initialized with jQuery. Select the specified element and call the <span class="text-pink">popover()</span> method</label>
+                    </div>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper" id="pop4">
+            <h3>Closing Popovers</h3>
+            <p>
+                By default, the popover is closed when you click on the element again. However, you can use the
+                <span class="text-pink">data-trigger="focus"</span> attribute which will close the popover when clicking
+                outside the element
+            </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button-container">
+                        <a href="javascript:" data-toggle="popover" data-trigger="focus" title="Dismissible Popover"
+                           data-content="Click anywhere in the document to close this popover">Toggle popover</a>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Dismissible Popover</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code4">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Dismissible Popover -->
+<a href="#" data-toggle="popover" data-trigger="focus" title="Dismissible Popover"
+   data-content="Click anywhere in the document to close this popover">
+    Toggle popover
+</a>{% endhighlight %}
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Popovers must be initialized with jQuery. Select the specified element and call the <span class="text-pink">popover()</span> method</label>
+                    </div>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper" id="pop5">
+            <h3>Popover on hover</h3>
+            <p>
+                If you want the popover to be displayed when you move the mouse pointer over the
+                element, use the <span class="text-pink">data-trigger</span> attribute with a value of
+                <span class="text-pink">"hover"</span>
+            </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button-container">
+                        <a href="javascript:" data-toggle="popover" data-trigger="hover" title="Dismissible Popover"
+                           data-content="Click anywhere in the document to close this popover">Toggle popover</a>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Popover on Hover</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code5">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Showing popovers on Hover -->
+<a href="#" data-toggle="popover" data-trigger="hover" title="Popover on Hover"
+   data-content="Click anywhere in the document to close this popover">
+    Toggle popover
+</a>{% endhighlight %}
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Popovers must be initialized with jQuery. Select the specified element and call the <span class="text-pink">popover()</span> method</label>
+                    </div>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="pop1">Popover on a link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="pop2">Popover on a button</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="pop3">Positioning popovers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="pop4">Closing popovers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="pop5">Popover on hover</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

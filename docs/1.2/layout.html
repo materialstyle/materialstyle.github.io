@@ -1,0 +1,126 @@
+---
+layout: 1
+title: Layout
+version: 1.2
+permalink: /docs/1.2/getting-started/layout/
+page: layout
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1>Layout | Code structure *</h1>
+        <div class="media bg-pink-50 align-items-center">
+            <div class="bg-pink-100 p-3 d-flex align-self-stretch align-items-center">
+                <span style="font-size: 2em;">
+                    <i class="fas fa-ghost text-pink-600"></i>
+                </span>
+            </div>
+            <div class="media-body p-3 d-flex flex-column justify-content-center">
+                <p class="m-0">
+                    Its very important to follow the code structure provided below.
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="lay1">
+            <div class="col-md-12">
+                <div class="nav-container d-flex align-items-center justify-content-center">
+                    <img class="lazy border" width="100%" style="max-width:800px;"
+                         src="/assets/images/default.jpg"
+                         data-src="/assets/images/layout_without_sidebar_v2.jpg"
+                         data-srcset="/assets/images/layout_without_sidebar_v2.jpg"
+                         alt="layout without sidebar">
+                </div>
+                <div class="description-container">
+                    <label>Layout without left sidebar</label>
+                </div>
+                <div class="code-container">
+{% highlight html %}
+<body>
+    <!-- Top Navbar -->
+    <nav class="ms-nav navbar">
+        . . .
+    </nav>
+
+    <section class="ms-root">
+        <!-- Container -->
+        <div class="ms-container">
+            . . .
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        . . .
+    </footer>
+</body>{% endhighlight %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="lay2">
+            <div class="col-md-12">
+                <div class="nav-container d-flex align-items-center justify-content-center">
+                    <img class="lazy border" width="100%" style="max-width:800px;"
+                         src="/assets/images/default.jpg"
+                         data-src="/assets/images/layout_with_sidebar_v2.jpg"
+                         data-srcset="/assets/images/layout_with_sidebar_v2.jpg"
+                         alt="layout with sidebar">
+                </div>
+                <div class="description-container">
+                    <label>Layout with left sidebar</label>
+                </div>
+                <div class="code-container">
+{% highlight html %}
+<body>
+    <!-- Top Navbar -->
+    <nav class="ms-nav navbar">
+        . . .
+    </nav>
+
+    <section class="ms-root">
+        <!-- Sidebar -->
+        <aside class="ms-sidebar">
+            . . .
+        </aside>
+
+        <!-- Container -->
+        <div class="ms-container">
+            . . .
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        . . .
+    </footer>
+</body>{% endhighlight %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="lay1">Layout without left sidebar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="lay2">Layout with left sidebar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

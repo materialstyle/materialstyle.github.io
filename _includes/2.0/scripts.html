@@ -1,0 +1,71 @@
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/@materialstyle/materialstyle@2.0.2/dist/js/materialstyle.min.js"></script>
+
+<script src="/assets/js/site.js"></script>
+
+<script>
+    $(function () {
+        $('.adspace').html('').hide();
+
+        $('.m-text-field').textfield();
+        $('.m-text-field-outline').textfield();
+        $('.m-select').selectfield();
+        $('.m-select-outline').selectfield();
+        $('.btn').ripple();
+        $('.m-shape-container').shape();
+        $('.m-file-input').fileinput();
+        $('.nav-tabs').tab();
+        $('.nav-tabs .nav-link').ripple();
+        $('.m-rainbow').rainbow();
+        $('.m-spinner').spinner();
+        $('[data-toggle="popover"]').popover();
+
+        $('#show-snackbar-left').on('click', function () {
+            $('#snackbar-left').snackbar();
+        });
+        $('#show-snackbar').on('click', function () {
+            $('#snackbar').snackbar();
+        });
+        $('#show-snackbar-right').on('click', function () {
+            $('#snackbar-right').snackbar();
+        });
+
+        $('#show-snackbar-dismissible').on('click', function () {
+            $('#snackbar-dismissible').snackbar({
+                'autoClose': false
+            });
+        });
+
+        $('#show-snackbar-custom-duration').on('click', function () {
+            $('#snackbar-custom-duration').snackbar({
+                'visibleDuration': 5000
+            });
+        });
+
+        $("#myModal").on('shown.bs.modal', function () {
+            $('.m-text-field').textfield('redraw');
+            $('.m-text-field-outline').textfield('redraw');
+            $('.m-select').selectfield('redraw');
+            $('.m-select-outline').selectfield('redraw');
+
+            $('.nav-tabs').tab('redraw');
+            $('.nav-tabs .nav-link').ripple('redraw');
+            $('.btn').ripple('redraw');
+
+            $('#show-modal-snackbar').on('click', function () {
+                $('#modal-snackbar').snackbar();
+            });
+        });
+
+        $('#show-toast').on('click', function(){
+            $('.toast').toast('show');
+        });
+    })
+</script>

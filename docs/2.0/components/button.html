@@ -1,0 +1,363 @@
+---
+layout: 2
+title: Button
+version: 2.0
+permalink: /docs/2.0/components/button/
+page: button
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1 id="b1">Button</h1>
+
+        <div class="media bg-pink-50 align-items-center mb-3">
+            <div class="bg-pink-100 p-3 d-flex align-self-stretch align-items-center">
+                <span style="font-size: 2em;">
+                    <i class="fas fa-ghost text-pink-600"></i>
+                </span>
+            </div>
+            <div class="media-body p-3 d-flex flex-column justify-content-center">
+                <p class="m-0">
+                    Required Javascript for this component is at the end of this page.
+                </p>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-indigo">Button</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-indigo unelevated">Unelevated</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-indigo">
+                            Icon <i class="material-icons">thumb_up</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code1">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Button -->
+<button type="button" class="btn btn-indigo">
+    Button
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Unelevated button -->
+<button type="button" class="btn btn-indigo unelevated">
+    Unelevated
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Button with icon -->
+<button type="button" class="btn btn-indigo">
+    Icon <i class="material-icons">thumb_up</i>
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-indigo btn-lg">
+                            Large
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-indigo btn-sm">
+                            Small
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-indigo" disabled>
+                            Disabled
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code2">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Large button -->
+<button type="button" class="btn btn-indigo btn-lg">
+    Large
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Small button -->
+<button type="button" class="btn btn-indigo btn-sm">
+    Small
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled button -->
+<button type="button" class="btn btn-indigo" disabled>
+    Disabled
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-outline-indigo">
+                            Outline
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-text-indigo">
+                            Text
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-link">
+                            Link
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code3">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outline button -->
+<button type="button" class="btn btn-outline-indigo">
+    Outline
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text button -->
+<button type="button" class="btn btn-text-indigo">
+    Text
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Link button -->
+<button type="button" class="btn btn-link">
+    Link
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3 id="b2">Button group</h3>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-indigo">Button</button>
+                            <button type="button" class="btn btn-indigo">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <div class="btn-group-vertical">
+                            <button type="button" class="btn btn-indigo">Button</button>
+                            <button type="button" class="btn btn-indigo">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code4">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Horizontal button group -->
+<div class="btn-group">
+    <button type="button" class="btn btn-indigo">Button</button>
+    <button type="button" class="btn btn-indigo">Button</button>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Vertical button group -->
+<div class="btn-group-vertical">
+    <button type="button" class="btn btn-indigo">Button</button>
+    <button type="button" class="btn btn-indigo">Button</button>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3 id="b3">File input</h3>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <div class="m-file-input">
+                            <input type="file" name="myfile">
+                            <button type="button" class="btn btn-dark btn-file">
+                                <i class="material-icons">attach_file</i> Browse Single</button>
+                            <label class="files"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="button-container">
+                        <div class="m-file-input">
+                            <input type="file" name="myfiles[]" multiple>
+                            <button type="button" class="btn btn-dark btn-file">
+                                <i class="material-icons">attach_file</i> Browse Multiple</button>
+                            <label class="files"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code5">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<!-- File input -->
+<div class="m-file-input">
+    <input type="file" name="myfile">
+    <button type="button" class="btn btn-dark btn-file">
+        <i class="material-icons">attach_file</i> Browse Single</button>
+    <label class="files"></label>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- File input multiple -->
+<div class="m-file-input">
+    <input type="file" name="myfiles[]" multiple>
+    <button type="button" class="btn btn-dark btn-file">
+        <i class="material-icons">attach_file</i> Browse Multiple</button>
+    <label class="files"></label>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3 id="b4">Javascript</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(function() {
+        // Add ripple to buttons
+        $('.btn').ripple();
+
+        // Initialize File Input
+        $('.m-file-input').fileinput();
+    });
+</script>{% endhighlight %}
+                    </div>
+                    <p>If a Button with Ripple is inside a Modal and is already initialized on page load, Redraw it by passing the parameter: 'redraw'.</p>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $("#myModal").on('shown.bs.modal', function () {
+        // Redraw ripple
+        $('.btn').ripple('redraw');
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b1">Button</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b2">Button Group</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b3">File Input</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="b4">Javascript</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

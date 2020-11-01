@@ -1,0 +1,786 @@
+---
+layout: 2
+title: Text Field
+version: 2.0
+permalink: /docs/2.0/components/text-field/
+page: text-field
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1 id="text1">Text field</h1>
+
+        <div class="media bg-pink-50 align-items-center mb-3">
+            <div class="bg-pink-100 p-3 d-flex align-self-stretch align-items-center">
+                <span style="font-size: 2em;">
+                    <i class="fas fa-ghost text-pink-600"></i>
+                </span>
+            </div>
+            <div class="media-body p-3 d-flex flex-column justify-content-center">
+                <p class="m-0">
+                    Required Javascript for this component is at the end of this page.
+                </p>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <label class="static-label">Static Label</label>
+                                <input type="text" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Filled</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <label class="static-label">Static Label</label>
+                                <input type="text" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Outlined</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code1">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field -->
+<div class="form-group">
+    <div class="m-text-field">
+        <label class="static-label">Static Label</label>
+        <input type="text" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field -->
+<div class="form-group">
+    <div class="m-text-field">
+        <label class="static-label">Static Label</label>
+        <input type="text" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text2">
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <label class="floating-label">Floating Label</label>
+                                <input type="text" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <label class="floating-label">Floating Label</label>
+                                <input type="text" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>With Floating Label</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code2">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field with floating label -->
+<div class="form-group">
+    <div class="m-text-field">
+        <label class="floating-label">Floating Label</label>
+        <input type="text" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field with floating label -->
+<div class="form-group">
+    <div class="m-text-field-outline">
+        <label class="floating-label">Floating Label</label>
+        <input type="text" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text3">
+                        <div class="form-group">
+                            <div class="m-text-field primary-blue-500 accent-pink-a400">
+                                <label class="floating-label">Phone</label>
+                                <input type="text" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline primary-blue-500 accent-pink-a400">
+                                <label class="floating-label">Phone</label>
+                                <input type="text" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>With Primary and Accent color</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code3">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field with primary and accent colors -->
+<div class="form-group">
+    <div class="m-text-field primary-blue-500 accent-pink-a400">
+        <label class="floating-label">Phone</label>
+        <input type="text" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field with primary and accent colors -->
+<div class="form-group">
+    <div class="m-text-field-outline primary-blue-500 accent-pink-a400">
+        <label class="floating-label">Phone</label>
+        <input type="text" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text4">
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <label class="floating-label">form-control-sm</label>
+                                <input type="text" class="form-control form-control-sm" autocomplete="off"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <label class="floating-label">form-control-sm</label>
+                                <input type="text" class="form-control form-control-sm" autocomplete="off"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>Small</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code4">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field small -->
+<div class="form-group">
+    <div class="m-text-field">
+        <label class="floating-label">form-control-sm</label>
+        <input type="text" class="form-control form-control-sm" autocomplete="off"/>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field small-->
+<div class="form-group">
+    <div class="m-text-field-outline">
+        <label class="floating-label">form-control-sm</label>
+        <input type="text" class="form-control form-control-sm" autocomplete="off"/>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text5">
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <label class="floating-label">form-control-lg</label>
+                                <input type="text" class="form-control form-control-lg" autocomplete="off"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <label class="floating-label">form-control-lg</label>
+                                <input type="text" class="form-control form-control-lg" autocomplete="off"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>Large</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code5">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field large -->
+<div class="form-group">
+    <div class="m-text-field">
+        <label class="floating-label">form-control-lg</label>
+        <input type="text" class="form-control form-control-lg" autocomplete="off"/>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field large-->
+<div class="form-group">
+    <div class="m-text-field-outline">
+        <label class="floating-label">form-control-lg</label>
+        <input type="text" class="form-control form-control-lg" autocomplete="off"/>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text6">
+                        <div class="form-group has-error">
+                            <div class="m-text-field">
+                                <label class="floating-label">Email</label>
+                                <input type="email" value="someone@example.com" class="form-control" autocomplete="off">
+                                <span class="help-block">These credentials do not match our records.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <label class="floating-label">Password</label>
+                                <input type="password" value="******" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group has-error">
+                            <div class="m-text-field-outline">
+                                <label class="floating-label">Email</label>
+                                <input type="email" value="someone@example.com" class="form-control" autocomplete="off">
+                                <span class="help-block">These credentials do not match our records.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <label class="floating-label">Password</label>
+                                <input type="password" value="******" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>With help block</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code6">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code6">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field with help block -->
+<div class="form-group has-error">
+    <div class="m-text-field">
+        <label class="floating-label">Email</label>
+        <input type="email" value="someone@example.com" class="form-control">
+        <span class="help-block">These credentials do not match our records.</span>
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="m-text-field">
+        <label class="floating-label">Password</label>
+        <input type="password" value="******" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field with help block -->
+<div class="form-group has-error">
+    <div class="m-text-field-outline">
+        <label class="floating-label">Email</label>
+        <input type="email" value="someone@example.com" class="form-control">
+        <span class="help-block">These credentials do not match our records.</span>
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="m-text-field-outline">
+        <label class="floating-label">Password</label>
+        <input type="password" value="******" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text7">
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <label class="floating-label">Comments</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <label class="floating-label">Comments</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>Text Area</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code7">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code7">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text area -->
+<div class="form-group">
+    <div class="m-text-field">
+        <label class="floating-label">Comments</label>
+        <textarea class="form-control" rows="3"></textarea>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text area -->
+<div class="form-group">
+    <div class="m-text-field-outline">
+        <label class="floating-label">Comments</label>
+        <textarea class="form-control" rows="3"></textarea>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text8">
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="static-label">Username</label>
+                                <input type="text" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <div class="prepend">
+                                    <i class="material-icons">account_box</i>
+                                </div>
+                                <label class="static-label">Username</label>
+                                <input type="text" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>With Prepend</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code8">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code8">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field with prepend -->
+<div class="form-group">
+    <div class="m-text-field">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="static-label">Username</label>
+        <input type="text" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field with prepend -->
+<div class="form-group">
+    <div class="m-text-field-outline">
+        <div class="prepend">
+            <i class="material-icons">account_box</i>
+        </div>
+        <label class="static-label">Username</label>
+        <input type="text" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text9">
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <div class="prepend">
+                                    <i class="material-icons">vpn_key</i>
+                                </div>
+                                <label class="floating-label">Password</label>
+                                <input type="password" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <div class="prepend">
+                                    <i class="material-icons">vpn_key</i>
+                                </div>
+                                <label class="floating-label">Password</label>
+                                <input type="password" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>With Prepend and Floating label</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code9">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code9">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field with prepend and floating label -->
+<div class="form-group">
+    <div class="m-text-field">
+        <div class="prepend">
+            <i class="material-icons">vpn_key</i>
+        </div>
+        <label class="floating-label">Password</label>
+        <input type="password" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field with prepend and floating label -->
+<div class="form-group">
+    <div class="m-text-field-outline">
+        <div class="prepend">
+            <i class="material-icons">vpn_key</i>
+        </div>
+        <label class="floating-label">Password</label>
+        <input type="password" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-box-container px-3" id="text10">
+                        <div class="form-group">
+                            <div class="m-text-field">
+                                <div class="append">
+                                    <i class="material-icons">keyboard</i>
+                                </div>
+                                <label class="floating-label">Pin</label>
+                                <input type="password" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-box-container px-3">
+                        <div class="form-group">
+                            <div class="m-text-field-outline">
+                                <div class="append">
+                                    <i class="material-icons">keyboard</i>
+                                </div>
+                                <label class="floating-label">Pin</label>
+                                <input type="password" class="form-control" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="description-container">
+                        <label>With Append</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code10">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code10">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Text field with append -->
+<div class="form-group">
+    <div class="m-text-field">
+        <div class="append">
+            <i class="material-icons">keyboard</i>
+        </div>
+        <label class="floating-label">Pin</label>
+        <input type="password" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Outlined text field with append -->
+<div class="form-group">
+    <div class="m-text-field-outline">
+        <div class="append">
+            <i class="material-icons">keyboard</i>
+        </div>
+        <label class="floating-label">Pin</label>
+        <input type="password" class="form-control">
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3 id="text11">Javascript</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(function() {
+        // Initialize Text Fields
+        $('.m-text-field').textfield();
+        $('.m-text-field-outline').textfield();
+    });
+</script>{% endhighlight %}
+                    </div>
+                    <p>If a Text Field is inside a Modal and is already initialized on page load, Redraw it by passing the parameter: 'redraw'.</p>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $("#myModal").on('shown.bs.modal', function () {
+        // Redraw Text Fields
+        $('.m-text-field').textfield('redraw');
+        $('.m-text-field-outline').textfield('redraw');
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text1">Text Field</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text2">Text Field with Floating Label</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text3">Text Field with Primary and Accent colors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text4">Small Text Field</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text5">Large Text Field</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text6">Text Field with help block</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text7">Text Area</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text8">Text Field with Prepend</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text9">Text Field with Prepend and Floating Label</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text10">Text Field with Append</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="text11">Javascript</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

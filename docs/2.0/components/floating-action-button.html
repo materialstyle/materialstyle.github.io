@@ -1,0 +1,342 @@
+---
+layout: 2
+title: Floating Action Button
+version: 2.0
+permalink: /docs/2.0/components/floating-action-button/
+page: floating-action-button
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1 id="fab1">Floating Action Buttons (FAB)</h1>
+
+        <div class="media bg-pink-50 align-items-center mb-3">
+            <div class="bg-pink-100 p-3 d-flex align-self-stretch align-items-center">
+                <span style="font-size: 2em;">
+                    <i class="fas fa-ghost text-pink-600"></i>
+                </span>
+            </div>
+            <div class="media-body p-3 d-flex flex-column justify-content-center">
+                <p class="m-0">
+                    Required Javascript for this component is at the end of this page.
+                </p>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3>FAB</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab btn-pink">
+                            <i class="material-icons">favorite</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>FAB</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab btn-pink" disabled>
+                            <i class="material-icons">favorite</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code1">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<!-- FAB -->
+<button type="button" class="btn btn-fab btn-pink">
+    <i class="material-icons">favorite</i>
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled FAB -->
+<button type="button" class="btn btn-fab btn-pink" disabled>
+    <i class="material-icons">favorite</i>
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3 id="fab2">Leaf FAB</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab leaf-fab btn-purple">
+                            <i class="material-icons">favorite_border</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>FAB</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab leaf-fab btn-purple" disabled>
+                            <i class="material-icons">favorite_border</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code2">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<!-- FAB -->
+<button type="button" class="btn btn-fab leaf-fab btn-purple">
+    <i class="material-icons">favorite_border</i>
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled FAB -->
+<button type="button" class="btn btn-fab leaf-fab btn-purple" disabled>
+    <i class="material-icons">favorite_border</i>
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="fab3">Leaf FAB Inverted</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab leaf-fab-inverted btn-purple">
+                            <i class="material-icons">favorite_border</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>FAB</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab leaf-fab-inverted btn-purple" disabled>
+                            <i class="material-icons">favorite_border</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code3">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<!-- FAB -->
+<button type="button" class="btn btn-fab leaf-fab-inverted btn-purple">
+    <i class="material-icons">favorite_border</i>
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled FAB -->
+<button type="button" class="btn btn-fab leaf-fab-inverted btn-purple" disabled>
+    <i class="material-icons">favorite_border</i>
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component-wrapper">
+            <h3 id="fab4">Mini FAB</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab mini-fab btn-teal">
+                            <i class="material-icons">mood</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Mini FAB</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab mini-fab btn-teal" disabled>
+                            <i class="material-icons">mood</i>
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code4">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Mini FAB -->
+<button type="button" class="btn btn-fab mini-fab btn-teal">
+    <i class="material-icons">mood</i>
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Mini FAB -->
+<button type="button" class="btn btn-fab mini-fab btn-teal" disabled>
+    <i class="material-icons">mood</i>
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3 id="fab5">Extended FAB</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab extended-fab btn-pink-800">
+                            <i class="material-icons">search</i> Search
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Extended FAB</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-fab extended-fab btn-pink-800" disabled>
+                            <i class="material-icons">search</i> Search
+                        </button>
+                    </div>
+                    <div class="multi-col-description-container">
+                        <label>Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code5">
+                        &lt;Code&gt;
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<!-- Extended FAB -->
+<button type="button" class="btn btn-fab extended-fab btn-pink-800">
+    <i class="material-icons">search</i> Search
+</button>{% endhighlight %}
+                    </div>
+                    <div class="code-container">
+{% highlight html %}
+<!-- Disabled Extended FAB -->
+<button type="button" class="btn btn-fab extended-fab btn-pink-800" disabled>
+    <i class="material-icons">search</i> Search
+</button>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <h3 id="fab6">Javascript</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $(function() {
+        // Add ripple to buttons
+        $('.btn').ripple();
+    });
+</script>{% endhighlight %}
+                    </div>
+                    <p>If a Button with Ripple is inside a Modal and is already initialized on page load, Redraw it by passing the parameter: 'redraw'.</p>
+                    <div class="code-container">
+{% highlight js %}
+<script>
+    $("#myModal").on('shown.bs.modal', function () {
+        // Redraw ripple
+        $('.btn').ripple('redraw');
+    });
+</script>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="fab1">Floating Action Buttons (FAB)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="fab2">Leaf FAB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="fab3">Leaf FAB Inverted</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="fab4">Mini FAB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="fab5">Extended FAB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="fab6">Javascript</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

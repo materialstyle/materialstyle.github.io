@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description"
+          content="Material Style is an easy to use UI Library based on Bootstrap 4.5 that lets you add Material Design styles and animations to Bootstrap components.">
+    <meta name="theme-color" content="#0D47A1"/>
+
+    {% include {{ page.version }}/styles.html %}
+</head>
+<body>
+
+{% include {{ page.version }}/navigation.html %}
+
+<section class="m-root">
+
+    {% if page.showSidebar != false %}
+        {% include {{ page.version }}/sidebar.html %}
+        <div class="m-container bg-grey-50 pb-0">
+    {% else %}
+        <div class="m-container home-container">
+    {% endif %}
+
+            {{ content }}
+
+        </div>
+</section>
+
+<button id="top-btn" type="button" class="btn btn-fab leaf-fab-inverted btn-blue">
+    <i class="material-icons">arrow_upward</i>
+</button>
+
+{% include {{ page.version }}/footer.html %}
+
+{% include {{ page.version }}/scripts.html %}
+
+</body>
+</html>

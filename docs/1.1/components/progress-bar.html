@@ -1,0 +1,351 @@
+---
+layout: 1
+title: Progress Bar
+version: 1.1
+permalink: /docs/1.1/components/progress-bar/
+page: progress-bar
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1 id="p1">Progress Bars</h1>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-4">
+                        <div class="progress ms-progress">
+                            <div class="progress-bar bg-pink" style="width:70%"></div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Progress Bar</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<div class="progress ms-progress">
+    <div class="progress-bar bg-pink" style="width:70%"></div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-4" id="p2">
+                        <div class="progress ms-progress">
+                            <div class="progress-bar bg-pink progress-bar-striped" style="width:70%"></div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With Strips</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<div class="progress ms-progress">
+    <div class="progress-bar bg-pink progress-bar-striped" style="width:70%"></div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-4" id="p3">
+                        <div class="progress ms-progress">
+                            <div class="progress-bar bg-pink progress-bar-striped progress-bar-animated" style="width:70%"></div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With Strips and Animation</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<div class="progress ms-progress">
+    <div class="progress-bar bg-pink progress-bar-striped progress-bar-animated" style="width:70%"></div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-4" id="p4">
+                        <div class="progress ms-progress" style="height:20px;">
+                            <div class="progress-bar bg-pink progress-bar-striped progress-bar-animated" style="width:70%; height:20px;"></div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With custom height</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code4">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<div class="progress ms-progress" style="height:20px;">
+    <div class="progress-bar bg-pink progress-bar-striped progress-bar-animated" style="width:70%; height:20px;"></div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-4" id="p5">
+                        <div class="progress ms-progress" style="height: 20px;">
+                            <div class="progress-bar bg-success" style="width:40%; height: 20px;">
+                                Free Space
+                            </div>
+                            <div class="progress-bar bg-warning" style="width:10%; height: 20px;">
+                                Warning
+                            </div>
+                            <div class="progress-bar bg-danger" style="width:20%; height: 20px;">
+                                Danger
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Multiple Progress</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code5">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<div class="progress ms-progress" style="height: 20px;">
+    <div class="progress-bar bg-success" style="width:40%; height: 20px;">
+        Free Space
+    </div>
+    <div class="progress-bar bg-warning" style="width:10%; height: 20px;">
+        Warning
+    </div>
+    <div class="progress-bar bg-danger" style="width:20%; height: 20px;">
+        Danger
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>Indeterminate Progress Bars</h1>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-4" id="p6">
+                        <div class="progress ms-progress">
+                            <div class="progress-bar bg-pink indeterminate"></div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Indeterminate</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code6">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code6">
+                    <div class="code-container">
+{% highlight html %}
+<div class="progress ms-progress">
+    <div class="progress-bar bg-pink indeterminate"></div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-4" id="p7">
+                        <div class="ms-progress indeterminate-rainbow"></div>
+                    </div>
+                    <div class="description-container">
+                        <label>Rainbow Indeterminate</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code7">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code7">
+                    <div class="code-container">
+{% highlight html %}
+<div class="ms-progress indeterminate-rainbow"></div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>Spinners</h1>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-2" id="p8">
+                        <div class="ms-spinner"></div>
+                    </div>
+                    <div class="description-container">
+                        <label>Spinner</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code8">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code8">
+                    <div class="code-container">
+{% highlight html %}
+<div class="ms-spinner"></div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-container mx-2" id="p9">
+                        <div class="ms-spinner spinner-blue"></div>
+                    </div>
+                    <div class="description-container">
+                        <label>Single color Spinner</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code9">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code9">
+                    <div class="code-container">
+{% highlight html %}
+<div class="ms-spinner spinner-blue"></div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p1">Progress Bar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p2">With Strips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p3">With Strips and Animation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p4">With custom height</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p5">Multiple progress</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p6">Indeterminate progress bar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p7">Rainbow indeterminate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p8">Spinner</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="p9">Single color spinner</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1803 @@
+---
+layout: 1
+title: Color
+version: 1.2
+permalink: /docs/1.2/utilities/color/
+page: color
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1>Colors</h1>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <p class="text-grey-800">
+                    These color palettes comprises shades of colors indicated by
+                    alphanumeric values on the left
+                    <span class="text-blue">(50 ... 900, a100 ... a700)</span> and HEX
+                    values on the right.<br><br>
+
+                    To use a color, you have to create a class with the following syntax:<br>
+                    <span class="text-pink">
+                    [ property ]-[ color ]<br>
+                    [ property ]-[ color ]-[ shade ]<br>
+                    [ property ]-[ bootstrap's conceptual class ]
+                </span><br><br>
+
+                    The following properties are supported:<br>
+                    Alert <span class="text-blue">(ms-alert)</span><br>
+                    Badge <span class="text-blue">(badge)</span><br>
+                    Background Color <span class="text-blue">(bg)</span><br>
+                    Button <span class="text-blue">(btn)</span><br>
+                    List Item <span class="text-blue">(list-group-item)</span><br>
+                    Text Color <span class="text-blue">(text)</span><br>
+
+
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-4 form-group">
+                <div class="border">
+                    <div class="bg-white color-syntax">
+                        <label><span class="text-indigo">[ property ]</span>-<span class="text-pink">[ color ]</span></label>
+                    </div>
+                    <div class="bg-grey-100 color-syntax">
+                        <div>
+                            <span class="text-indigo">bg</span>-<span class="text-pink">red</span><br>
+                            <span class="text-indigo">text</span>-<span class="text-pink">deep-purple</span><br>
+                            <span class="text-indigo">btn</span>-<span class="text-pink">blue</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 form-group">
+                <div class="border">
+                    <div class="bg-white color-syntax">
+                        <label>
+                            <span class="text-indigo">[ property ]</span>-<span class="text-pink">[ color ]</span>-<span class="text-green-800">[ shade ]</span>
+                        </label>
+                    </div>
+                    <div class="bg-grey-100 color-syntax">
+                        <div>
+                            <span class="text-indigo">btn</span>-<span class="text-pink">red</span>-<span class="text-green-800">300</span><br>
+                            <span class="text-indigo">list-group-item</span>-<span class="text-pink">red</span>-<span class="text-green-800">a700</span><br>
+                            default shade is 500
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 form-group">
+                <div class="border">
+                    <div class="bg-white color-syntax">
+                        <label><span class="text-pink">[ property ]</span>-<span class="text-green-800">[ bootstrap's conceptual class ]</span></label>
+                    </div>
+                    <div class="bg-grey-100 color-syntax">
+                        <div>
+                            <span class="text-pink">bg</span>-<span class="text-green-800">danger</span><br>
+                            <span class="text-pink">list-group-item</span>-<span class="text-green-800">success</span><br>
+                            <span class="text-pink">btn</span>-<span class="text-green-800">primary</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row color-palette-container">
+            <div class="col-md-12 form-group">
+                <br><h2 class="text-grey-800">Color Palettes</h2>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-red">
+                        <label class="card-text text-white">red</label>
+                        <label class="card-text text-white align-right">#F44336</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#FFEBEE</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#FFCDD2</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#EF9A9A</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#E57373</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-400">
+                        <label class="card-text text-white">400</label>
+                        <label class="card-text text-white align-right">#EF5350</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-500">
+                        <label class="card-text text-white">500 | red</label>
+                        <label class="card-text text-white align-right">#F44336</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#E53935</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-700">
+                        <label class="card-text text-white">700 | danger</label>
+                        <label class="card-text text-white align-right">#D32F2F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#C62828</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#B71C1C</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#FF8A80</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-a200">
+                        <label class="card-text text-white">a200</label>
+                        <label class="card-text text-white align-right">#FF5252</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-a400">
+                        <label class="card-text text-white">a400</label>
+                        <label class="card-text text-white align-right">#FF1744</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-red-a700">
+                        <label class="card-text text-white">a700</label>
+                        <label class="card-text text-white align-right">#D50000</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-pink">
+                        <label class="card-text text-white">pink</label>
+                        <label class="card-text text-white align-right">#E91E63</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#FCE4EC</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#F8BBD0</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#F48FB1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#F06292</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-400">
+                        <label class="card-text text-white">400</label>
+                        <label class="card-text text-white align-right">#EC407A</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-500">
+                        <label class="card-text text-white">500 | pink</label>
+                        <label class="card-text text-white align-right">#E91E63</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#D81B60</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#C2185B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#AD1457</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#880E4F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#FF80AB</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-a200">
+                        <label class="card-text text-white">a200</label>
+                        <label class="card-text text-white align-right">#FF4081</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-a400">
+                        <label class="card-text text-white">a400</label>
+                        <label class="card-text text-white align-right">#F50057</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-pink-a700">
+                        <label class="card-text text-white">a700</label>
+                        <label class="card-text text-white align-right">#C51162</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-purple">
+                        <label class="card-text text-white">purple</label>
+                        <label class="card-text text-white align-right">#9C27B0</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#F3E5F5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#E1BEE7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#CE93D8</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-300">
+                        <label class="card-text text-white">300</label>
+                        <label class="card-text text-white align-right">#BA68C8</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-400">
+                        <label class="card-text text-white">400</label>
+                        <label class="card-text text-white align-right">#AB47BC</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-500">
+                        <label class="card-text text-white">500 | purple</label>
+                        <label class="card-text text-white align-right">#9C27B0</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#8E24AA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#7B1FA2</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#6A1B9A</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#4A148C</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#EA80FC</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-a200">
+                        <label class="card-text text-white">a200</label>
+                        <label class="card-text text-white align-right">#E040FB</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-a400">
+                        <label class="card-text text-white">a400</label>
+                        <label class="card-text text-white align-right">#D500F9</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-purple-a700">
+                        <label class="card-text text-white">a700</label>
+                        <label class="card-text text-white align-right">#AA00FF</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-deep-purple">
+                        <label class="card-text text-white">deep-purple</label>
+                        <label class="card-text text-white align-right">#673AB7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#EDE7F6</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#D1C4E9</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#B39DDB</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-300">
+                        <label class="card-text text-white">300</label>
+                        <label class="card-text text-white align-right">#9575CD</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-400">
+                        <label class="card-text text-white">400</label>
+                        <label class="card-text text-white align-right">#7E57C2</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-500">
+                        <label class="card-text text-white">500 | deep-purple</label>
+                        <label class="card-text text-white align-right">#673AB7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#5E35B1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#512DA8</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#4527A0</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#311B92</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#B388FF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-a200">
+                        <label class="card-text text-white">a200</label>
+                        <label class="card-text text-white align-right">#7C4DFF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-a400">
+                        <label class="card-text text-white">a400</label>
+                        <label class="card-text text-white align-right">#651FFF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-purple-a700">
+                        <label class="card-text text-white">a700</label>
+                        <label class="card-text text-white align-right">#6200EA</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-indigo">
+                        <label class="card-text text-white">indigo</label>
+                        <label class="card-text text-white align-right">#3F51B5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#E8EAF6</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#C5CAE9</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#9FA8DA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-300">
+                        <label class="card-text text-white">300</label>
+                        <label class="card-text text-white align-right">#7986CB</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-400">
+                        <label class="card-text text-white">400</label>
+                        <label class="card-text text-white align-right">#5C6BC0</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-500">
+                        <label class="card-text text-white">500 | indigo</label>
+                        <label class="card-text text-white align-right">#3F51B5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#3949AB</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#303F9F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#283593</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#1A237E</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#8C9EFF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-a200">
+                        <label class="card-text text-white">a200</label>
+                        <label class="card-text text-white align-right">#536DFE</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-a400">
+                        <label class="card-text text-white">a400</label>
+                        <label class="card-text text-white align-right">#3D5AFE</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-indigo-a700">
+                        <label class="card-text text-white">a700</label>
+                        <label class="card-text text-white align-right">#304FFE</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-blue">
+                        <label class="card-text text-black">blue</label>
+                        <label class="card-text text-black align-right">#2196F3</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#E3F2FD</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#BBDEFB</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#90CAF9</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#64B5F6</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#42A5F5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-500">
+                        <label class="card-text text-black">500 | blue | primary</label>
+                        <label class="card-text text-black align-right">#2196F3</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#1E88E5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#1976D2</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#1565C0</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#0D47A1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#82B1FF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-a200">
+                        <label class="card-text text-white">a200</label>
+                        <label class="card-text text-white align-right">#448AFF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-a400">
+                        <label class="card-text text-white">a400</label>
+                        <label class="card-text text-white align-right">#2979FF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-a700">
+                        <label class="card-text text-white">a700</label>
+                        <label class="card-text text-white align-right">#2962FF</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-light-blue">
+                        <label class="card-text text-black">light-blue</label>
+                        <label class="card-text text-black align-right">#03A9F4</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#E1F5FE</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#B3E5FC</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#81D4FA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#4FC3F7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#29B6F6</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-500">
+                        <label class="card-text text-black">500 | light-blue</label>
+                        <label class="card-text text-black align-right">#03A9F4</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-600">
+                        <label class="card-text text-black">600</label>
+                        <label class="card-text text-black align-right">#039BE5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#0288D1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#0277BD</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#01579B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#80D8FF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#40C4FF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#00B0FF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-blue-a700">
+                        <label class="card-text text-white">a700</label>
+                        <label class="card-text text-white align-right">#0091EA</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-cyan">
+                        <label class="card-text text-black">cyan</label>
+                        <label class="card-text text-black align-right">#00BCD4</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#E0F7FA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#B2EBF2</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#80DEEA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#4DD0E1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#26C6DA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-500">
+                        <label class="card-text text-black">500 | cyan | info</label>
+                        <label class="card-text text-black align-right">#00BCD4</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-600">
+                        <label class="card-text text-black">600</label>
+                        <label class="card-text text-black align-right">#00ACC1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#0097A7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#00838F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#006064</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#84FFFF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#18FFFF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#00E5FF</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-cyan-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#00B8D4</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-teal">
+                        <label class="card-text text-white">teal</label>
+                        <label class="card-text text-white align-right">#009688</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#E0F2F1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#B2DFDB</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#80CBC4</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#4DB6AC</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#26A69A</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-500">
+                        <label class="card-text text-white">500 | teal</label>
+                        <label class="card-text text-white align-right">#009688</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#00897B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#00796B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#00695C</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#004D40</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#A7FFEB</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#64FFDA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#1DE9B6</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-teal-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#00BFA5</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-green">
+                        <label class="card-text text-black">green</label>
+                        <label class="card-text text-black align-right">#4CAF50</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#E8F5E9</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#C8E6C9</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#A5D6A7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#81C784</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#66BB6A</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-500">
+                        <label class="card-text text-black">500 | green | success</label>
+                        <label class="card-text text-black align-right">#4CAF50</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#43A047</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#388E3C</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#2E7D32</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#1B5E20</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#B9F6CA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#69F0AE</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#00E676</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-green-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#00C853</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-light-green">
+                        <label class="card-text text-black">light-green</label>
+                        <label class="card-text text-black align-right">#8BC34A</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#F1F8E9</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#DCEDC8</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#C5E1A5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#AED581</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#9CCC65</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-500">
+                        <label class="card-text text-black">500 | light-green</label>
+                        <label class="card-text text-black align-right">#8BC34A</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-600">
+                        <label class="card-text text-black">600</label>
+                        <label class="card-text text-black align-right">#7CB342</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-700">
+                        <label class="card-text text-black">700</label>
+                        <label class="card-text text-black align-right">#689F38</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#558B2F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#33691E</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#CCFF90</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#B2FF59</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#76FF03</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-light-green-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#64DD17</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-lime">
+                        <label class="card-text text-black">lime</label>
+                        <label class="card-text text-black align-right">#CDDC39</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#F9FBE7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#F0F4C3</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#E6EE9C</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#DCE775</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#D4E157</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-500">
+                        <label class="card-text text-black">500 | lime</label>
+                        <label class="card-text text-black align-right">#CDDC39</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-600">
+                        <label class="card-text text-black">600</label>
+                        <label class="card-text text-black align-right">#C0CA33</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-700">
+                        <label class="card-text text-black">700</label>
+                        <label class="card-text text-black align-right">#AFB42B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-800">
+                        <label class="card-text text-black">800</label>
+                        <label class="card-text text-black align-right">#9E9D24</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#827717</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#F4FF81</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#EEFF41</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#C6FF00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-lime-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#AEEA00</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-yellow">
+                        <label class="card-text text-black">yellow</label>
+                        <label class="card-text text-black align-right">#FFEB3B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#FFFDE7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#FFF9C4</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#FFF59D</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#FFF176</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#FFEE58</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-500">
+                        <label class="card-text text-black">500 | yellow</label>
+                        <label class="card-text text-black align-right">#FFEB3B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-600">
+                        <label class="card-text text-black">600</label>
+                        <label class="card-text text-black align-right">#FDD835</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-700">
+                        <label class="card-text text-black">700</label>
+                        <label class="card-text text-black align-right">#FBC02D</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-800">
+                        <label class="card-text text-black">800</label>
+                        <label class="card-text text-black align-right">#F9A825</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-900">
+                        <label class="card-text text-black">900</label>
+                        <label class="card-text text-black align-right">#F57F17</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#FFFF8D</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#FFFF00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#FFEA00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-yellow-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#FFD600</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-amber">
+                        <label class="card-text text-black">amber</label>
+                        <label class="card-text text-black align-right">#FFC107</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#FFF8E1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#FFECB3</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#FFE082</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#FFD54F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#FFCA28</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-500">
+                        <label class="card-text text-black">500 | amber | warning</label>
+                        <label class="card-text text-black align-right">#FFC107</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-600">
+                        <label class="card-text text-black">600</label>
+                        <label class="card-text text-black align-right">#FFB300</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-700">
+                        <label class="card-text text-black">700</label>
+                        <label class="card-text text-black align-right">#FFA000</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-800">
+                        <label class="card-text text-black">800</label>
+                        <label class="card-text text-black align-right">#FF8F00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-900">
+                        <label class="card-text text-black">900</label>
+                        <label class="card-text text-black align-right">#FF6F00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#FFE57F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#FFD740</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#FFC400</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-amber-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#FFAB00</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-orange">
+                        <label class="card-text text-black">orange</label>
+                        <label class="card-text text-black align-right">#FF9800</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#FFF3E0</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#FFE0B2</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#FFCC80</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#FFB74D</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#FFA726</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-500">
+                        <label class="card-text text-black">500 | orange</label>
+                        <label class="card-text text-black align-right">#FF9800</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-600">
+                        <label class="card-text text-black">600</label>
+                        <label class="card-text text-black align-right">#FB8C00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-700">
+                        <label class="card-text text-black">700</label>
+                        <label class="card-text text-black align-right">#F57C00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-800">
+                        <label class="card-text text-black">800</label>
+                        <label class="card-text text-black align-right">#EF6C00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#E65100</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#FFD180</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#FFAB40</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#FF9100</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-orange-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#FF6D00</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-deep-orange">
+                        <label class="card-text text-black">deep-orange</label>
+                        <label class="card-text text-black align-right">#FF5722</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#FBE9E7</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#FFCCBC</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#FFAB91</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#FF8A65</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#FF7043</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-500">
+                        <label class="card-text text-black">500 | deep-orange</label>
+                        <label class="card-text text-black align-right">#FF5722</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#F4511E</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#E64A19</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#D84315</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#BF360C</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-a100">
+                        <label class="card-text text-black">a100</label>
+                        <label class="card-text text-black align-right">#FF9E80</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-a200">
+                        <label class="card-text text-black">a200</label>
+                        <label class="card-text text-black align-right">#FF6E40</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-a400">
+                        <label class="card-text text-black">a400</label>
+                        <label class="card-text text-black align-right">#FF3D00</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-deep-orange-a700">
+                        <label class="card-text text-black">a700</label>
+                        <label class="card-text text-black align-right">#DD2C00</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-brown">
+                        <label class="card-text text-white">brown</label>
+                        <label class="card-text text-white align-right">#795548</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#EFEBE9</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#D7CCC8</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#BCAAA4</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-300">
+                        <label class="card-text text-white">300</label>
+                        <label class="card-text text-white align-right">#A1887F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-400">
+                        <label class="card-text text-white">400</label>
+                        <label class="card-text text-white align-right">#8D6E63</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-500">
+                        <label class="card-text text-white">500 | brown</label>
+                        <label class="card-text text-white align-right">#795548</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#6D4C41</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#5D4037</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#4E342E</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-brown-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#3E2723</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-grey">
+                        <label class="card-text text-black">grey</label>
+                        <label class="card-text text-black align-right">#9E9E9E</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-50">
+                        <label class="card-text text-black">50 | light</label>
+                        <label class="card-text text-black align-right">#FAFAFA</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#F5F5F5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#EEEEEE</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#E0E0E0</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-400">
+                        <label class="card-text text-black">400</label>
+                        <label class="card-text text-black align-right">#BDBDBD</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-500">
+                        <label class="card-text text-black">500 | grey | secondary</label>
+                        <label class="card-text text-black align-right">#9E9E9E</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#757575</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#616161</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#424242</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-grey-900">
+                        <label class="card-text text-white">900 | dark</label>
+                        <label class="card-text text-white align-right">#212121</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body color-main-header bg-blue-grey">
+                        <label class="card-text text-white">blue-grey</label>
+                        <label class="card-text text-white align-right">#607D8B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-50">
+                        <label class="card-text text-black">50</label>
+                        <label class="card-text text-black align-right">#ECEFF1</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-100">
+                        <label class="card-text text-black">100</label>
+                        <label class="card-text text-black align-right">#CFD8DC</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-200">
+                        <label class="card-text text-black">200</label>
+                        <label class="card-text text-black align-right">#B0BEC5</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-300">
+                        <label class="card-text text-black">300</label>
+                        <label class="card-text text-black align-right">#90A4AE</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-400">
+                        <label class="card-text text-white">400</label>
+                        <label class="card-text text-white align-right">#78909C</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-500">
+                        <label class="card-text text-white">500 | blue-grey</label>
+                        <label class="card-text text-white align-right">#607D8B</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-600">
+                        <label class="card-text text-white">600</label>
+                        <label class="card-text text-white align-right">#546E7A</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-700">
+                        <label class="card-text text-white">700</label>
+                        <label class="card-text text-white align-right">#455A64</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-800">
+                        <label class="card-text text-white">800</label>
+                        <label class="card-text text-white align-right">#37474F</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-blue-grey-900">
+                        <label class="card-text text-white">900</label>
+                        <label class="card-text text-white align-right">#263238</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col- form-group">
+                <div class="card ms-card">
+                    <div class="card-body bg-black">
+                        <label class="card-text text-white">black</label>
+                        <label class="card-text text-white align-right">#000000</label>
+                    </div>
+                </div>
+                <div class="card ms-card">
+                    <div class="card-body bg-white">
+                        <label class="card-text text-black">white</label>
+                        <label class="card-text text-black align-right">#FFFFFF</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

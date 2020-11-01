@@ -1,0 +1,47 @@
+<nav id="site-home-top-nav" class="navbar navbar-expand-sm fixed-top auto-hide raised-4dp bg-dark navbar-dark">
+    <div class="d-flex justify-content-center align-items-center">
+
+        {% if page.showSidebar != false %}
+        <i class="drawer-toggle material-icons text-white">&#xE5D2;</i>
+        {% endif %}
+
+        {% if page.version == 2.0 %}
+            {% assign home = "/" %}
+        {% else %}
+            {% capture home %} /docs/{{ page.version }} {% endcapture %}
+        {% endif %}
+
+        <a class="navbar-brand py-0 d-flex align-items-center" href="{{ home }}">
+            <img src="/assets/images/MSIconNewColorV2.svg" alt="Logo" style="width:40px; height:40px;">
+            <span class="text-white ml-1">Material Style</span>
+        </a>
+    </div>
+
+    <ul class="navbar-nav d-flex align-items-center">
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/docs/{{ page.version }}/getting-started/installation">Get Started</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/docs/{{ page.version }}/components/alert">Components</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="https://github.com/materialstyle/materialstyle">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <div class="dropdown">
+                <button class="btn btn-text-white dropdown-toggle" data-toggle="dropdown" aria-expanded="false" data-display="static" style="text-transform:none;">
+                    v{{ page.version }}
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" style="min-width:auto;">
+                    <li><a class="dropdown-item px-3" href="/">2.0</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a class="dropdown-item px-3" href="/docs/1.2/">1.2</a></li>
+                    <li><a class="dropdown-item px-3" href="/docs/1.1/">1.1</a></li>
+                    <li><a class="dropdown-item px-3" href="/docs/1.0/">1.0</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</nav>

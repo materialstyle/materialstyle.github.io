@@ -1,0 +1,494 @@
+---
+layout: 1
+title: Menu and Dropdown
+version: 1.2
+permalink: /docs/1.2/components/menu-and-dropdown/
+page: menu-and-dropdown
+---
+<div class="col single-page-container pb-4">
+    <div class="component-showcase">
+        <h1 id="m1">Menu</h1>
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button-container">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-indigo dropdown-toggle btn-ms ripple" data-toggle="dropdown">
+                                    Menu
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="javascript:">Link 1</a>
+                                    <a class="dropdown-item" href="javascript:">Link 2</a>
+                                    <a class="dropdown-item" href="javascript:">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Menu</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code1">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code1">
+                    <div class="code-container">
+{% highlight html %}
+<div class="form-group">
+    <div class="dropdown">
+        <button type="button" class="btn btn-indigo dropdown-toggle btn-ms ripple" data-toggle="dropdown">
+            Menu
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="javascript:">Link 1</a>
+            <a class="dropdown-item" href="javascript:">Link 2</a>
+            <a class="dropdown-item" href="javascript:">Link 3</a>
+        </div>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button-container" id="m2">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-ms btn-indigo ripple">Pineapple</button>
+                                <button type="button" class="btn btn-ms btn-indigo dropdown-toggle dropdown-toggle-split ripple" data-toggle="dropdown">
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="javascript:">Fruits</a>
+                                    <a class="dropdown-item" href="javascript:">Vegetables</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Split button menu</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code2">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code2">
+                    <div class="code-container">
+{% highlight html %}
+<div class="form-group">
+    <div class="btn-group">
+        <button type="button" class="btn btn-ms btn-indigo ripple">Pineapple</button>
+        <button type="button" class="btn btn-ms btn-indigo dropdown-toggle dropdown-toggle-split ripple"
+                data-toggle="dropdown">
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="javascript:">Fruits</a>
+            <a class="dropdown-item" href="javascript:">Vegetables</a>
+        </div>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-box-container" id="m3">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="form-group">
+                                <div class="ms-select">
+                                    <label class="floating-label">Cars</label>
+                                    <select class="form-control" name="car">
+                                        <option value=""></option>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3">Dodge</option>
+                                        <option value="4">Ferrari</option>
+                                        <option value="5">koenigsegg</option>
+                                        <option value="6">Lamborghini</option>
+                                        <option value="7">Pagani</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Select Box</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code3">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code3">
+                    <div class="code-container">
+{% highlight html %}
+<div class="form-group">
+    <div class="ms-select">
+        <label class="floating-label">Cars</label>
+        <select class="form-control" name="car">
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Dodge</option>
+            <option value="4">Ferrari</option>
+            <option value="5">koenigsegg</option>
+            <option value="6">Lamborghini</option>
+            <option value="7">Pagani</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-box-container" id="m4">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="form-group">
+                                <div class="ms-select primary-blue accent-pink">
+                                    <label class="floating-label">Cars</label>
+                                    <select class="form-control" name="car">
+                                        <option value=""></option>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3">Dodge</option>
+                                        <option value="4">Ferrari</option>
+                                        <option value="5">koenigsegg</option>
+                                        <option value="6">Lamborghini</option>
+                                        <option value="7">Pagani</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With primary and accent colors</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code4">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code4">
+                    <div class="code-container">
+{% highlight html %}
+<div class="form-group">
+    <div class="ms-select primary-blue accent-pink">
+        <label class="floating-label">Cars</label>
+        <select class="form-control" name="car">
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Dodge</option>
+            <option value="4">Ferrari</option>
+            <option value="5">koenigsegg</option>
+            <option value="6">Lamborghini</option>
+            <option value="7">Pagani</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-box-container" id="m5">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="form-group">
+                                <div class="ms-select searchable primary-blue accent-pink">
+                                    <label class="floating-label">Cars</label>
+                                    <select class="form-control" name="car">
+                                        <option value=""></option>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3">Dodge</option>
+                                        <option value="4">Ferrari</option>
+                                        <option value="5">koenigsegg</option>
+                                        <option value="6">Lamborghini</option>
+                                        <option value="7">Pagani</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Searchable</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code5">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code5">
+                    <div class="code-container">
+{% highlight html %}
+<div class="form-group">
+    <div class="ms-select searchable primary-blue accent-pink">
+        <label class="floating-label">Cars</label>
+        <select class="form-control" name="car">
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Dodge</option>
+            <option value="4">Ferrari</option>
+            <option value="5">koenigsegg</option>
+            <option value="6">Lamborghini</option>
+            <option value="7">Pagani</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-box-container" id="m6">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="form-group">
+                                <div class="ms-select searchable primary-blue accent-pink animate-left">
+                                    <label class="floating-label">Cars</label>
+                                    <select class="form-control" name="car">
+                                        <option value=""></option>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3">Dodge</option>
+                                        <option value="4">Ferrari</option>
+                                        <option value="5">koenigsegg</option>
+                                        <option value="6">Lamborghini</option>
+                                        <option value="7">Pagani</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With left to right animation</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code6">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code6">
+                    <div class="code-container">
+{% highlight html %}
+<div class="form-group">
+    <div class="ms-select searchable primary-blue accent-pink animate-left">
+        <label class="floating-label">Cars</label>
+        <select class="form-control" name="car">
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Dodge</option>
+            <option value="4">Ferrari</option>
+            <option value="5">koenigsegg</option>
+            <option value="6">Lamborghini</option>
+            <option value="7">Pagani</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-box-container" id="m7">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="form-group">
+                                <div class="ms-select searchable primary-blue accent-pink animate-right">
+                                    <label class="floating-label">Cars</label>
+                                    <select class="form-control" name="car">
+                                        <option value=""></option>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3">Dodge</option>
+                                        <option value="4">Ferrari</option>
+                                        <option value="5">koenigsegg</option>
+                                        <option value="6">Lamborghini</option>
+                                        <option value="7">Pagani</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>With right to left animation</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code7">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code7">
+                    <div class="code-container">
+{% highlight html %}
+<div class="form-group">
+    <div class="ms-select searchable primary-blue accent-pink animate-right">
+        <label class="floating-label">Cars</label>
+        <select class="form-control" name="car">
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Dodge</option>
+            <option value="4">Ferrari</option>
+            <option value="5">koenigsegg</option>
+            <option value="6">Lamborghini</option>
+            <option value="7">Pagani</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-box-container row" id="m8">
+                        <div class="offset-md-4 col-md-4">
+                            <div class="form-group">
+                                <div class="ms-select searchable multi-select accent-pink primary-blue-600">
+                                    <label class="floating-label">Cars</label>
+                                    <select name="cars[]" class="form-control" style="width: 100%;" multiple>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3" selected>Dodge</option>
+                                        <option value="4">Ferrari</option>
+                                        <option value="5" selected>koenigsegg</option>
+                                        <option value="6">Lamborghini</option>
+                                        <option value="7">Pagani</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label>Multi Select</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <btn class="btn btn-ms btn-pink btn-flat ripple" data-toggle="collapse" href="#code8">
+                        View Code
+                    </btn>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col collapse" id="code8">
+                    <div class="code-container">
+{% highlight html %}
+<div class="form-group">
+    <div class="ms-select searchable multi-select accent-pink primary-blue-600">
+        <label class="floating-label">Cars</label>
+        <select class="form-control" name="cars[]" multiple>
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3" selected>Dodge</option>
+            <option value="4">Ferrari</option>
+            <option value="5" selected>koenigsegg</option>
+            <option value="6">Lamborghini</option>
+            <option value="7">Pagani</option>
+        </select>
+    </div>
+</div>{% endhighlight %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component-map">
+        <div class="row">
+            <div class="col">
+                <div class="adspace bg-grey-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-grey-100 pt-1">
+                    <h4>On this page</h4>
+                    <ul class="nav flex-column this-page-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="m1">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="m2">Split button menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="m3">Select box</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="m4">Select box with primary and accent colors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="m5">Searchable select box</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="m6">Select box with left to right animation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="m7">Select box with right to left animation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:" data-link="m8">Multi select box</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
