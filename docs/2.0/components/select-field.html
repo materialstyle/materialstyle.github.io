@@ -1211,11 +1211,9 @@ page: select-field
                     <div class="code-container">
 {% highlight js %}
 <script>
-    $("#myModal").on('shown.bs.modal', function () {
-        // Rebuild Select Fields
-        $('.m-select').selectfield('rebuild');
-        $('.m-select-outline').selectfield('rebuild');
-    });
+    // Rebuild Select Fields
+    $('.m-select').selectfield('rebuild');
+    $('.m-select-outline').selectfield('rebuild');
 </script>{% endhighlight %}
                     </div>
                 </div>
