@@ -1,5 +1,5 @@
 <nav id="site-home-top-nav" class="ms-nav navbar navbar-expand-sm fixed-top auto-hide raised-4dp bg-dark navbar-dark">
-    <div class="d-flex flex-grow-1 align-items-center">
+    <div class="d-flex flex-grow-1 align-items-center" style="flex-grow:1;">
 
         {% if page.showSidebar != false %}
         <i class="ms-sidebar-toggle material-icons text-white">&#xE5D2;</i>
@@ -29,12 +29,12 @@
                 <button class="btn btn-white btn-flat btn-ms ripple dropdown-toggle px-1" data-toggle="dropdown" aria-expanded="false" data-display="static" style="text-transform:none;">
                     v{{ page.version }}
                 </button>
-                <ul class="dropdown-menu dropdown-menu-right" style="min-width:auto;">
-                    <li><a class="dropdown-item px-3" href="/">2.0</a></li>
+                <ul class="dropdown-menu dropdown-menu-right bg-dark" style="min-width: auto; position: absolute;">
+                    <li><a class="dropdown-item px-3 text-white bg-dark" href="/">2.0</a></li>
                     <div class="dropdown-divider"></div>
-                    <li><a class="dropdown-item px-3" href="/docs/1.2/">1.2</a></li>
-                    <li><a class="dropdown-item px-3" href="/docs/1.1/">1.1</a></li>
-                    <li><a class="dropdown-item px-3" href="/docs/1.0/">1.0</a></li>
+                    <li><a class="dropdown-item px-3 text-white bg-dark" href="/docs/1.2/">1.2</a></li>
+                    <li><a class="dropdown-item px-3 text-blue bg-dark" href="/docs/1.1/" style="cursor: pointer; pointer-events: none;"><b>1.1</b></a></li>
+                    <li><a class="dropdown-item px-3 text-white bg-dark" href="/docs/1.0/">1.0</a></li>
                 </ul>
             </div>
         </li>
