@@ -80,6 +80,10 @@
 
         $('#searchContainer').on('shown.bs.collapse', function () {
             $('#searchBox').focus();
-        })
+        });
+
+        $('#searchContainer').on('hide.bs.collapse', function () {
+            $('#searchBox').val('');
+        });
     })
 </script>
