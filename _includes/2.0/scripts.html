@@ -8,6 +8,8 @@
 
 <script src="https://unpkg.com/@materialstyle/materialstyle@2.0.2/dist/js/materialstyle.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+
 <script src="/assets/js/site.js"></script>
 
 <script>
@@ -67,5 +69,17 @@
         $('#show-toast').on('click', function(){
             $('.toast').toast('show');
         });
+
+        docsearch({
+            apiKey: '030593aaea3dc2b6c6bc27a3ac4ffd49',
+            indexName: 'materialstyle',
+            inputSelector: '#searchBox',
+            algoliaOptions: { 'facetFilters': ["version:2.0"] },
+            debug: false
+        });
+
+        $('#searchContainer').on('shown.bs.collapse', function () {
+            $('#searchBox').focus();
+        })
     })
 </script>

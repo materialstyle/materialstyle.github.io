@@ -25,13 +25,8 @@
             <a class="nav-link text-white" href="/docs/{{ page.version }}/components/alert">Components</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" href="https://github.com/materialstyle/materialstyle">
-                <i class="fab fa-github"></i>
-            </a>
-        </li>
-        <li class="nav-item">
             <div class="dropdown">
-                <button class="btn btn-white btn-flat btn-ms ripple dropdown-toggle" data-toggle="dropdown" aria-expanded="false" data-display="static" style="text-transform:none;">
+                <button class="btn btn-white btn-flat btn-ms ripple dropdown-toggle px-1" data-toggle="dropdown" aria-expanded="false" data-display="static" style="text-transform:none;">
                     v{{ page.version }}
                 </button>
                 <ul class="dropdown-menu dropdown-menu-right" style="min-width:auto;">
@@ -43,5 +38,14 @@
                 </ul>
             </div>
         </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" data-toggle="collapse" href="#searchContainer" role="button" aria-expanded="false" aria-controls="searchContainer">
+                <i class="fas fa-search"></i>
+            </a>
+        </li>
     </ul>
+
+    <div id="searchContainer" class="collapse">
+        <input id="searchBox" type="text" class="form-control bg-dark text-white" placeholder="Search">
+    </div>
 </nav>

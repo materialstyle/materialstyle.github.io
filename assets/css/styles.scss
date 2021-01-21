@@ -32,6 +32,7 @@ html, body {
   transform: translateY(0);
   transition: transform 300ms 300ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms 300ms;
   opacity: 1;
+  flex-wrap: wrap;
 
   .navbar-brand {
     font-size: 1rem;
@@ -636,3 +637,43 @@ pre, .highlight {
   margin: 0;
 }
 
+// Site Search
+.algolia-autocomplete {
+  width: 100%;
+
+  .ds-dropdown-menu {
+    width: 100%;
+    max-width:100%;
+    min-width: auto;
+  }
+
+  .algolia-docsearch-suggestion--highlight {
+    color: #FFEB3B !important;
+  }
+
+  .algolia-docsearch-suggestion--category-header, .algolia-docsearch-suggestion--title, .algolia-docsearch-suggestion--text {
+    color: #fff;
+  }
+
+  .ds-dropdown-menu:before, .ds-dropdown-menu [class^=ds-dataset-], .algolia-docsearch-suggestion {
+    background: #212121;
+  }
+
+  .ds-dropdown-menu:before, .algolia-docsearch-suggestion--category-header, .ds-dropdown-menu [class^=ds-dataset-] {
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+.algolia-autocomplete .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--category-header-lvl0 .algolia-docsearch-suggestion--highlight, .algolia-autocomplete .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--category-header-lvl1 .algolia-docsearch-suggestion--highlight, .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
+  box-shadow: inset 0 -2px 0 0 #FFEB3B !important;
+}
+
+#searchContainer {
+  flex-basis: 100%;
+}
+
+#searchBox {
+  border-radius: 0;
+  border: 2px solid #fff;
+}
