@@ -25,7 +25,11 @@
             indexName: 'materialstyle',
             inputSelector: '#searchBox',
             algoliaOptions: { 'facetFilters': ["version:1.0"] },
-            debug: false
+            debug: false,
+            handleSelected: function(input, event, suggestion, datasetNumber, context) {
+                $('#searchContainer').modal('hide');
+                location.href = suggestion.url;
+            }
         });
 
         $('#searchContainer').on('shown.bs.modal', function () {
