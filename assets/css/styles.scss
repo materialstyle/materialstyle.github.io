@@ -763,4 +763,7 @@ pre, .highlight {
   .modal-header .close {
     margin: -1rem auto;
   }
+  .modal-content {
+    border-radius: 0;
+  }
 }

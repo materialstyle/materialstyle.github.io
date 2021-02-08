@@ -28,12 +28,8 @@
             debug: false
         });
 
-        $('#searchContainer').on('shown.bs.collapse', function () {
+        $('#searchContainer').on('shown.bs.modal', function () {
             $('#searchBox').focus();
-        });
-
-        $('#searchContainer').on('hide.bs.collapse', function () {
-            $('#searchBox').val('');
         });
     });
 </script>
