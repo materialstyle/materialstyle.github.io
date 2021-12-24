@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description"
+          content="Material Style is an easy to use UI Library based on Bootstrap 4.5 that lets you add Material Design styles and animations to Bootstrap components.">
+    <meta name="theme-color" content="#212121"/>
+
+    <meta property="og:url"                content="https://materialstyle.github.io" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Material Style" />
+    <meta property="og:description"        content="Material Style is an easy to use UI Library based on Bootstrap 4.5 that lets you add Material Design styles and animations to Bootstrap components." />
+    <meta property="og:image"              content="https://materialstyle.github.io/assets/images/MSIconNewGreyBg.jpg" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+    {% include {{ page.version }}/styles.html %}
+</head>
+<body>
+
+{% include {{ page.version }}/navigation.html %}
+
+<section class="d-flex flex-nowrap">
+
+    {% if page.showSidebar != false %}
+        {% include {{ page.version }}/sidebar.html %}
+        <div class="m-container bg-grey-50 pb-0">
+    {% else %}
+        <div class="m-container home-container">
+    {% endif %}
+
+            {{ content }}
+
+        </div>
+</section>
+
+<button id="top-btn" type="button" class="btn btn-fab leaf-fab-inverted btn-blue">
+    <i class="material-icons">arrow_upward</i>
+</button>
+
+{% include {{ page.version }}/footer.html %}
+
+{% include {{ page.version }}/scripts.html %}
+
+</body>
+</html>

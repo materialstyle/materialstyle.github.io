@@ -1,9 +1,17 @@
-<nav id="site-home-top-nav" class="ms-nav navbar navbar-expand-sm fixed-top auto-hide raised-4dp bg-dark navbar-dark">
+<nav id="site-home-top-nav" class="navbar navbar-expand-sm fixed-top auto-hide shadow-4dp bg-dark navbar-dark">
+    <div class="container">
     <div class="d-flex flex-grow-1 align-items-center" style="flex-grow:1;">
-
-        {% if page.showSidebar != false %}
-        <i class="ms-sidebar-toggle material-icons text-white">&#xE5D2;</i>
-        {% endif %}
+        <div class="d-flex align-items-center">
+            {% if page.showSidebar != false %}
+            <button class="drawer-toggler me-2">
+                <span class="drawer-toggler-icon"></span>
+            </button>
+            {% endif %}
+            <a class="navbar-brand py-0 d-flex align-items-center" href="{{ home }}">
+                <img src="/assets/images/MSIconNewColorV2.svg" alt="Logo" style="width:40px; height:40px;">
+                <span class="text-white ml-1">Material Style</span>
+            </a>
+        </div>
 
         {% if page.version == 3.0 %}
             {% assign home = "/" %}
@@ -11,23 +19,18 @@
             {% capture home %} /docs/{{ page.version }} {% endcapture %}
         {% endif %}
 
-        <a class="navbar-brand py-0 d-flex align-items-center" href="{{ home }}">
-            <img src="/assets/images/MSIconNewColorV2.svg" alt="Logo" style="width:40px; height:40px;">
-            <span class="text-white ml-1">Material Style</span>
-        </a>
-
-        <div class="dropdown ml-auto">
-            <button class="btn btn-white btn-flat btn-ms ripple dropdown-toggle px-1" data-toggle="dropdown" aria-expanded="false" data-display="static" style="text-transform:none;">
+        <div class="dropdown ms-auto">
+            <button class="btn btn-text-white dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" data-display="static" style="text-transform:none;">
                 v{{ page.version }}
             </button>
-            <ul class="dropdown-menu dropdown-menu-right bg-dark" style="min-width: auto; position: absolute;">
-                <li><a class="dropdown-item px-3 text-white bg-dark" href="/">3.0</a></li>
+            <ul class="dropdown-menu bg-dark" style="min-width: auto; position: absolute;">
+                <li><a class="dropdown-item px-3 text-blue bg-dark" href="/" style="cursor: pointer; pointer-events: none;"><b>3.0</b></a></li>
                 <div class="dropdown-divider"></div>
                 <li><a class="dropdown-item px-3 text-white bg-dark" href="/docs/2.0/">2.0</a></li>
                 <div class="dropdown-divider"></div>
                 <li><a class="dropdown-item px-3 text-white bg-dark" href="/docs/1.2/">1.2</a></li>
                 <li><a class="dropdown-item px-3 text-white bg-dark" href="/docs/1.1/">1.1</a></li>
-                <li><a class="dropdown-item px-3 text-blue bg-dark" href="/docs/1.0/" style="cursor: pointer; pointer-events: none;"><b>1.0</b></a></li>
+                <li><a class="dropdown-item px-3 text-white bg-dark" href="/docs/1.0/">1.0</a></li>
             </ul>
         </div>
     </div>
@@ -50,6 +53,7 @@
             </a>
         </li>
     </ul>
+    </div>
 </nav>
 
 <div class="modal fade" id="searchContainer">
