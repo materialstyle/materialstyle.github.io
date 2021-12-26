@@ -42,6 +42,10 @@ $(function() {
         $(this).find('.copy-btn').html('<b>click</b> or <b>highlight</b> to copy');
     });
 
+    $('.this-page-links a').on('click', function(){
+        $('html, body').animate({scrollTop:$('#' + $(this).data('link')).offset().top - 120}, 500, 'swing');
+    });
+
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
     scrollFunction();
