@@ -48,6 +48,12 @@
         new materialstyle.Tab(tab)
     })
 
+    // Drawer
+    var drawers = [].slice.call(document.querySelectorAll('.drawer'))
+    var drawerList = drawers.map(function (drawer) {
+        return new materialstyle.Drawer(drawer)
+    })
+
     $(function () {
         $('.adspace').html('').hide();
 

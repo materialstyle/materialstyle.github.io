@@ -1,5 +1,5 @@
-<nav id="site-home-top-nav" class="navbar navbar-expand-sm fixed-top auto-hide shadow-4dp bg-dark navbar-dark">
-    <div class="container">
+<nav id="site-home-top-nav" class="navbar navbar-expand-sm fixed-top auto-hide shadow-4dp {% if page.showSidebar != false %} bg-purple {% else %} bg-dark {% endif %} navbar-dark">
+    <div class="container-fluid">
     <div class="d-flex flex-grow-1 align-items-center" style="flex-grow:1;">
         <div class="d-flex align-items-center">
             {% if page.showSidebar != false %}
@@ -7,17 +7,18 @@
                 <span class="drawer-toggler-icon"></span>
             </button>
             {% endif %}
+
+            {% if page.version == 3.0 %}
+                {% assign home = "/" %}
+            {% else %}
+                {% capture home %} /docs/{{ page.version }} {% endcapture %}
+            {% endif %}
+
             <a class="navbar-brand py-0 d-flex align-items-center" href="{{ home }}">
                 <img src="/assets/images/MSIconNewColorV2.svg" alt="Logo" style="width:40px; height:40px;">
                 <span class="text-white ml-1">Material Style</span>
             </a>
         </div>
-
-        {% if page.version == 3.0 %}
-            {% assign home = "/" %}
-        {% else %}
-            {% capture home %} /docs/{{ page.version }} {% endcapture %}
-        {% endif %}
 
         <div class="dropdown ms-auto">
             <button class="btn btn-text-white dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" data-display="static" style="text-transform:none;">

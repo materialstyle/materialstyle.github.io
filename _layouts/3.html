@@ -22,25 +22,29 @@
 
 {% include {{ page.version }}/navigation.html %}
 
-<section class="d-flex flex-nowrap">
+<section class="m-root bg-white">
 
     {% if page.showSidebar != false %}
         {% include {{ page.version }}/sidebar.html %}
-        <div class="m-container bg-grey-50 pb-0">
+        <div class="m-container py-4">
+            <div class="container">
     {% else %}
         <div class="m-container home-container">
     {% endif %}
 
             {{ content }}
 
+            {% if page.showSidebar != false %}
+            </div>
+            {% endif %}
+
+            {% include {{ page.version }}/footer.html %}
         </div>
 </section>
 
 <button id="top-btn" type="button" class="btn btn-fab leaf-fab-inverted btn-blue">
     <i class="material-icons">arrow_upward</i>
 </button>
-
-{% include {{ page.version }}/footer.html %}
 
 {% include {{ page.version }}/scripts.html %}
 

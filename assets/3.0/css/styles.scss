@@ -47,30 +47,18 @@ html, body {
   opacity: 0;
 }
 
-.site-sidebar {
-  .nav-item:hover {
-    background: #FFF !important;
-  }
-  .nav-link {
-    padding: .3rem 1rem;
-    &:hover {
-      font-weight: bold;
-    }
-  }
+.site-drawer {
   .nav-link.active {
-    background-color: #E3F2FD;
-    color: #0D47A1 !important;
-    font-weight: bold;
+    background-color: #D1C4E9;
   }
   .list-heading {
-    padding: .3rem 1rem;
+    padding: .5rem 1rem;
   }
-  .sidebar-brand {
-    font-size: 1rem;
+  .drawer-brand {
+    font-size: 1rem !important;
     text-transform: uppercase;
     font-family: "Roboto Mono", monospace;
     font-weight: 500;
-    border-bottom: 1px solid #e9ecef;
   }
 }
 
