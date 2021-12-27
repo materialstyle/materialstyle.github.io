@@ -28,6 +28,12 @@
         new materialstyle.Ripple(button)
     })
 
+    // Initialize File Input
+    var fileInputList = [].slice.call(document.querySelectorAll('.m-file-input'))
+    fileInputList.map(function (button) {
+      new materialstyle.FileInput(button)
+    })
+
     // Text Field
     var textFieldList = [].slice.call(document.querySelectorAll('.form-floating'))
     var textFields = textFieldList.map(function (textField) {
