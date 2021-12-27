@@ -379,12 +379,6 @@ h1, h2, h3, h4, h5 {
   font-weight: bold
 }
 
-.image-list {
-  .image-list-item {
-    width: 300px;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .component-page {
     -ms-flex-wrap: wrap-reverse;
