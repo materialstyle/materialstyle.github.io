@@ -5,391 +5,317 @@ version: 3.0
 permalink: /docs/3.0/components/card/
 page: card
 ---
-<div class="col component-page pb-4">
-    <div class="component-showcase">
-        <h1 id="c1">Card</h1>
+<div class="component-page">
+  <div class="component-showcase">
+    <h1 id="card">Card</h1>
 
-        <div class="component-wrapper">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card-container">
+    <div class="border mb-4">
+      <div class="p-4 d-flex justify-content-center">
+        <div class="card bg-purple bg-opacity-10 m-3" style="max-width:400px">
+          <div class="card-body">
+            <h4 class="card-title text-purple">Unlimited Music</h4>
+            <p class="card-text">
+              Listen to your favourite artists and albums whenever wherever online
+              and offline
+            </p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center flex-wrap p-2">
+            <button type="button" class="btn btn-text-purple">
+              Listen Now
+            </button>
 
-                        <div class="card" style="width:400px">
-                            <div class="card-body">
-                                <h4 class="card-title text-indigo">Unlimited Music</h4>
-                                <p class="card-text mx-0">
-                                    Listen to your favourite artists and albums whenever wherever online
-                                    and offline
-                                </p>
-                            </div>
-                            <div class="card-actions">
-                                <div class="card-buttons">
-                                    <button type="button" class="btn btn-text-indigo">
-                                        Listen Now
-                                    </button>
-                                </div>
-                                <div class="card-icons">
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">favorite_border</i>
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">share</i>
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">more_vert</i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="description-container">
-                        <label>Card</label>
-                    </div>
-                </div>
+            <div>
+              <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+                <i class="bi bi-heart-fill"></i>
+              </button>
+              <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+                <i class="bi bi-share-fill"></i>
+              </button>
+              <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+                <i class="bi bi-three-dots-vertical"></i>
+              </button>
             </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code1">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code1">
-                    <div class="code-container">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end">
+        <btn class="btn btn-text-purple rounded-0" data-bs-toggle="collapse" href="#code1">
+          &lt;CODE&gt;
+        </btn>
+      </div>
+      <div class="collapse" id="code1">
+        <div class="code-container">
 {% highlight html %}
-<div class="card" style="width:400px">
-    <div class="card-body">
-        <h4 class="card-title text-indigo">Unlimited Music</h4>
-        <p class="card-text">
-            Listen to your favourite artists and albums whenever wherever online
-            and offline
-        </p>
+<div class="card bg-purple bg-opacity-10 m-3" style="max-width:400px">
+  <div class="card-body">
+    <h4 class="card-title text-purple">Unlimited Music</h4>
+    <p class="card-text">
+      Listen to your favourite artists and albums whenever wherever online
+      and offline
+    </p>
+  </div>
+  <div class="d-flex justify-content-between align-items-center flex-wrap p-2">
+    <button type="button" class="btn btn-text-purple">
+      Listen Now
+    </button>
+
+    <div>
+      <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+        <i class="bi bi-heart-fill"></i>
+      </button>
+      <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+        <i class="bi bi-share-fill"></i>
+      </button>
+      <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+        <i class="bi bi-three-dots-vertical"></i>
+      </button>
     </div>
-    <div class="card-actions">
-        <div class="card-buttons">
-            <button type="button" class="btn btn-text-indigo">
-                Listen Now
-            </button>
-        </div>
-        <div class="card-icons">
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">favorite_border</i>
-            </button>
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">share</i>
-            </button>
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">more_vert</i>
-            </button>
-        </div>
-    </div>
+  </div>
 </div>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
         </div>
+      </div>
+    </div>
 
-        <div class="component-wrapper">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card-container" id="c2">
+    <h2 id="with-border">With border</h2>
+    <div class="border mb-4">
+      <div class="p-4 d-flex justify-content-center">
+        <div class="card border border-purple m-3" style="max-width:400px">
+          <div class="card-body">
+            <h4 class="card-title text-purple">Unlimited Music</h4>
+            <p class="card-text">
+              Listen to your favourite artists and albums whenever wherever online
+              and offline
+            </p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center flex-wrap p-2">
+            <button type="button" class="btn btn-text-purple">
+              Listen Now
+            </button>
 
-                        <div class="card card-outline-indigo" style="width:400px">
-                            <div class="card-body">
-                                <h4 class="card-title text-indigo">Unlimited Music</h4>
-                                <p class="card-text mx-0">
-                                    Listen to your favourite artists and albums whenever wherever online
-                                    and offline
-                                </p>
-                            </div>
-                            <div class="card-actions">
-                                <div class="card-buttons">
-                                    <button type="button" class="btn btn-text-indigo">
-                                        Listen Now
-                                    </button>
-                                </div>
-                                <div class="card-icons">
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">favorite_border</i>
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">share</i>
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">more_vert</i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="description-container">
-                        <label>Outlined Card</label>
-                    </div>
-                </div>
+            <div>
+              <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+                <i class="bi bi-heart-fill"></i>
+              </button>
+              <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+                <i class="bi bi-share-fill"></i>
+              </button>
+              <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+                <i class="bi bi-three-dots-vertical"></i>
+              </button>
             </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code2">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code2">
-                    <div class="code-container">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end">
+        <btn class="btn btn-text-purple rounded-0" data-bs-toggle="collapse" href="#code2">
+          &lt;CODE&gt;
+        </btn>
+      </div>
+      <div class="collapse" id="code2">
+        <div class="code-container">
 {% highlight html %}
-<div class="card card-outline-indigo" style="width:400px">
-    <div class="card-body">
-        <h4 class="card-title text-indigo">Unlimited Music</h4>
-        <p class="card-text">
-            Listen to your favourite artists and albums whenever wherever online
-            and offline
-        </p>
+<div class="card border border-purple m-3" style="max-width:400px">
+  <div class="card-body">
+    <h4 class="card-title text-purple">Unlimited Music</h4>
+    <p class="card-text">
+      Listen to your favourite artists and albums whenever wherever online
+      and offline
+    </p>
+  </div>
+  <div class="d-flex justify-content-between align-items-center flex-wrap p-2">
+    <button type="button" class="btn btn-text-purple">
+      Listen Now
+    </button>
+
+    <div>
+      <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+        <i class="bi bi-heart-fill"></i>
+      </button>
+      <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+        <i class="bi bi-share-fill"></i>
+      </button>
+      <button type="button" class="btn btn-fab mini-fab btn-purple m-1">
+        <i class="bi bi-three-dots-vertical"></i>
+      </button>
     </div>
-    <div class="card-actions">
-        <div class="card-buttons">
-            <button type="button" class="btn btn-text-indigo">
-                Listen Now
-            </button>
-        </div>
-        <div class="card-icons">
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">favorite_border</i>
-            </button>
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">share</i>
-            </button>
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">more_vert</i>
-            </button>
-        </div>
-    </div>
+  </div>
 </div>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
         </div>
+      </div>
+    </div>
 
-        <div class="component-wrapper">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card-container" id="c3">
-
-                        <div class="card" style="width: 400px;">
-                            <img class="card-img-top lazy" src="/assets/images/default.jpg" data-src="/assets/images/suv.jpg" data-srcset="/assets/images/suv.jpg" alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title">SUV</h4>
-                                <p class="card-text text-grey-700 mx-0">
-                                    An SUV is a powerful vehicle with four-wheel drive that can be
-                                    driven over rough ground. SUV is an abbreviation for 'sport utility
-                                    vehicle'.
-                                </p>
-                            </div>
-                            <div class="card-actions">
-                                <div class="card-buttons">
-                                    <button type="button" class="btn btn-text-indigo">Read</button>
-                                    <button type="button" class="btn btn-text-indigo">Bookmark</button>
-                                </div>
-                                <div class="card-icons">
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">favorite_border</i>
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">share</i>
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">more_vert</i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="description-container">
-                        <label>Card with image</label>
-                    </div>
-                </div>
+    <h2 id="with-image">With image</h2>
+    <div class="border mb-4">
+      <div class="p-4 d-flex justify-content-center">
+        <div class="card bg-indigo bg-opacity-10 m-3" style="max-width: 400px;">
+          <img class="card-img-top lazy" src="/assets/images/default.jpg" data-src="/assets/images/suv.jpg" data-srcset="/assets/images/suv.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">SUV</h4>
+            <p class="card-text">
+              An SUV is a powerful vehicle with four-wheel drive that can be
+              driven over rough ground. SUV is an abbreviation for 'sport utility
+              vehicle'.
+            </p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center flex-wrap p-2">
+            <div>
+              <button type="button" class="btn btn-text-indigo">Read</button>
+              <button type="button" class="btn btn-text-indigo">Bookmark</button>
             </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code3">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
+            <div>
+              <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+                <i class="bi bi-heart-fill"></i>
+              </button>
+              <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+                <i class="bi bi-share-fill"></i>
+              </button>
+              <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+                <i class="bi bi-three-dots-vertical"></i>
+              </button>
             </div>
-            <div class="row">
-                <div class="col collapse" id="code3">
-                    <div class="code-container">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end">
+        <btn class="btn btn-text-purple rounded-0" data-bs-toggle="collapse" href="#code3">
+          &lt;CODE&gt;
+        </btn>
+      </div>
+      <div class="collapse" id="code3">
+        <div class="code-container">
 {% highlight html %}
-<div class="card" style="width: 400px;">
-    <img class="card-img-top" src="/assets/images/default.jpg" alt="Card image">
-    <div class="card-body">
-        <h4 class="card-title">SUV</h4>
-        <p class="card-text text-grey-700">
-            An SUV is a powerful vehicle with four-wheel drive that can be
-            driven over rough ground. SUV is an abbreviation for 'sport utility
-            vehicle'.
-        </p>
+<div class="card bg-indigo bg-opacity-10 m-3" style="max-width: 400px;">
+  <img class="card-img-top" src="https://materialstyle.github.io/assets/images/suv.jpg" alt="Card image"/>
+  <div class="card-body">
+    <h4 class="card-title">SUV</h4>
+    <p class="card-text">
+      An SUV is a powerful vehicle with four-wheel drive that can be
+      driven over rough ground. SUV is an abbreviation for 'sport utility
+      vehicle'.
+    </p>
+  </div>
+  <div class="d-flex justify-content-between align-items-center flex-wrap p-2">
+    <div>
+      <button type="button" class="btn btn-text-indigo">Read</button>
+      <button type="button" class="btn btn-text-indigo">Bookmark</button>
     </div>
-    <div class="card-actions">
-        <div class="card-buttons">
-            <button type="button" class="btn btn-text-indigo">Read</button>
-            <button type="button" class="btn btn-text-indigo">Bookmark</button>
-        </div>
-        <div class="card-icons">
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">favorite_border</i>
-            </button>
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">share</i>
-            </button>
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">more_vert</i>
-            </button>
-        </div>
+    <div>
+      <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+        <i class="bi bi-heart-fill"></i>
+      </button>
+      <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+        <i class="bi bi-share-fill"></i>
+      </button>
+      <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+        <i class="bi bi-three-dots-vertical"></i>
+      </button>
     </div>
+  </div>
 </div>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
         </div>
+      </div>
+    </div>
 
-        <div class="component-wrapper">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card-container" id="c4">
-
-                        <div class="card" style="width:400px">
-                            <img class="card-img-top lazy" src="/assets/images/default.jpg" data-src="/assets/images/butterfly.jpg" data-srcset="/assets/images/butterfly.jpg" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-white">Butterfly</h4>
-                                <p class="card-text text-white mx-0">
-                                    There is nothing in a caterpillar that tells you it's going to be a butterfly.
-                                </p>
-                            </div>
-                            <div class="card-actions">
-                                <div class="card-buttons">
-                                    <button type="button" class="btn btn-text-indigo">Read</button>
-                                    <button type="button" class="btn btn-text-indigo">Bookmark</button>
-                                </div>
-                                <div class="card-icons">
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">favorite_border</i>
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">share</i>
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                                        <i class="material-icons">more_vert</i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="description-container">
-                        <label>Card with image overlay</label>
-                    </div>
-                </div>
+    <h2 id="with-image-overlay">With image overlay</h2>
+    <div class="border mb-4">
+      <div class="p-4 d-flex justify-content-center">
+        <div class="card m-3" style="max-width:400px">
+          <img class="card-img-top lazy" src="/assets/images/default.jpg" data-src="/assets/images/butterfly.jpg" data-srcset="/assets/images/butterfly.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <h4 class="card-title text-white">Butterfly</h4>
+            <p class="card-text text-white">
+              There is nothing in a caterpillar that tells you it's going to be a
+              butterfly.
+            </p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center flex-wrap p-2 bg-yellow bg-opacity-10">
+            <div>
+              <button type="button" class="btn btn-text-red">Read</button>
+              <button type="button" class="btn btn-text-red">Bookmark</button>
             </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code4">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
+            <div>
+              <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+                <i class="bi bi-heart-fill"></i>
+              </button>
+              <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+                <i class="bi bi-share-fill"></i>
+              </button>
+              <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+                <i class="bi bi-three-dots-vertical"></i>
+              </button>
             </div>
-            <div class="row">
-                <div class="col collapse" id="code4">
-                    <div class="code-container">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end">
+        <btn class="btn btn-text-purple rounded-0" data-bs-toggle="collapse" href="#code4">
+          &lt;CODE&gt;
+        </btn>
+      </div>
+      <div class="collapse" id="code4">
+        <div class="code-container">
 {% highlight html %}
-<div class="card" style="width:400px">
-    <img class="card-img-top" src="/assets/images/default.jpg" alt="Card image">
-    <div class="card-img-overlay">
-        <h4 class="card-title text-white">Butterfly</h4>
-        <p class="card-text text-white">
-            There is nothing in a caterpillar that tells you it's going to be a butterfly.
-        </p>
+<div class="card m-3" style="max-width:400px">
+  <img class="card-img-top" src="https://materialstyle.github.io/assets/images/butterfly.jpg"
+       alt="Card image"/>
+  <div class="card-img-overlay">
+    <h4 class="card-title text-white">Butterfly</h4>
+    <p class="card-text text-white">
+      There is nothing in a caterpillar that tells you it's going to be a
+      butterfly.
+    </p>
+  </div>
+  <div class="d-flex justify-content-between align-items-center flex-wrap p-2 bg-yellow bg-opacity-10">
+    <div>
+      <button type="button" class="btn btn-text-red">Read</button>
+      <button type="button" class="btn btn-text-red">Bookmark</button>
     </div>
-    <div class="card-actions">
-        <div class="card-buttons">
-            <button type="button" class="btn btn-text-indigo">Read</button>
-            <button type="button" class="btn btn-text-indigo">Bookmark</button>
-        </div>
-        <div class="card-icons">
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">favorite_border</i>
-            </button>
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">share</i>
-            </button>
-            <button type="button"
-                    class="btn btn-fab mini-fab btn-light m-1 unelevated">
-                <i class="material-icons">more_vert</i>
-            </button>
-        </div>
+    <div>
+      <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+        <i class="bi bi-heart-fill"></i>
+      </button>
+      <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+        <i class="bi bi-share-fill"></i>
+      </button>
+      <button type="button" class="btn btn-fab mini-fab btn-text-dark m-1">
+        <i class="bi bi-three-dots-vertical"></i>
+      </button>
     </div>
+  </div>
 </div>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <div class="component-map">
-        <div class="row">
-            <div class="col">
-                <div class="adspace bg-grey-100">
+  <div class="component-map">
+    <div class="row">
+      <div class="col">
+        <div class="adspace bg-grey-100">
 
-                </div>
-            </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="bg-grey-100 pt-1">
-                    <h4>On this page</h4>
-                    <ul class="nav flex-column this-page-links">
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="c1">Card</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="c2">Outlined Card</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="c3">Card with image</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="c4">Card with image overlay</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <div class="pt-1">
+          <h4>On this page</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#card">Card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#with-border">With border</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#with-image">With image</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#with-image-overlay">With image overlay</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
