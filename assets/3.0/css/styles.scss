@@ -14,7 +14,7 @@ html {
 }
 
 html, body {
-  background: #EEEEEE;
+  background: #f8f9fa;
 }
 
 .version-selector .selected-item {
@@ -33,13 +33,13 @@ html, body {
   transition: transform 300ms 300ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms 300ms;
   opacity: 1;
   flex-wrap: wrap;
+}
 
-  .navbar-brand {
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 500;
-  }
+.navbar-brand, .drawer-brand, .footer-brand {
+  font-size: 1rem !important;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
 }
 
 #site-home-top-nav.hide {
@@ -53,12 +53,6 @@ html, body {
   }
   .list-heading {
     padding: .5rem 1rem;
-  }
-  .drawer-brand {
-    font-size: 1rem !important;
-    text-transform: uppercase;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 500;
   }
 }
 
@@ -98,14 +92,6 @@ h1, h2, h3, h4, h5 {
   padding: 10px;
   label {
     margin: 0;
-  }
-}
-
-.footer {
-  padding: 10px;
-  //border-top: 2px solid #1E88E5;
-  h2, h4 {
-    font-weight: 300;
   }
 }
 
