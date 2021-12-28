@@ -5,308 +5,229 @@ version: 3.0
 permalink: /docs/3.0/components/popover/
 page: popover
 ---
-<div class="col component-page pb-4">
-    <div class="component-showcase">
-        <h1 id="pop1">Popover</h1>
+<div class="component-page">
+  <div class="component-showcase">
+    <h1 id="popover">Popover</h1>
 
-        <div class="media bg-pink-50 align-items-center mb-3">
-            <div class="bg-pink-100 p-3 d-flex align-self-stretch align-items-center">
-                <span style="font-size: 2em;">
-                    <i class="fas fa-ghost text-pink-600"></i>
-                </span>
-            </div>
-            <div class="media-body p-3 d-flex flex-column justify-content-center">
-                <p class="m-0">
-                    Required Javascript for this component is at the end of this page.
-                </p>
-            </div>
-        </div>
+    <div class="d-flex align-items-center bg-info bg-opacity-25 mb-4">
+      <div class="flex-shrink-0 bg-info p-3">
+        <i class="bi bi-info-circle-fill"></i>
+      </div>
+      <div class="flex-grow-1 p-3">
+        Required Javascript for this component is at the end of this page.
+      </div>
+    </div>
 
-        <div class="component-wrapper">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="button-container">
-                        <a href="javascript:" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>On a Link</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code1">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code1">
-                    <div class="code-container">
+    <div class="border mb-4">
+      <div class="p-4 text-center">
+        <a href="#" data-bs-toggle="popover" title="Popover Header"
+           data-bs-content="Some content inside the Popover">
+          Popover Link
+        </a>
+      </div>
+      <div class="p-4 text-center">
+        <button type="button" class="btn btn-purple" data-bs-toggle="popover"
+                title="Popover Header" data-bs-content="Some content inside the Popover">
+          Popover Button
+        </button>
+      </div>
+      <div class="d-flex justify-content-end">
+        <btn class="btn btn-text-purple rounded-0" data-bs-toggle="collapse" href="#code1">
+          &lt;CODE&gt;
+        </btn>
+      </div>
+      <div class="collapse" id="code1">
+        <div class="code-container">
 {% highlight html %}
-<!-- Popover on a Link -->
-<a href="#" data-toggle="popover" title="Popover Header"
-   data-content="Some content inside the popover">
-    Toggle popover
+<a href="#" data-bs-toggle="popover" title="Popover Header"
+   data-bs-content="Some content inside the Popover">
+  Popover Link
 </a>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
         </div>
-
-        <div class="component-wrapper" id="pop2">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="button-container">
-                        <button type="button" class="btn btn-ms btn-blue-600 ripple" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">
-                            Toggle Popover
-                        </button>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>On a Button</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code2">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code2">
-                    <div class="code-container">
+        <div class="code-container">
 {% highlight html %}
-<!-- Popover on a Button -->
-<button type="button" class="btn btn-ms btn-blue-600 ripple" data-toggle="popover"
-    title="Popover Header" data-content="Some content inside the popover">
-    Toggle popover
+<button type="button" class="btn btn-purple" data-bs-toggle="popover"
+        title="Popover Header" data-bs-content="Some content inside the Popover">
+  Popover Button
 </button>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
         </div>
+      </div>
+    </div>
 
-        <div class="component-wrapper" id="pop3">
-            <h3>Positioning Popovers</h3>
-            <p>
-                Use the <span class="text-pink">data-placement</span> attribute to set the position of the popover on top,
-                bottom, left or the right side of the element
-            </p>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="button-container">
-                        <a href="javascript:" data-toggle="popover" data-placement="top" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Top</label>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="button-container">
-                        <a href="javascript:" data-toggle="popover" data-placement="right" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Right</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="button-container">
-                        <a href="javascript:" data-toggle="popover" data-placement="left" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Left</label>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="button-container">
-                        <a href="javascript:" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Bottom</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code3">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code3">
-                    <div class="code-container">
+    <h2 id="placement">Placement</h2>
+    <div class="border mb-4">
+      <div class="p-4 text-center">
+        <button type="button" class="btn btn-purple m-2" data-bs-toggle="popover"
+                data-bs-placement="top" title="Popover Header"
+                data-bs-content="Some content inside the Popover">
+          Top
+        </button>
+        <button type="button" class="btn btn-purple m-2" data-bs-toggle="popover"
+                data-bs-placement="right" title="Popover Header"
+                data-bs-content="Some content inside the Popover">
+          Right
+        </button>
+        <button type="button" class="btn btn-purple m-2" data-bs-toggle="popover"
+                data-bs-placement="bottom" title="Popover Header"
+                data-bs-content="Some content inside the Popover">
+          Bottom
+        </button>
+        <button type="button" class="btn btn-purple m-2" data-bs-toggle="popover"
+                data-bs-placement="left" title="Popover Header"
+                data-bs-content="Some content inside the Popover">
+          Left
+        </button>
+      </div>
+      <div class="d-flex justify-content-end">
+        <btn class="btn btn-text-purple rounded-0" data-bs-toggle="collapse" href="#code2">
+          &lt;CODE&gt;
+        </btn>
+      </div>
+      <div class="collapse" id="code2">
+        <div class="code-container">
 {% highlight html %}
-<!-- Popover Top -->
-<a href="#" data-toggle="popover" data-placement="top"
-   title="Popover Header" data-content="Some content inside the popover">
-    Toggle popover
-</a>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Popover Right -->
-<a href="#" data-toggle="popover" data-placement="right"
-   title="Popover Header" data-content="Some content inside the popover">
-    Toggle popover
-</a>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Popover Left -->
-<a href="#" data-toggle="popover" data-placement="left"
-   title="Popover Header" data-content="Some content inside the popover">
-    Toggle popover
-</a>{% endhighlight %}
-                    </div>
-                    <div class="code-container">
-{% highlight html %}
-<!-- Popover Bottom -->
-<a href="#" data-toggle="popover" data-placement="bottom"
-   title="Popover Header" data-content="Some content inside the popover">
-    Toggle popover
-</a>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
+<button type="button" class="btn btn-purple m-2" data-bs-toggle="popover"
+        data-bs-placement="top" title="Popover Header"
+        data-bs-content="Some content inside the Popover">
+  Top
+</button>{% endhighlight %}
         </div>
-
-        <div class="component-wrapper" id="pop4">
-            <h3>Closing Popovers</h3>
-            <p>
-                By default, the popover is closed when you click on the element again. However, you can use the
-                <span class="text-pink">data-trigger="focus"</span> attribute which will close the popover when clicking
-                outside the element
-            </p>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="button-container">
-                        <a href="javascript:" data-toggle="popover" data-trigger="focus" title="Dismissible Popover"
-                           data-content="Click anywhere in the document to close this popover">Toggle popover</a>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Dismissible Popover</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code4">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code4">
-                    <div class="code-container">
+        <div class="code-container">
 {% highlight html %}
-<!-- Dismissible Popover -->
-<a href="#" data-toggle="popover" data-trigger="focus" title="Dismissible Popover"
-   data-content="Click anywhere in the document to close this popover">
-    Toggle popover
-</a>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
+<button type="button" class="btn btn-purple m-2" data-bs-toggle="popover"
+        data-bs-placement="right" title="Popover Header"
+        data-bs-content="Some content inside the Popover">
+  Right
+</button>{% endhighlight %}
         </div>
-
-        <div class="component-wrapper" id="pop5">
-            <h3>Popover on hover</h3>
-            <p>
-                If you want the popover to be displayed when you move the mouse pointer over the
-                element, use the <span class="text-pink">data-trigger</span> attribute with a value of
-                <span class="text-pink">"hover"</span>
-            </p>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="button-container">
-                        <a href="javascript:" data-toggle="popover" data-trigger="hover" title="Popover Header"
-                           data-content="Some content inside the popover">Toggle popover</a>
-                    </div>
-                    <div class="multi-col-description-container">
-                        <label>Popover on Hover</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-end">
-                    <btn class="btn btn-sm btn-text-grey-600 rounded-0" data-toggle="collapse" href="#code5">
-                        &lt;Code&gt;
-                    </btn>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col collapse" id="code5">
-                    <div class="code-container">
+        <div class="code-container">
 {% highlight html %}
-<!-- Showing popovers on Hover -->
-<a href="#" data-toggle="popover" data-trigger="hover" title="Popover on Hover"
-   data-content="Click anywhere in the document to close this popover">
-    Toggle popover
-</a>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
+<button type="button" class="btn btn-purple m-2" data-bs-toggle="popover"
+        data-bs-placement="bottom" title="Popover Header"
+        data-bs-content="Some content inside the Popover">
+  Bottom
+</button>{% endhighlight %}
         </div>
+        <div class="code-container">
+{% highlight html %}
+<button type="button" class="btn btn-purple m-2" data-bs-toggle="popover"
+        data-bs-placement="left" title="Popover Header"
+        data-bs-content="Some content inside the Popover">
+  Left
+</button>{% endhighlight %}
+        </div>
+      </div>
+    </div>
 
-        <div class="component-wrapper">
-            <h3 id="pop6">Javascript</h3>
-            <div class="row">
-                <div class="col">
-                    <div class="code-container">
+    <h2 id="dismissible">Dismissible</h2>
+    <div class="border mb-4">
+      <div class="p-4 text-center">
+        <a href="#" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible Popover"
+           data-bs-content="Click anywhere in the document to close this Popover">
+          Dismissible Popover
+        </a>
+      </div>
+      <div class="d-flex justify-content-end">
+        <btn class="btn btn-text-purple rounded-0" data-bs-toggle="collapse" href="#code3">
+          &lt;CODE&gt;
+        </btn>
+      </div>
+      <div class="collapse" id="code3">
+        <div class="code-container">
+{% highlight html %}
+<a href="#" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible Popover"
+   data-bs-content="Click anywhere in the document to close this Popover">
+  Dismissible Popover
+</a>{% endhighlight %}
+        </div>
+      </div>
+    </div>
+
+    <h2 id="toggle-on-hover">Toggle on hover</h2>
+    <div class="border mb-4">
+      <div class="p-4 text-center">
+        <a href="#" data-bs-toggle="popover" data-bs-trigger="hover" title="Popover on Hover"
+           data-bs-content="Move away from the link to hide this Popover">
+          Toggle Popover on hover
+        </a>
+      </div>
+      <div class="d-flex justify-content-end">
+        <btn class="btn btn-text-purple rounded-0" data-bs-toggle="collapse" href="#code4">
+          &lt;CODE&gt;
+        </btn>
+      </div>
+      <div class="collapse" id="code4">
+        <div class="code-container">
+{% highlight html %}
+<a href="#" data-bs-toggle="popover" data-bs-trigger="hover" title="Popover on Hover"
+   data-bs-content="Move away from the link to hide this Popover">
+  Toggle Popover on hover
+</a>{% endhighlight %}
+        </div>
+      </div>
+    </div>
+
+    <h2 id="javascript">Javascript</h2>
+    <div class="border mb-4">
+
+      <p>Without jQuery</p>
+
+      <div class="code-container">
 {% highlight js %}
 <script>
-    $(function() {
-        // Initialize Popover
-        $('[data-toggle="popover"]').popover();
-    });
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new materialstyle.Popover(popoverTriggerEl)
+  })
 </script>{% endhighlight %}
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
 
+      <p>With jQuery</p>
+
+      <div class="code-container">
+{% highlight js %}
+<script>
+  $(function () {
+    $('[data-bs-toggle="popover"]').popover();
+  });
+</script>{% endhighlight %}
+      </div>
     </div>
 
-    <div class="component-map">
-        <div class="row">
-            <div class="col">
-                <div class="adspace bg-grey-100">
+  </div>
 
-                </div>
-            </div>
+  <div class="component-map">
+    <div class="row">
+      <div class="col">
+        <div class="adspace bg-grey-100">
+
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="bg-grey-100 pt-1">
-                    <h4>On this page</h4>
-                    <ul class="nav flex-column this-page-links">
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="pop1">Popover on a link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="pop2">Popover on a button</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="pop3">Positioning popovers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="pop4">Closing popovers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="pop5">Popover on hover</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:" data-link="pop6">Javascript</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <div class="pt-1">
+          <h4>On this page</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#popover">Popover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#placement">Placement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#dismissible">Dismissible</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#toggle-on-hover">Toggle on hover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#javascript">Javascript</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
