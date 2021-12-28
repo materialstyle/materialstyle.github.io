@@ -75,6 +75,12 @@
     return new materialstyle.Rainbow(rainbow)
   })
 
+  // Spinner
+  var spinnerList = [].slice.call(document.querySelectorAll('.m-spinner'))
+  var spinners = spinnerList.map(function (s) {
+    return new materialstyle.Spinner(s)
+  })
+
   // Modal
   var myModal = document.getElementById('myModal')
   if (myModal) {
