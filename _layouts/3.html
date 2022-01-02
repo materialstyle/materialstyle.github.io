@@ -7,7 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Description"
         content="Material Style is an easy to use UI Library based on Bootstrap 4.5 that lets you add Material Design styles and animations to Bootstrap components.">
-  <meta name="theme-color" content="#212121"/>
+
+  {% if page.showSidebar != false %}
+  <meta name="theme-color" content="#6f42c1"/>
+  {% else %}
+  <meta name="theme-color" content="#212529"/>
+  {% endif %}
 
   <meta property="og:url" content="https://materialstyle.github.io"/>
   <meta property="og:type" content="website"/>
@@ -24,27 +29,26 @@
 {% include {{ page.version }}/navigation.html %}
 
 {% if page.showSidebar != false %}
-  {% include {{ page.version }}/sidebar.html %}
-  <div class="offcanvas-pushed-content pt-4 bg-white" style="margin-top: var(--navbar-fixed-height);">
-    <div class="container">
+{% include {{ page.version }}/sidebar.html %}
+<div class="offcanvas-pushed-content pt-4 bg-white" style="margin-top: var(--navbar-fixed-height);">
+  <div class="container">
+    {{ content }}
+  </div>
+</div>
 {% else %}
-  <div class="home-container" style="margin-top: var(--navbar-fixed-height);">
+<div class="home-container" style="margin-top: var(--navbar-fixed-height);">
+  {{ content }}
+</div>
 {% endif %}
 
-      {{ content }}
+{% include {{ page.version }}/footer.html %}
+</div>
 
-{% if page.showSidebar != false %}
-  </div>
-{% endif %}
+<button id="top-btn" type="button" class="btn btn-fab leaf-fab-inverted btn-blue">
+  <i class="bi bi-arrow-up-circle-fill"></i>
+</button>
 
-    {% include {{ page.version }}/footer.html %}
-  </div>
-
-  <button id="top-btn" type="button" class="btn btn-fab leaf-fab-inverted btn-blue">
-    <i class="bi bi-arrow-up-circle-fill"></i>
-  </button>
-
-  {% include {{ page.version }}/scripts.html %}
+{% include {{ page.version }}/scripts.html %}
 
 </body>
 </html>
