@@ -34,15 +34,14 @@
   <div class="container">
     {{ content }}
   </div>
+  {% include {{ page.version }}/footer.html %}
 </div>
 {% else %}
 <div class="home-container" style="margin-top: var(--navbar-fixed-height);">
   {{ content }}
+  {% include {{ page.version }}/footer.html %}
 </div>
 {% endif %}
-
-{% include {{ page.version }}/footer.html %}
-</div>
 
 <button id="top-btn" type="button" class="btn btn-fab leaf-fab-inverted btn-blue">
   <i class="bi bi-arrow-up-circle-fill"></i>

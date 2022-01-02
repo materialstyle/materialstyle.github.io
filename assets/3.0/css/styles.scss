@@ -31,6 +31,14 @@ body {
   }
 }
 
+.color-box {
+  width: 250px;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 #site-home-top-nav {
   //justify-content: space-between;
   transform: translateY(0);
