@@ -22,14 +22,14 @@
 
 {% include {{ page.version }}/navigation.html %}
 
-<section class="m-root bg-white">
+
 
     {% if page.showSidebar != false %}
         {% include {{ page.version }}/sidebar.html %}
-        <div class="m-container pt-4">
+        <div class="offcanvas-pushed-content pt-4">
             <div class="container">
     {% else %}
-        <div class="m-container home-container">
+        <div class="home-container">
     {% endif %}
 
             {{ content }}
@@ -40,7 +40,7 @@
 
             {% include {{ page.version }}/footer.html %}
         </div>
-</section>
+
 
 <button id="top-btn" type="button" class="btn btn-fab leaf-fab-inverted btn-blue">
   <i class="bi bi-arrow-up-circle-fill"></i>

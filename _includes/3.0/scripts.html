@@ -57,12 +57,6 @@
     new materialstyle.Tab(tab)
   })
 
-  // Drawer
-  var drawers = [].slice.call(document.querySelectorAll('.drawer'))
-  var drawerList = drawers.map(function (drawer) {
-    return new materialstyle.Drawer(drawer)
-  })
-
   // Popover
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {

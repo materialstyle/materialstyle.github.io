@@ -98,4 +98,16 @@ document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener("scroll", lazyLoad);
     window.addEventListener("resize", lazyLoad);
     window.addEventListener("orientationchange", lazyLoad);
+
+  // Remember offcanvas scroll position
+  let offcanvas = document.querySelector("#siteOffcanvas .offcanvas-body");
+
+  let positionTop = localStorage.getItem("offcanvas-scroll");
+  if (positionTop !== null) {
+    offcanvas.scrollTop = parseInt(positionTop, 10);
+  }
+
+  window.addEventListener("beforeunload", () => {
+    localStorage.setItem("offcanvas-scroll", offcanvas.scrollTop);
+  });
 });

@@ -17,6 +17,10 @@ html, body {
   background: #f8f9fa;
 }
 
+body {
+  --offcanvas-expand-width: 300px;
+}
+
 .version-selector .selected-item {
   font-size: 3rem;
   font-weight: 300;
@@ -35,7 +39,7 @@ html, body {
   flex-wrap: wrap;
 }
 
-.navbar-brand, .drawer-brand, .footer-brand {
+.navbar-brand, #siteOffcanvas .offcanvas-title, .footer-brand {
   font-size: 1rem !important;
   text-transform: uppercase;
   font-family: "Roboto Mono", monospace;
@@ -47,7 +51,7 @@ html, body {
   opacity: 0;
 }
 
-.site-drawer {
+#siteOffcanvas {
   .nav-link.active {
     background-color: #6f50c1;
     color: #fff !important;
