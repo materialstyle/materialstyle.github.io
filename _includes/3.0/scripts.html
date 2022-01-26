@@ -13,17 +13,17 @@
 
 <script>
   $(function () {
-    docsearch({
-      apiKey: '030593aaea3dc2b6c6bc27a3ac4ffd49',
-      indexName: 'materialstyle',
-      inputSelector: '#searchBox',
-      algoliaOptions: {'facetFilters': ["version:2.0"]},
-      debug: false,
-      handleSelected: function (input, event, suggestion, datasetNumber, context) {
-        $('#searchContainer').modal('hide');
-        location.href = suggestion.url;
-      }
-    });
+    // docsearch({
+    //   apiKey: '030593aaea3dc2b6c6bc27a3ac4ffd49',
+    //   indexName: 'materialstyle',
+    //   inputSelector: '#searchBox',
+    //   algoliaOptions: {'facetFilters': ["version:2.0"]},
+    //   debug: false,
+    //   handleSelected: function (input, event, suggestion, datasetNumber, context) {
+    //     $('#searchContainer').modal('hide');
+    //     location.href = suggestion.url;
+    //   }
+    // });
 
     // $('#searchContainer').on('shown.bs.modal', function () {
     //     $('#searchBox').focus();
