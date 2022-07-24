@@ -8,7 +8,7 @@ function initComponents() {
   // Button Ripple
   var buttonList = [].slice.call(document.querySelectorAll('.ripple-surface'))
   buttonList.map(function (button) {
-    new materialstyle.Ripple(button)
+    new mdc.ripple.MDCRipple(button)
   })
 
   // Text Field
@@ -25,7 +25,7 @@ function initComponents() {
 
   var tabs = [].slice.call(document.querySelectorAll('.nav-tabs'))
   tabs.map(function (tab) {
-    new materialstyle.Tab(tab)
+    new materialstyle.MaterialTab(tab)
   })
 }
 
