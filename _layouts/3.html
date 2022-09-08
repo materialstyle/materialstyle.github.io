@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description"
+        content="Material Style is a Material Design UI Library based on Bootstrap.">
+
+  <meta name="theme-color" content="#7050c1"/>
+
+  <meta property="og:url" content="https://materialstyle.github.io"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Material Style"/>
+  <meta property="og:description"
+        content="Material Style is a Material Design UI Library based on Bootstrap."/>
+  <meta property="og:image" content="https://materialstyle.github.io/assets/images/MSIconNewGreyBg.jpg"/>
+
+  {% include {{ page.version }}/styles.html %}
+</head>
+<body>
+
+{% include {{ page.version }}/navigation.html %}
+
+<div class="home-container" style="margin-top: var(--navbar-fixed-height);">
+  {{ content }}
+  {% include {{ page.version }}/footer.html %}
+</div>
+
+{% include {{ page.version }}/scripts.html %}
+
+</body>
+</html>

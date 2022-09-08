@@ -5,7 +5,7 @@
         <i class="ms-sidebar-toggle material-icons text-white">&#xE5D2;</i>
         {% endif %}
 
-        {% if page.version == 2.0 %}
+        {% if page.version == 3.0 %}
             {% assign home = "/" %}
         {% else %}
             {% capture home %} /docs/{{ page.version }} {% endcapture %}
@@ -21,7 +21,9 @@
                 v{{ page.version }}
             </button>
             <ul class="dropdown-menu dropdown-menu-right bg-dark" style="min-width: auto; position: absolute;">
-                <li><a class="dropdown-item px-3 text-white bg-dark" href="/">2.0</a></li>
+                <li><a class="dropdown-item px-3 text-white bg-dark" href="/">3.0</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item px-3 text-white bg-dark" href="/docs/2.0/">2.0</a></li>
                 <div class="dropdown-divider"></div>
                 <li><a class="dropdown-item px-3 text-blue bg-dark" href="/docs/1.2/" style="cursor: pointer; pointer-events: none;"><b>1.2</b></a></li>
                 <li><a class="dropdown-item px-3 text-white bg-dark" href="/docs/1.1/">1.1</a></li>

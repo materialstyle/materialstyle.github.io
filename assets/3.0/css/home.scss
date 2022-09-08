@@ -1,0 +1,40 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500');
+
+html {
+  min-height: 100vh;
+}
+
+html, body {
+  background-color: #f0ebf9;
+}
+
+body {
+  --offcanvas-expand-width: 300px;
+}
+
+.bg-purple-light {
+  background-color: #f0ebf9;
+}
+
+.rounded-4rem {
+  border-radius: 4rem;
+}
+
+#site-home-top-nav .navbar-brand, .footer-brand {
+  font-size: 1rem !important;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+}
+
+@media (max-width: 535px) {
+  #site-home-top-nav .navbar-nav {
+    width: 100%;
+  }
+}
