@@ -13,7 +13,7 @@ https://materialstyle.github.io/docs/2.0/getting-started/installation/
 <!-- Material Icons -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <!-- Material Style CSS -->
-<link rel="stylesheet" href="https://unpkg.com/@materialstyle/materialstyle@2.0.2/dist/css/materialstyle.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materialstyle/materialstyle@2.0.2/dist/css/materialstyle.min.css">
 ```
 #### Scripts
 ```
@@ -26,7 +26,7 @@ https://materialstyle.github.io/docs/2.0/getting-started/installation/
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
 <!-- Material Style JS -->
-<script src="https://unpkg.com/@materialstyle/materialstyle@2.0.2/dist/js/materialstyle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@materialstyle/materialstyle@2.0.2/dist/js/materialstyle.min.js"></script>
 ```
 
 ### 2. NPM
