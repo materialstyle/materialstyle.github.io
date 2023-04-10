@@ -1,0 +1,104 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500');
+
+:root {
+  --m-grape-2: #eebefa;
+}
+
+:root, [data-bs-theme="light"] {
+  --bs-primary: #6f42c1;
+  --bs-primary-rgb: 111, 66, 193;
+  --bs-primary-hover: #5e38a4;
+  --bs-primary-active: #59359a;
+  --bs-primary-subtle: #e2d9f3;
+  --bs-primary-subtle-hover: #cdbde9;
+  --bs-primary-subtle-active: #c5b3e6;
+  --bs-primary-emphasis: #432874;
+  --bs-primary-emphasis-hover: #321e57;
+  --bs-text-on-primary: #fff;
+  --bs-primary-border-subtle: #c5b3e6;
+}
+
+[data-bs-theme="dark"] {
+  --bs-primary: #a184d7;
+  --bs-primary-rgb: 161, 132, 215;
+  --bs-primary-hover: #b49ddf;
+  --bs-primary-active: #bda9e3;
+  --bs-primary-subtle: #2c1a4d;
+  --bs-primary-subtle-hover: #321e57;
+  --bs-primary-subtle-active: #432874;
+  --bs-primary-emphasis: #beaae3;
+  --bs-primary-emphasis-hover: #b7a1e0;
+  --bs-text-on-primary: #000;
+  --bs-primary-border-subtle: #432874;
+}
+
+html {
+  min-height: 100vh;
+}
+
+html, body {
+  background-color: #f0ebf9;
+}
+
+body {
+  --offcanvas-expand-width: 300px;
+}
+
+.bg-purple-light {
+  background-color: #f0ebf9;
+}
+
+.rounded-4rem {
+  border-radius: 4rem;
+}
+
+#site-home-top-nav .navbar-brand, .footer-brand {
+  font-size: 1rem !important;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+
+#site-home-top-nav {
+  .btn-outline-light {
+    --mdc-ripple-color: rgb(var(--bs-white-rgb));
+    --bs-btn-hover-bg: rgba(var(--bs-white-rgb), .1);
+    --bs-btn-active-bg: rgba(var(--bs-white-rgb), .2);
+  }
+
+  .dropdown-menu {
+    --bs-dropdown-color: rgb(var(--bs-white-rgb));
+    --bs-dropdown-link-color: rgb(var(--bs-white-rgb));
+  }
+
+  .dropdown-item {
+    --bs-dropdown-link-hover-bg: rgba(var(--bs-white-rgb), .1);
+    --bs-dropdown-link-hover-color: rgb(var(--bs-white-rgb));
+    --bs-dropdown-link-active-bg: rgba(var(--bs-white-rgb), .2);
+    --bs-dropdown-link-active-color: rgb(var(--bs-white-rgb));
+  }
+
+  .dropdown .bi {
+    width: 1rem;
+    height: 1rem;
+    fill: currentcolor;
+  }
+
+  a:focus-visible,
+  .btn:focus-visible {
+    outline: none; // stylelint-disable-line declaration-property-value-disallowed-list
+    box-shadow: 0 0 0 .15rem var(--m-grape-2);
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+}
+
+@media (max-width: 535px) {
+  #site-home-top-nav .navbar-nav {
+    width: 100%;
+  }
+}

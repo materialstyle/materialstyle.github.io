@@ -1,8 +1,8 @@
 ---
 layout: 3
-title: Material Style 3.0
-version: 3.0
-permalink: /docs/3.0/
+title: Material Style 3.1
+version: 3.1
+permalink: /
 showSidebar: false
 ---
 
@@ -23,7 +23,7 @@ showSidebar: false
           <div class="d-flex justify-content-center align-items-center">
             <div class="m-shape-container">
               <a href="/materialstyle/{{ page.version }}/getting-started/installation"
-                 class="btn btn-lg btn-purple px-4"
+                 class="btn btn-lg btn-primary px-4"
                  role="button">
                 Get Started
                 <span class="ripple-surface"></span>
@@ -50,7 +50,7 @@ showSidebar: false
     <div class="row mb-4">
       <div class="col-md-12 d-flex justify-content-center align-items-center flex-wrap">
         <div class="form-floating-with-icon m-2" style="width: 200px;">
-          <div class="form-floating form-floating-outlined base-pink primary-purple">
+          <div class="form-floating form-floating-outlined" style="--bs-form-field-border-color: var(--bs-tertiary-hover); --bs-form-field-active-border-color: var(--bs-primary-hover);">
             <input type="text" class="form-control" id="textfield-outlined"
                    placeholder="textfield-outlined" autocomplete="off" required>
             <label for="textfield-outlined">Text Field</label>
@@ -59,7 +59,7 @@ showSidebar: false
         </div>
 
         <div class="form-floating-with-icon m-2" style="width: 200px;">
-          <div class="form-floating form-floating-outlined base-pink primary-purple searchable">
+          <div class="form-floating form-floating-outlined searchable" style="--bs-form-field-border-color: var(--bs-tertiary-hover); --bs-form-field-active-border-color: var(--bs-primary-hover);">
             <select class="form-select" required>
               <option value=""></option>
               <option value="1">Option 1</option>
@@ -73,7 +73,7 @@ showSidebar: false
         </div>
 
         <div class="m-shape-container shape-parent-bg-white m-2">
-          <button class="btn btn-pink btn-lg">
+          <button class="btn btn-tertiary btn-lg">
             Shaped Button
             <span class="ripple-surface"></span>
           </button>
@@ -83,12 +83,12 @@ showSidebar: false
           <div class="angle-bottom-right"></div>
         </div>
 
-        <button type="button" class="btn btn-pink btn-lg rounded-pill m-2">
+        <button type="button" class="btn btn-tertiary btn-lg rounded-pill m-2">
           <i class="bi bi-search"></i> Button
           <span class="ripple-surface"></span>
         </button>
 
-        <button type="button" class="btn btn-pink btn-fab leaf-fab-inverted m-2">
+        <button type="button" class="btn btn-tertiary btn-fab leaf-fab-inverted m-2">
           <i class="bi bi-heart-fill"></i>
           <span class="ripple-surface"></span>
         </button>
@@ -98,7 +98,7 @@ showSidebar: false
     <div class="row mb-4">
       <div class="col-md-12">
         <div class="m-2">
-          <ul class="nav nav-tabs nav-justified base-dark primary-pink" role="tablist">
+          <ul class="nav nav-tabs nav-justified primary-tertiary" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active py-3" data-bs-toggle="tab" role="tab" data-bs-target="#tab-one">
                 TAB 1
@@ -130,7 +130,7 @@ showSidebar: false
           There's more!
           <div class="m-shape-container shape-parent-bg-white m-1" style="vertical-align: middle;">
             <a href="/materialstyle/{{ page.version }}/components/accordion"
-               class="btn btn-purple btn-lg px-4"
+               class="btn btn-primary btn-lg px-4"
                role="button">
               Have a look
               <span class="ripple-surface"></span>
