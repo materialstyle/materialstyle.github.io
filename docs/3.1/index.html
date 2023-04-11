@@ -21,18 +21,13 @@ showSidebar: false
           </h2>
 
           <div class="d-flex justify-content-center align-items-center">
-            <div class="m-shape-container">
-              <a href="/materialstyle/{{ page.version }}/getting-started/installation"
-                 class="btn btn-lg btn-primary px-4"
-                 role="button">
-                Get Started
-                <span class="ripple-surface"></span>
-              </a>
-              <div class="angle-top-left" style="background-color: #EDE7F6;"></div>
-              <div class="angle-top-right" style="background-color: #EDE7F6;"></div>
-              <div class="angle-bottom-left" style="background-color: #EDE7F6;"></div>
-              <div class="angle-bottom-right" style="background-color: #EDE7F6;"></div>
-            </div>
+            <a href="/materialstyle/{{ page.version }}/getting-started/installation"
+               class="btn btn-lg btn-primary px-4 rounded-pill"
+               role="button"
+               data-bs-theme="light">
+              Get Started
+              <span class="ripple-surface"></span>
+            </a>
           </div>
         </div>
       </div>
@@ -40,7 +35,7 @@ showSidebar: false
   </div>
 </div>
 
-<div class="py-5 bg-white">
+<div class="py-5">
   <div class="container">
     <div class="row mb-4">
       <div class="col-md-12">
@@ -77,10 +72,10 @@ showSidebar: false
             Shaped Button
             <span class="ripple-surface"></span>
           </button>
-          <div class="angle-top-left"></div>
-          <div class="angle-top-right"></div>
-          <div class="angle-bottom-left"></div>
-          <div class="angle-bottom-right"></div>
+          <div class="angle-top-left bg-body"></div>
+          <div class="angle-top-right bg-body"></div>
+          <div class="angle-bottom-left bg-body"></div>
+          <div class="angle-bottom-right bg-body"></div>
         </div>
 
         <button type="button" class="btn btn-tertiary btn-lg rounded-pill m-2">
@@ -128,31 +123,36 @@ showSidebar: false
       <div class="col-md-12">
         <h4 class="text-center m-0">
           There's more!
-          <div class="m-shape-container shape-parent-bg-white m-1" style="vertical-align: middle;">
-            <a href="/materialstyle/{{ page.version }}/components/accordion"
-               class="btn btn-primary btn-lg px-4"
-               role="button">
-              Have a look
-              <span class="ripple-surface"></span>
-            </a>
-            <div class="angle-top-left"></div>
-            <div class="angle-top-right"></div>
-            <div class="angle-bottom-left"></div>
-            <div class="angle-bottom-right"></div>
-          </div>
+          <a href="/materialstyle/{{ page.version }}/components/accordion"
+             class="btn btn-primary btn-lg px-4 m-1 rounded-pill"
+             role="button"
+             style="vertical-align: middle;"
+             data-bs-theme="light">
+            Have a look
+            <span class="ripple-surface"></span>
+          </a>
         </h4>
       </div>
     </div>
   </div>
 </div>
 
-<div class="py-5 bg-white my-1">
+<svg class="squiggle" aria-hidden="true" width="100%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <pattern id="s1" width="91" height="8" patternUnits="userSpaceOnUse">
+    <g>
+      <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="var(--bs-primary)" stroke-linecap="square"></path>
+    </g>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#s1)"></rect>
+</svg>
+
+<div class="py-5 my-1">
   <div class="container">
     <div class="row">
       <div class="col-md-12 mb-2">
         <h2 class="mb-5">Thank You!</h2>
-        <div class="mb-4">
-          <a class="text-dark text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
+        <div>
+          <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
              href="https://getbootstrap.com/">
             <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="40">
             Bootstrap
@@ -165,7 +165,7 @@ showSidebar: false
         </div>
 
         <div>
-          <a class="text-dark text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
+          <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
              href="https://www.browserstack.com/">
             <img src="/assets/images/browserstack-logo.svg" alt="BrowserStack"
                  width="40">
@@ -178,7 +178,7 @@ showSidebar: false
         </div>
 
         <div>
-          <a class="text-dark text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
+          <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
              href="https://www.netlify.com/">
             <img src="https://www.netlify.com/v3/img/components/logomark.svg" alt="Netlify"
                  width="40">
@@ -194,7 +194,16 @@ showSidebar: false
   </div>
 </div>
 
-<div class="py-5 bg-white">
+<svg class="squiggle" aria-hidden="true" width="100%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <pattern id="s1" width="91" height="8" patternUnits="userSpaceOnUse">
+    <g>
+      <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="var(--bs-primary)" stroke-linecap="square"></path>
+    </g>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#s1)"></rect>
+</svg>
+
+<div class="py-5">
   <div class="container">
     <div class="row">
       <div class="col-md-12 mb-2">

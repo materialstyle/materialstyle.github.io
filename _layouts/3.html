@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  {% if page.version == 3.1 %}
+  <script src="/assets/{{ page.version }}/js/theme.js"></script>
+  {% endif %}
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">

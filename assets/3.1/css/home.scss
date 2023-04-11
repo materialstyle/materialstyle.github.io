@@ -7,39 +7,35 @@
 }
 
 :root, [data-bs-theme="light"] {
-  --bs-primary: #6f42c1;
-  --bs-primary-rgb: 111, 66, 193;
-  --bs-primary-hover: #5e38a4;
-  --bs-primary-active: #59359a;
-  --bs-primary-subtle: #e2d9f3;
-  --bs-primary-subtle-hover: #cdbde9;
-  --bs-primary-subtle-active: #c5b3e6;
-  --bs-primary-emphasis: #432874;
-  --bs-primary-emphasis-hover: #321e57;
+  --bs-primary: #5f3dc4;
+  --bs-primary-hover: #5134a7;
+  --bs-primary-active: #4c319d;
+  --bs-primary-subtle: #dfd8f3;
+  --bs-primary-subtle-hover: #c7bbea;
+  --bs-primary-subtle-active: #bfb1e7;
+  --bs-primary-emphasis: #392576;
+  --bs-primary-emphasis-hover: #2b1b58;
+  --bs-primary-border-subtle: #bfb1e7;
+  --bs-primary-rgb: 95, 61, 196;
   --bs-text-on-primary: #fff;
-  --bs-primary-border-subtle: #c5b3e6;
 }
 
 [data-bs-theme="dark"] {
-  --bs-primary: #a184d7;
-  --bs-primary-rgb: 161, 132, 215;
-  --bs-primary-hover: #b49ddf;
-  --bs-primary-active: #bda9e3;
-  --bs-primary-subtle: #2c1a4d;
-  --bs-primary-subtle-hover: #321e57;
-  --bs-primary-subtle-active: #432874;
-  --bs-primary-emphasis: #beaae3;
-  --bs-primary-emphasis-hover: #b7a1e0;
+  --bs-primary: #9781d9;
+  --bs-primary-hover: #ac9ae1;
+  --bs-primary-active: #b6a7e4;
+  --bs-primary-subtle: #26184e;
+  --bs-primary-subtle-hover: #2b1b58;
+  --bs-primary-subtle-active: #392576;
+  --bs-primary-emphasis: #b7a8e4;
+  --bs-primary-emphasis-hover: #af9ee2;
+  --bs-primary-border-subtle: #392576;
+  --bs-primary-rgb: 151, 129, 217;
   --bs-text-on-primary: #000;
-  --bs-primary-border-subtle: #432874;
 }
 
 html {
   min-height: 100vh;
-}
-
-html, body {
-  background-color: #f0ebf9;
 }
 
 body {
@@ -47,7 +43,7 @@ body {
 }
 
 .bg-purple-light {
-  background-color: #f0ebf9;
+  background-color: rgba(95, 61, 196, 0.2) !important;
 }
 
 .rounded-4rem {
