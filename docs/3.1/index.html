@@ -39,59 +39,58 @@ showSidebar: false
   <div class="container">
     <div class="row mb-4">
       <div class="col-md-12">
-        <h2 class="text-center">Beautifully crafted components</h2>
+        <h2 class="text-center">Beautifully crafted components, adaptive to color modes</h2>
       </div>
     </div>
-    <div class="row mb-4">
-      <div class="col-md-12 d-flex justify-content-center align-items-center flex-wrap">
-        <div class="form-floating-with-icon m-2" style="width: 200px;">
-          <div class="form-floating form-floating-outlined" style="--bs-form-field-border-color: var(--bs-tertiary-hover); --bs-form-field-active-border-color: var(--bs-primary-hover);">
-            <input type="text" class="form-control" id="textfield-outlined"
-                   placeholder="textfield-outlined" autocomplete="off" required>
-            <label for="textfield-outlined">Text Field</label>
-          </div>
-          <span class="prepend"><i class="bi bi-person-circle"></i></span>
-        </div>
+    <div class="mb-4 d-flex justify-content-between flex-wrap flex-md-nowrap gap-3">
+      <div class="bg-body text-body rounded-5 border p-3" data-bs-theme="light">
+        <h4 class="text-dark text-center">Light Mode</h4>
 
-        <div class="form-floating-with-icon m-2" style="width: 200px;">
-          <div class="form-floating form-floating-outlined searchable" style="--bs-form-field-border-color: var(--bs-tertiary-hover); --bs-form-field-active-border-color: var(--bs-primary-hover);">
-            <select class="form-select" required>
-              <option value=""></option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-              <option value="4">Option 4</option>
-            </select>
-            <label>Select</label>
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+          <div class="form-floating-with-icon m-2" style="width: 200px;">
+            <div class="form-floating form-floating-outlined" style="--bs-form-field-border-color: var(--bs-primary-hover); --bs-form-field-active-border-color: var(--bs-tertiary-hover);">
+              <input type="text" class="form-control" id="textfield-outlined"
+                     placeholder="textfield-outlined" autocomplete="off" required>
+              <label for="textfield-outlined">Text Field</label>
+            </div>
+            <span class="prepend"><i class="bi bi-person-circle"></i></span>
           </div>
-          <div class="prepend"><i class="bi bi-star-fill"></i></div>
-        </div>
 
-        <div class="m-shape-container shape-parent-bg-white m-2">
-          <button class="btn btn-tertiary btn-lg">
-            Shaped Button
+          <div class="form-floating-with-icon m-2" style="width: 200px;">
+            <div class="form-floating form-floating-outlined searchable" style="--bs-form-field-border-color: var(--bs-primary-hover); --bs-form-field-active-border-color: var(--bs-tertiary-hover);">
+              <select class="form-select" required>
+                <option value=""></option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+              </select>
+              <label>Select</label>
+            </div>
+            <div class="prepend"><i class="bi bi-star-fill"></i></div>
+          </div>
+
+          <div class="m-shape-container shape-parent-bg-white m-2">
+            <button class="btn btn-tertiary btn-lg">
+              Shaped Button
+              <span class="ripple-surface"></span>
+            </button>
+            <div class="angle-top-left bg-body"></div>
+            <div class="angle-top-right bg-body"></div>
+            <div class="angle-bottom-left bg-body"></div>
+            <div class="angle-bottom-right bg-body"></div>
+          </div>
+
+          <button type="button" class="btn btn-success btn-lg rounded-pill m-2">
+            <i class="bi bi-search"></i> Button
             <span class="ripple-surface"></span>
           </button>
-          <div class="angle-top-left bg-body"></div>
-          <div class="angle-top-right bg-body"></div>
-          <div class="angle-bottom-left bg-body"></div>
-          <div class="angle-bottom-right bg-body"></div>
-        </div>
 
-        <button type="button" class="btn btn-tertiary btn-lg rounded-pill m-2">
-          <i class="bi bi-search"></i> Button
-          <span class="ripple-surface"></span>
-        </button>
-
-        <button type="button" class="btn btn-tertiary btn-fab leaf-fab-inverted m-2">
+          <button type="button" class="btn btn-warning btn-fab leaf-fab-inverted m-2">
           <i class="bi bi-heart-fill"></i>
           <span class="ripple-surface"></span>
         </button>
-      </div>
-    </div>
-
-    <div class="row mb-4">
-      <div class="col-md-12">
+        </div>
         <div class="m-2">
           <ul class="nav nav-tabs nav-justified primary-tertiary" role="tablist">
             <li class="nav-item" role="presentation">
@@ -118,7 +117,83 @@ showSidebar: false
           </div>
         </div>
       </div>
+      <div class="bg-body text-body rounded-5 border p-3" data-bs-theme="dark">
+        <h4 class="text-center">Dark Mode</h4>
+
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+          <div class="form-floating-with-icon m-2" style="width: 200px;">
+            <div class="form-floating form-floating-outlined" style="--bs-form-field-border-color: var(--bs-primary-hover); --bs-form-field-active-border-color: var(--bs-tertiary-hover);">
+              <input type="text" class="form-control" id="textfield-outlined"
+                     placeholder="textfield-outlined" autocomplete="off" required>
+              <label for="textfield-outlined">Text Field</label>
+            </div>
+            <span class="prepend"><i class="bi bi-person-circle"></i></span>
+          </div>
+
+          <div class="form-floating-with-icon m-2" style="width: 200px;">
+            <div class="form-floating form-floating-outlined searchable" style="--bs-form-field-border-color: var(--bs-primary-hover); --bs-form-field-active-border-color: var(--bs-tertiary-hover);">
+              <select class="form-select" required>
+                <option value=""></option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+              </select>
+              <label>Select</label>
+            </div>
+            <div class="prepend"><i class="bi bi-star-fill"></i></div>
+          </div>
+
+          <div class="m-shape-container shape-parent-bg-white m-2">
+            <button class="btn btn-tertiary btn-lg">
+              Shaped Button
+              <span class="ripple-surface"></span>
+            </button>
+            <div class="angle-top-left bg-body"></div>
+            <div class="angle-top-right bg-body"></div>
+            <div class="angle-bottom-left bg-body"></div>
+            <div class="angle-bottom-right bg-body"></div>
+          </div>
+
+          <button type="button" class="btn btn-success btn-lg rounded-pill m-2">
+            <i class="bi bi-search"></i> Button
+            <span class="ripple-surface"></span>
+          </button>
+
+          <button type="button" class="btn btn-warning btn-fab leaf-fab-inverted m-2">
+          <i class="bi bi-heart-fill"></i>
+          <span class="ripple-surface"></span>
+        </button>
+        </div>
+
+        <div class="m-2">
+          <ul class="nav nav-tabs nav-justified primary-tertiary" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active py-3" data-bs-toggle="tab" role="tab" data-bs-target="#tab-one-dark">
+                TAB 1
+                <span class="ripple-surface"></span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link py-3" data-bs-toggle="tab" role="tab" data-bs-target="#tab-two-dark">
+                TAB 2
+                <span class="ripple-surface"></span>
+              </button>
+            </li>
+          </ul>
+          <!-- Tab Panes -->
+          <div class="tab-content">
+            <div class="tab-pane container-fluid active p-4 border border-top-0" role="tabpanel" id="tab-one-dark">Content
+              One
+            </div>
+            <div class="tab-pane container-fluid fade p-4 border border-top-0" role="tabpanel" id="tab-two-dark">Content
+              Two
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="row mb-4">
       <div class="col-md-12">
         <h4 class="text-center m-0">
