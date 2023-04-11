@@ -14,24 +14,24 @@
   </symbol>
 </svg>
 
-<nav id="site-home-top-nav" class="navbar bg-primary" data-bs-theme="light">
+<nav id="site-home-top-nav" class="navbar fixed-top bg-primary" data-bs-theme="light">
   <div class="container gap-3">
-    <div class="d-flex flex-grow-1 align-items-center justify-content-between">
-      <div class="d-flex align-items-center">
+    <div class="d-flex align-items-center">
 
-        {% if page.version == 3.1 %}
-        {% assign home = "/" %}
-        {% else %}
-        {% capture home %} /docs/{{ page.version }} {% endcapture %}
-        {% endif %}
+      {% if page.version == 3.1 %}
+      {% assign home = "/" %}
+      {% else %}
+      {% capture home %} /docs/{{ page.version }} {% endcapture %}
+      {% endif %}
 
-        <a class="navbar-brand d-flex align-items-center py-0 me-0 rounded" href="{{ home }}">
-          <img src="/assets/images/MSIconNewColorV2.svg" alt="Material Style Logo" style="width:40px; height:40px;">
-          <span class="ml-1">Material Style</span>
-        </a>
-      </div>
+      <a class="navbar-brand d-flex align-items-center py-0 me-0 rounded" href="{{ home }}">
+        <img src="/assets/images/MSIconNewColorV2.svg" alt="Material Style Logo" style="width:40px; height:40px;">
+        <span id="site-name" class="ml-1">Material Style</span>
+      </a>
+    </div>
 
-      <div class="dropdown">
+    <ul class="navbar-nav d-flex flex-row align-items-center justify-content-evenly gap-3">
+      <li class="nav-item dropdown">
         <button class="btn btn-outline-light text-white border-0 dropdown-toggle px-1 rounded" data-bs-toggle="dropdown"
                 aria-expanded="false" style="text-transform:none;">
           v{{ page.version }}
@@ -46,10 +46,7 @@
           <li><a class="dropdown-item px-3" href="/docs/1.1/">1.1</a></li>
           <li><a class="dropdown-item px-3" href="/docs/1.0/">1.0</a></li>
         </ul>
-      </div>
-    </div>
-
-    <ul class="navbar-nav d-flex flex-row align-items-center justify-content-evenly gap-3">
+      </li>
       <li class="nav-item">
         <a class="nav-link text-light rounded" href="/materialstyle/{{ page.version }}/getting-started/installation">Get
           Started</a>

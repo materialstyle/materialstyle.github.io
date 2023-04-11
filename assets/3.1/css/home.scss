@@ -66,14 +66,14 @@ body {
   border-radius: 4rem;
 }
 
-#site-home-top-nav .navbar-brand, .footer-brand {
-  font-size: 1rem !important;
-  text-transform: uppercase;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 500;
-}
-
 #site-home-top-nav {
+  .navbar-brand, .footer-brand {
+    font-size: 1rem !important;
+    text-transform: uppercase;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+  }
+
   .btn-outline-light {
     --mdc-ripple-color: rgb(var(--bs-white-rgb));
     --bs-btn-hover-bg: rgba(var(--bs-white-rgb), .1);
@@ -109,7 +109,24 @@ h1, h2, h3, h4, h5 {
   font-weight: 300;
 }
 
-@media (max-width: 535px) {
+@media (max-width: 447px) {
+  #site-home-top-nav #site-name {
+    display: none;
+  }
+}
+
+@media (max-width: 345px) {
+  #site-home-top-nav .container {
+    gap: .5rem !important;
+  }
+
+  #site-home-top-nav .navbar-nav {
+    gap: .5rem !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 279px) {
   #site-home-top-nav .navbar-nav {
     width: 100%;
   }
