@@ -18,6 +18,14 @@
   --bs-primary-border-subtle: #bfb1e7;
   --bs-primary-rgb: 95, 61, 196;
   --bs-text-on-primary: #fff;
+
+  #github-image {
+    display: inline-block;
+  }
+
+  #github-image-dark {
+    display: none;
+  }
 }
 
 [data-bs-theme="dark"] {
@@ -32,6 +40,14 @@
   --bs-primary-border-subtle: #392576;
   --bs-primary-rgb: 151, 129, 217;
   --bs-text-on-primary: #000;
+
+  #github-image {
+    display: none;
+  }
+
+  #github-image-dark {
+    display: inline-block;
+  }
 }
 
 html {
