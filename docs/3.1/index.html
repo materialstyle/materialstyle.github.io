@@ -1,0 +1,449 @@
+---
+layout: 3
+title: Material Style 3.1
+version: 3.1
+permalink: /
+showSidebar: false
+---
+
+<div class="py-5 bg-purple-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="/assets/images/MSIconNewColorV2.svg"
+               alt="Material Style Logo"
+               style="width:100px; height:100px;">
+
+          <h1 class="my-3 text-center">Restyle Bootstrap with Material Style</h1>
+          <h2 class="text-center mb-4">
+            A Material Design UI Library based on Bootstrap
+          </h2>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <a href="/materialstyle/{{ page.version }}/getting-started/installation"
+               class="btn btn-lg btn-primary px-4 rounded-pill"
+               role="button"
+               data-bs-theme="light">
+              Get Started
+              <span class="ripple-surface"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="py-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <h2 class="text-center">Beautifully crafted components, adaptive to color modes</h2>
+      </div>
+    </div>
+    <div class="mb-4 d-flex justify-content-between flex-wrap flex-md-nowrap gap-3">
+      <div class="bg-body text-body rounded-5 border p-3" data-bs-theme="light">
+        <h4 class="text-dark text-center">Light Mode</h4>
+
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+          <div class="form-floating-with-icon m-2" style="width: 200px;">
+            <div class="form-floating form-floating-outlined" style="--bs-form-field-border-color: var(--bs-primary-hover); --bs-form-field-active-border-color: var(--bs-tertiary-hover);">
+              <input type="text" class="form-control" id="textfield-outlined"
+                     placeholder="textfield-outlined" autocomplete="off" required>
+              <label for="textfield-outlined">Text Field</label>
+            </div>
+            <span class="prepend"><i class="bi bi-person-circle"></i></span>
+          </div>
+
+          <div class="form-floating-with-icon m-2" style="width: 200px;">
+            <div class="form-floating form-floating-outlined searchable" style="--bs-form-field-border-color: var(--bs-primary-hover); --bs-form-field-active-border-color: var(--bs-tertiary-hover);">
+              <select class="form-select" required>
+                <option value=""></option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+              </select>
+              <label>Select</label>
+            </div>
+            <div class="prepend"><i class="bi bi-star-fill"></i></div>
+          </div>
+
+          <div class="m-shape-container shape-parent-bg-white m-2">
+            <button class="btn btn-tertiary btn-lg">
+              Shaped Button
+              <span class="ripple-surface"></span>
+            </button>
+            <div class="angle-top-left bg-body"></div>
+            <div class="angle-top-right bg-body"></div>
+            <div class="angle-bottom-left bg-body"></div>
+            <div class="angle-bottom-right bg-body"></div>
+          </div>
+
+          <button type="button" class="btn btn-success btn-lg rounded-pill m-2">
+            <i class="bi bi-search"></i> Button
+            <span class="ripple-surface"></span>
+          </button>
+
+          <button type="button" class="btn btn-warning btn-fab leaf-fab-inverted m-2">
+          <i class="bi bi-heart-fill"></i>
+          <span class="ripple-surface"></span>
+        </button>
+        </div>
+        <div class="m-2">
+          <ul class="nav nav-tabs nav-justified" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active py-3" data-bs-toggle="tab" role="tab" data-bs-target="#tab-one">
+                TAB 1
+                <span class="ripple-surface"></span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link py-3" data-bs-toggle="tab" role="tab" data-bs-target="#tab-two">
+                TAB 2
+                <span class="ripple-surface"></span>
+              </button>
+            </li>
+          </ul>
+          <!-- Tab Panes -->
+          <div class="tab-content">
+            <div class="tab-pane container-fluid active p-4 border border-top-0" role="tabpanel" id="tab-one">Content
+              One
+            </div>
+            <div class="tab-pane container-fluid fade p-4 border border-top-0" role="tabpanel" id="tab-two">Content
+              Two
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-body text-body rounded-5 border p-3" data-bs-theme="dark">
+        <h4 class="text-center">Dark Mode</h4>
+
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+          <div class="form-floating-with-icon m-2" style="width: 200px;">
+            <div class="form-floating form-floating-outlined" style="--bs-form-field-border-color: var(--bs-primary-hover); --bs-form-field-active-border-color: var(--bs-tertiary-hover);">
+              <input type="text" class="form-control" id="textfield-outlined"
+                     placeholder="textfield-outlined" autocomplete="off" required>
+              <label for="textfield-outlined">Text Field</label>
+            </div>
+            <span class="prepend"><i class="bi bi-person-circle"></i></span>
+          </div>
+
+          <div class="form-floating-with-icon m-2" style="width: 200px;">
+            <div class="form-floating form-floating-outlined searchable" style="--bs-form-field-border-color: var(--bs-primary-hover); --bs-form-field-active-border-color: var(--bs-tertiary-hover);">
+              <select class="form-select" required>
+                <option value=""></option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+              </select>
+              <label>Select</label>
+            </div>
+            <div class="prepend"><i class="bi bi-star-fill"></i></div>
+          </div>
+
+          <div class="m-shape-container shape-parent-bg-white m-2">
+            <button class="btn btn-tertiary btn-lg">
+              Shaped Button
+              <span class="ripple-surface"></span>
+            </button>
+            <div class="angle-top-left bg-body"></div>
+            <div class="angle-top-right bg-body"></div>
+            <div class="angle-bottom-left bg-body"></div>
+            <div class="angle-bottom-right bg-body"></div>
+          </div>
+
+          <button type="button" class="btn btn-success btn-lg rounded-pill m-2">
+            <i class="bi bi-search"></i> Button
+            <span class="ripple-surface"></span>
+          </button>
+
+          <button type="button" class="btn btn-warning btn-fab leaf-fab-inverted m-2">
+          <i class="bi bi-heart-fill"></i>
+          <span class="ripple-surface"></span>
+        </button>
+        </div>
+
+        <div class="m-2">
+          <ul class="nav nav-tabs nav-justified" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active py-3" data-bs-toggle="tab" role="tab" data-bs-target="#tab-one-dark">
+                TAB 1
+                <span class="ripple-surface"></span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link py-3" data-bs-toggle="tab" role="tab" data-bs-target="#tab-two-dark">
+                TAB 2
+                <span class="ripple-surface"></span>
+              </button>
+            </li>
+          </ul>
+          <!-- Tab Panes -->
+          <div class="tab-content">
+            <div class="tab-pane container-fluid active p-4 border border-top-0" role="tabpanel" id="tab-one-dark">Content
+              One
+            </div>
+            <div class="tab-pane container-fluid fade p-4 border border-top-0" role="tabpanel" id="tab-two-dark">Content
+              Two
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-12 text-center">
+        <a href="/materialstyle/{{ page.version }}/components/accordion"
+           class="btn btn-primary btn-lg px-4 m-1 rounded-pill"
+           role="button"
+           style="vertical-align: middle;"
+           data-bs-theme="light">
+          Explore Components
+          <span class="ripple-surface"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<svg class="squiggle" aria-hidden="true" width="100%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <pattern id="s1" width="91" height="8" patternUnits="userSpaceOnUse">
+    <g>
+      <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="var(--bs-primary)" stroke-linecap="square"></path>
+    </g>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#s1)"></rect>
+</svg>
+
+<div class="py-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <h2 class="text-center">Custom theming using CSS variables</h2>
+      </div>
+    </div>
+    <div class="mb-4 d-flex justify-content-between flex-wrap flex-md-nowrap gap-3">
+      <div class="rounded-5 border p-3 overflow-auto">
+        <h4 class="text-center">CSS</h4>
+        <pre>
+          <code class="text-tertiary">
+:root, [data-bs-theme="light"] {
+  --bs-primary: #5f3dc4;
+  --bs-primary-hover: #5134a7;
+  --bs-primary-active: #4c319d;
+  --bs-primary-subtle: #dfd8f3;
+  --bs-primary-subtle-hover: #c7bbea;
+  --bs-primary-subtle-active: #bfb1e7;
+  --bs-primary-emphasis: #392576;
+  --bs-primary-emphasis-hover: #2b1b58;
+  --bs-primary-border-subtle: #bfb1e7;
+  --bs-primary-rgb: 95, 61, 196;
+  --bs-text-on-primary: #fff;
+}
+
+[data-bs-theme="dark"] {
+  --bs-primary: #9781d9;
+  --bs-primary-hover: #ac9ae1;
+  --bs-primary-active: #b6a7e4;
+  --bs-primary-subtle: #26184e;
+  --bs-primary-subtle-hover: #2b1b58;
+  --bs-primary-subtle-active: #392576;
+  --bs-primary-emphasis: #b7a8e4;
+  --bs-primary-emphasis-hover: #af9ee2;
+  --bs-primary-border-subtle: #392576;
+  --bs-primary-rgb: 151, 129, 217;
+  --bs-text-on-primary: #000;
+}</code></pre>
+      </div>
+      <div class="d-flex flex-column flex-grow-1 gap-3">
+        <div class="bg-body text-body rounded-5 border p-3" data-bs-theme="light">
+          <h4 class="text-dark text-center">Light Mode</h4>
+
+          <div class="d-flex justify-content-center align-items-center flex-wrap">
+            <div class="p-3 bg-primary m-2" style="color: var(--bs-text-on-primary);">Primary background</div>
+
+            <div class="p-3 border border-primary text-primary m-2">Primary border</div>
+
+            <label class="text-primary m-2">Primary text</label>
+
+            <a href="#" class="link-primary m-2">Primary link</a>
+
+            <button type="button" class="btn btn-primary m-2">
+              Primary button
+            </button>
+
+            <span class="badge rounded-pill text-bg-primary m-2">Primary badge</span>
+
+            <div class="alert alert-primary m-2" role="alert">
+              Primary alert
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-body text-body rounded-5 border p-3" data-bs-theme="dark">
+          <h4 class="text-center">Dark Mode</h4>
+
+          <div class="d-flex justify-content-center align-items-center flex-wrap">
+            <div class="p-3 bg-primary m-2" style="color: var(--bs-text-on-primary);">Primary background</div>
+
+            <div class="p-3 border border-primary text-primary m-2">Primary border</div>
+
+            <label class="text-primary m-2">Primary text</label>
+
+            <a href="#" class="link-primary m-2">Primary link</a>
+
+            <button type="button" class="btn btn-primary m-2">
+              Primary button
+            </button>
+
+            <span class="badge rounded-pill text-bg-primary m-2">Primary badge</span>
+
+            <div class="alert alert-primary m-2" role="alert">
+              Primary alert
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-12 text-center">
+        <a href="/materialstyle/{{ page.version }}/colors/theming/"
+           class="btn btn-primary btn-lg px-4 m-1 rounded-pill"
+           role="button"
+           style="vertical-align: middle;"
+           data-bs-theme="light">
+          Explore Theming
+          <span class="ripple-surface"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<svg class="squiggle" aria-hidden="true" width="100%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <pattern id="s1" width="91" height="8" patternUnits="userSpaceOnUse">
+    <g>
+      <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="var(--bs-primary)" stroke-linecap="square"></path>
+    </g>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#s1)"></rect>
+</svg>
+
+<div class="py-5 my-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mb-2">
+        <h2 class="text-center mb-5">Thank You!</h2>
+        <div class="d-flex justify-content-start justify-content-md-center flex-wrap gap-4">
+          <div>
+            <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
+               href="https://getbootstrap.com/">
+              <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="Bootstrap" height="40">
+              Bootstrap
+            </a>
+            <p class="text-secondary">
+              Material Style is built using <a class="link-purple text-decoration-none" href="https://getbootstrap.com/">Bootstrap</a>.
+            </p>
+          </div>
+
+          <div>
+            <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
+               href="https://www.browserstack.com/">
+              <img src="/assets/images/browserstack-logo.svg" alt="BrowserStack"
+                   height="40">
+              BrowserStack
+            </a>
+            <p class="text-secondary">
+              Browser testing is powered by <a class="link-purple text-decoration-none" href="https://www.browserstack.com/">BrowserStack</a>.
+            </p>
+          </div>
+
+          <div>
+            <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
+               href="https://www.netlify.com/">
+              <img src="https://www.netlify.com/v3/img/components/logomark.svg" alt="Netlify"
+                   height="40">
+              Netlify
+            </a>
+            <p class="text-secondary">
+              <a class="link-purple text-decoration-none" href="https://www.netlify.com/">Netlify</a>
+              provides us with Deploy Previews.
+            </p>
+          </div>
+
+          <div>
+            <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
+               href="https://www.algolia.com/">
+              <img src="/assets/images/Algolia-mark-blue.svg" alt="Algolia"
+                   height="40">
+              Algolia
+            </a>
+            <p class="text-secondary">
+              Doc search is powered by <a class="link-purple text-decoration-none" href="https://www.algolia.com/">Algolia</a>.
+            </p>
+          </div>
+
+          <div>
+            <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
+               href="https://pages.github.com/">
+              <img id="github-image" src="/assets/images/github-mark.svg" alt="GitHub Pages"
+                   height="40">
+              <img id="github-image-dark" src="/assets/images/github-mark-white.svg" alt="GitHub Pages"
+                   height="40">
+              GitHub Pages
+            </a>
+            <p class="text-secondary">
+              Material Style is hosted on <a class="link-purple text-decoration-none" href="https://pages.github.com/">GitHub Pages</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<svg class="squiggle" aria-hidden="true" width="100%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <pattern id="s1" width="91" height="8" patternUnits="userSpaceOnUse">
+    <g>
+      <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="var(--bs-primary)" stroke-linecap="square"></path>
+    </g>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#s1)"></rect>
+</svg>
+
+<div class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mb-2">
+        <h4>Can I use it in my commercial projects?</h4>
+        <p class="text-secondary">
+          Of course. Material Style is MIT licensed project. You can learn more on the
+          <a class="link-purple text-decoration-none"
+             href="https://github.com/materialstyle/materialstyle/blob/main/LICENSE">
+            license page
+          </a>.
+        </p>
+      </div>
+      <div class="col-md-12 mb-2">
+        <h4>How do I install and use it?</h4>
+        <p class="text-secondary">
+          Installation is as simple as adding CSS and JS to your markup as described on the
+          <a class="link-purple text-decoration-none"
+             href="/materialstyle/{{ page.version }}/getting-started/installation">
+            installation
+          </a> page.
+          There's a code sample for each
+          <a class="link-purple text-decoration-none"
+             href="/materialstyle/{{ page.version }}/components/accordion">
+            Material Style Component
+          </a>
+          which can be copied and used.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
