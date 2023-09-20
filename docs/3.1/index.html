@@ -1,6 +1,6 @@
 ---
 layout: 3
-title: Material Style 3.1
+title: Material Style - A Material Design UI Library based on Bootstrap
 version: 3.1
 permalink: /
 showSidebar: false
@@ -19,6 +19,7 @@ showSidebar: false
           <h2 class="text-center mb-4">
             A Material Design UI Library based on Bootstrap
           </h2>
+          <p class="fs-5 text-center mb-4">Bootstrap + Material Design = Material Style</p>
 
           <div class="d-flex justify-content-center align-items-center">
             <a href="/materialstyle/{{ page.version }}/getting-started/installation"
@@ -39,7 +40,8 @@ showSidebar: false
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-12">
-        <h2 class="text-center">Beautifully crafted components, adaptive to color modes</h2>
+        <h2 class="text-center">Versatile Components for Every Color Mode</h2>
+        <p class="fs-5 text-center">Discover our collection of beautifully crafted components, thoughtfully designed to seamlessly adapt to both light and dark color modes.</p>
       </div>
     </div>
     <div class="mb-4 d-flex justify-content-between flex-wrap flex-md-nowrap gap-3">
@@ -197,7 +199,7 @@ showSidebar: false
     <div class="row mb-4">
       <div class="col-md-12 text-center">
         <a href="/materialstyle/{{ page.version }}/components/accordion"
-           class="btn btn-primary btn-lg px-4 m-1 rounded-pill"
+           class="btn btn-tertiary btn-lg px-4 m-1 rounded-pill"
            role="button"
            style="vertical-align: middle;"
            data-bs-theme="light">
@@ -222,7 +224,8 @@ showSidebar: false
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-12">
-        <h2 class="text-center">Custom theming using CSS variables</h2>
+        <h2 class="text-center">Elevate Your Brand with Custom Theming</h2>
+        <p class="fs-5 text-center">Introducing Material Style Theme Builder - Your Path to Unique Material Style</p>
       </div>
     </div>
     <div class="mb-4 d-flex justify-content-between flex-wrap flex-md-nowrap gap-3">
@@ -242,6 +245,8 @@ showSidebar: false
   --bs-primary-border-subtle: #bfb1e7;
   --bs-primary-rgb: 95, 61, 196;
   --bs-text-on-primary: #fff;
+  --bs-border-radius: 2rem;
+  --bs-border-width: 2px;
 }
 
 [data-bs-theme="dark"] {
@@ -258,51 +263,161 @@ showSidebar: false
   --bs-text-on-primary: #000;
 }</code></pre>
       </div>
-      <div class="d-flex flex-column flex-grow-1 gap-3">
+      <div class="d-flex flex-column flex-grow-1 gap-3 theming-examples">
         <div class="bg-body text-body rounded-5 border p-3" data-bs-theme="light">
-          <h4 class="text-dark text-center">Light Mode</h4>
+          <h4 class="text-dark text-center mb-3">Light Mode</h4>
 
-          <div class="d-flex justify-content-center align-items-center flex-wrap">
-            <div class="p-3 bg-primary m-2" style="color: var(--bs-text-on-primary);">Primary background</div>
+          <div class="d-flex flex-column justify-content-center flex-wrap gap-2">
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
+              <div class="p-3 text-bg-primary">Primary background</div>
 
-            <div class="p-3 border border-primary text-primary m-2">Primary border</div>
+              <div class="p-3 border border-primary text-primary">Primary border</div>
 
-            <label class="text-primary m-2">Primary text</label>
+              <label class="text-primary">Primary text</label>
 
-            <a href="#" class="link-primary m-2">Primary link</a>
+              <a href="#" class="link-primary">Primary link</a>
+            </div>
 
-            <button type="button" class="btn btn-primary m-2">
-              Primary button
-            </button>
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-2">
+              <button type="button" class="btn btn-primary">
+                Button
+              </button>
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+              <div class="alert alert-primary m-0" role="alert"  style="width:200px;">
+                Alert
+              </div>
 
-            <span class="badge rounded-pill text-bg-primary m-2">Primary badge</span>
+              <div class="progress" style="height: 5px; width: 200px;">
+                <div class="progress-bar progress-bar-indeterminate"></div>
+              </div>
+            </div>
 
-            <div class="alert alert-primary m-2" role="alert">
-              Primary alert
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-2">
+              <div class="form-floating" style="width:200px;">
+                <input type="text" class="form-control" id="textField"
+                       placeholder="firstname" autocomplete="off">
+                <label for="textField">Text field</label>
+              </div>
+
+              <div class="form-floating form-floating-outlined" style="width:200px;">
+                <input type="text" class="form-control" id="textFieldOutlined"
+                       placeholder="firstname" autocomplete="off">
+                <label for="textFieldOutlined">Text field</label>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-2">
+              <div class="form-floating" style="width:200px;">
+                <select class="form-select" id="select">
+                  <option value="" label="blank option"></option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                  <option value="4">Option 4</option>
+                </select>
+                <label for="select">Select</label>
+              </div>
+
+              <div class="form-floating form-floating-outlined" style="width:200px;">
+                <select class="form-select" id="selectOutlined">
+                  <option value="" label="blank option"></option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                  <option value="4">Option 4</option>
+                </select>
+                <label for="selectOutlined">Select</label>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="bg-body text-body rounded-5 border p-3" data-bs-theme="dark">
-          <h4 class="text-center">Dark Mode</h4>
+          <h4 class="text-center mb-3">Dark Mode</h4>
 
-          <div class="d-flex justify-content-center align-items-center flex-wrap">
-            <div class="p-3 bg-primary m-2" style="color: var(--bs-text-on-primary);">Primary background</div>
+          <div class="d-flex flex-column justify-content-center flex-wrap gap-2">
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
+              <div class="p-3 text-bg-primary">Primary background</div>
 
-            <div class="p-3 border border-primary text-primary m-2">Primary border</div>
+              <div class="p-3 border border-primary text-primary">Primary border</div>
 
-            <label class="text-primary m-2">Primary text</label>
+              <label class="text-primary">Primary text</label>
 
-            <a href="#" class="link-primary m-2">Primary link</a>
+              <a href="#" class="link-primary">Primary link</a>
+            </div>
 
-            <button type="button" class="btn btn-primary m-2">
-              Primary button
-            </button>
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-2">
+              <button type="button" class="btn btn-primary">
+                Button
+              </button>
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+              <div class="alert alert-primary m-0" role="alert"  style="width:200px;">
+                Alert
+              </div>
 
-            <span class="badge rounded-pill text-bg-primary m-2">Primary badge</span>
+              <div class="progress" style="height: 5px; width: 200px;">
+                <div class="progress-bar progress-bar-indeterminate"></div>
+              </div>
+            </div>
 
-            <div class="alert alert-primary m-2" role="alert">
-              Primary alert
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-2">
+              <div class="form-floating" style="width:200px;">
+                <input type="text" class="form-control" id="textFieldDark"
+                       placeholder="firstname" autocomplete="off">
+                <label for="textFieldDark">Text field</label>
+              </div>
+
+              <div class="form-floating form-floating-outlined" style="width:200px;">
+                <input type="text" class="form-control" id="textFieldOutlinedDark"
+                       placeholder="firstname" autocomplete="off">
+                <label for="textFieldOutlinedDark">Text field</label>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-2">
+              <div class="form-floating" style="width:200px;">
+                <select class="form-select" id="selectDark">
+                  <option value="" label="blank option"></option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                  <option value="4">Option 4</option>
+                </select>
+                <label for="selectDark">Select</label>
+              </div>
+
+              <div class="form-floating form-floating-outlined" style="width:200px;">
+                <select class="form-select" id="selectOutlinedDark">
+                  <option value="" label="blank option"></option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                  <option value="4">Option 4</option>
+                </select>
+                <label for="selectOutlinedDark">Select</label>
+              </div>
             </div>
           </div>
         </div>
@@ -310,13 +425,23 @@ showSidebar: false
     </div>
 
     <div class="row mb-4">
+      <div class="col d-flex justify-content-center">
+        <ol class="list-unstyled fs-5">
+          <li><strong>Streamlined Customization:</strong> Create custom themes effortlessly with our intuitive Theme Builder.</li>
+          <li><strong>Choose Your Palette:</strong> Select a theme color, border width, and border radius with ease.</li>
+          <li><strong>Real-time Preview:</strong> Visualize your choices instantly with live component previews.</li>
+          <li><strong>Automatic CSS Generation:</strong> The Theme builder automatically generates CSS and SASS for you.</li>
+          <li><strong>Enhanced Branding:</strong> Personalize Material Style to align perfectly with your brand identity.</li>
+          <li><strong>Seamless Integration:</strong> Easily integrate your custom theme into your project for a cohesive look.</li>
+        </ol>
+      </div>
       <div class="col-md-12 text-center">
-        <a href="/materialstyle/{{ page.version }}/colors/theming/"
-           class="btn btn-primary btn-lg px-4 m-1 rounded-pill"
+        <a href="/theme-builder"
+           class="btn btn-tertiary btn-lg px-4 m-1 rounded-pill"
            role="button"
            style="vertical-align: middle;"
            data-bs-theme="light">
-          Explore Theming
+          Explore Theme Builder
           <span class="ripple-surface"></span>
         </a>
       </div>
@@ -337,7 +462,8 @@ showSidebar: false
   <div class="container">
     <div class="row">
       <div class="col-md-12 mb-2">
-        <h2 class="text-center mb-5">Thank You!</h2>
+        <h2 class="text-center">A Big Thanks</h2>
+        <p class="fs-5 text-center mb-5">Supporting Material Style's Journey</p>
         <div class="d-flex justify-content-start justify-content-md-center flex-wrap gap-4">
           <div>
             <a class="text-body-emphasis text-decoration-none fw-light fs-4 d-inline-flex align-items-center gap-2 mb-2"
@@ -424,8 +550,7 @@ showSidebar: false
           Of course. Material Style is MIT licensed project. You can learn more on the
           <a class="link-purple text-decoration-none"
              href="https://github.com/materialstyle/materialstyle/blob/main/LICENSE">
-            license page
-          </a>.
+            license page</a>.
         </p>
       </div>
       <div class="col-md-12 mb-2">
