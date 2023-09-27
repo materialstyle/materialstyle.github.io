@@ -109,15 +109,25 @@ h1, h2, h3, h4, h5 {
   font-weight: 300;
 }
 
-@media (max-width: 447px) {
+@media (max-width: 767px) {
   #site-home-top-nav #site-name {
+    display: none;
+  }
+}
+
+@media (max-width: 497px) {
+  #site-home-top-nav .container {
+    gap: .5rem !important;
+  }
+
+  .extra-links {
     display: none;
   }
 }
 
 @media (max-width: 345px) {
   #site-home-top-nav .container {
-    gap: .5rem !important;
+    gap: .3rem !important;
   }
 
   #site-home-top-nav .navbar-nav {
@@ -129,5 +139,39 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 279px) {
   #site-home-top-nav .navbar-nav {
     width: 100%;
+  }
+}
+
+.theming-examples {
+  [data-bs-theme="light"] {
+    --bs-primary: #5f3dc4;
+    --bs-primary-hover: #5134a7;
+    --bs-primary-active: #4c319d;
+    --bs-primary-subtle: #dfd8f3;
+    --bs-primary-subtle-hover: #c7bbea;
+    --bs-primary-subtle-active: #bfb1e7;
+    --bs-primary-emphasis: #392576;
+    --bs-primary-emphasis-hover: #2b1b58;
+    --bs-primary-border-subtle: #bfb1e7;
+    --bs-primary-rgb: 95, 61, 196;
+    --bs-text-on-primary: #fff;
+    --bs-border-radius: 2rem;
+    --bs-border-width: 2px;
+  }
+
+  [data-bs-theme="dark"] {
+    --bs-primary: #9781d9;
+    --bs-primary-hover: #ac9ae1;
+    --bs-primary-active: #b6a7e4;
+    --bs-primary-subtle: #26184e;
+    --bs-primary-subtle-hover: #2b1b58;
+    --bs-primary-subtle-active: #392576;
+    --bs-primary-emphasis: #b7a8e4;
+    --bs-primary-emphasis-hover: #af9ee2;
+    --bs-primary-border-subtle: #392576;
+    --bs-primary-rgb: 151, 129, 217;
+    --bs-text-on-primary: #000;
+    --bs-border-radius: 2rem;
+    --bs-border-width: 2px;
   }
 }
