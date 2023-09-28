@@ -4,1031 +4,1207 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://materialstyle.github.io/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/getting-started/installation/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/theme-builder/</loc>
+  <lastmod>2023-09-27T13:47:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://materialstyle.github.io/docs/3.0/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/getting-started/installation/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/accordion/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/colors/theming/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/materialstyle/3.0/getting-started/installation/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/materialstyle/3.0/components/accordion/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/docs/2.0/getting-started/installation/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/docs/2.0/components/alert/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/docs/1.2/getting-started/installation/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/docs/1.2/components/alert/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/docs/1.1/getting-started/installation/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/docs/1.1/components/alert/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/docs/1.0/getting-started/installation/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://materialstyle.github.io/docs/1.0/components/alert/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/getting-started/starter-templates/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/getting-started/browsers-and-devices/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/customize/sass/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/customize/css-variables/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/customize/theme-colors/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/customize/color-modes/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/customize/theming/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/customize/options/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/customize/components/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/colors/theme-colors/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/layout/breakpoints/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/colors/color-modes/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/layout/containers/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/colors/background-color/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/layout/grid/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/colors/text-color/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/layout/columns/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/colors/colored-links/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/layout/gutters/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/ripple/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/layout/utilities/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/shadows/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/layout/z-index/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/shapes/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/layout/css-grid/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/forms/text-fields/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/forms/select-fields/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/forms/checkbox-radio-switch/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/forms/input-groups/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/forms/range/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/forms/validation/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/alerts/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/badges/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/breadcrumb/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/buttons/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/cards/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/carousel/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/close-button/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/collapse/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/drawer/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/dropdowns/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/floating-action-buttons/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/lists/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/modal/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/navbar/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/pagination/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/placeholders/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/popovers/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/progress-bars/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/scrollspy/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/snackbars/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/spinners/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/tables/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/tabs/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/toasts/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/components/tooltips/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/api/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/background-color/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/borders/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/display/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/flex/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/float/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/interactions/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/link/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/object-fit/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/opacity/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/overflow/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/position/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/ripple/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/shadows/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/shapes/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/sizing/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/spacing/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/text/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/text-color/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/vertical-align/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/visibility/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/utilities/z-index/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/clearfix/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/focus-ring/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/icon-link/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/position/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/ratio/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/stacks/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/stretched-link/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/text-truncation/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/vertical-rule/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.1/helpers/visually-hidden/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/demos/drawer/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/demos/drawer-end/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/demos/drawer-responsive/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/demos/drawer-responsive-end/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/demos/navbar-fixed-top/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/demos/navbar-fixed-bottom/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/demos/navbar-auto-hide/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.1/migration/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.0/getting-started/installation/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/materialstyle/3.0/components/accordion/</loc>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/docs/2.0/getting-started/installation/</loc>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/docs/2.0/components/alert/</loc>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/docs/1.2/getting-started/installation/</loc>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/docs/1.2/components/alert/</loc>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/docs/1.1/getting-started/installation/</loc>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/docs/1.1/components/alert/</loc>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/docs/1.0/getting-started/installation/</loc>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://materialstyle.github.io/docs/1.0/components/alert/</loc>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/getting-started/starter-templates/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/getting-started/browsers-and-devices/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/utilities/colors/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/utilities/ripple/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/utilities/shadows/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/utilities/shapes/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/forms/text-fields/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/forms/select-fields/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/forms/checkbox-radio-switch/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/forms/input-groups/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/forms/range/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/forms/validation/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/alerts/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/badges/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/breadcrumb/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/buttons/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/cards/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/carousel/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/close-button/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/collapse/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/drawer/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/dropdowns/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/floating-action-buttons/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/lists/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/modal/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/navbar/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/pagination/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/placeholders/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/popovers/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/progress-bars/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/scrollspy/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/snackbars/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/spinners/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/tables/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/tabs/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/toasts/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/components/tooltips/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/demos/drawer/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/demos/drawer-end/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/demos/drawer-responsive/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/demos/drawer-responsive-end/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/demos/navbar-fixed-top/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/demos/navbar-fixed-bottom/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/demos/navbar-auto-hide/</loc>
-  <lastmod>2023-04-17T12:12:09+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/materialstyle/3.0/migration/</loc>
-  <lastmod>2023-04-17T12:12:10+00:00</lastmod>
+  <lastmod>2023-09-27T13:43:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/getting-started/starter-template/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/utilities/color/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/utilities/elevation/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/button/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/card/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/checkbox/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/drawer/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/floating-action-button/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/image-list/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/list/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/modal/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/navbar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/popover/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/progress-bar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/range-slider/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/radio/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/select-field/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/shape/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/snackbar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/spinner/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/switch/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/tab/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/text-field/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/components/toast/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/getting-started/layout/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/utilities/color/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/utilities/elevation/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/button/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/card/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/checkbox-and-radio/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/floating-action-button/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/image-list/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/list/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/menu-and-dropdown/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/navbar-and-drawer/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/popover/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/progress-bar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/shape/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/snackbar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/tab/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/text-field/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/components/toggle-switch/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/getting-started/layout/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/utilities/color/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/utilities/elevation/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/button/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/card/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/checkbox-and-radio/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/floating-action-button/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/image-list/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/list/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/menu-and-dropdown/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/navbar-and-drawer/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/popover/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/progress-bar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/shape/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/snackbar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/tab/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/text-field/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/components/toggle-switch/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/getting-started/layout/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/utilities/color/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/utilities/elevation/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/button/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/card/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/checkbox-and-radio/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/floating-action-button/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/list/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/menu-and-dropdown/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/navbar-and-drawer/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/progress-bar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/shape/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/tab/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/text-field/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/components/toggle-switch/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/demo/drawer/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/demo/drawer-always-visible/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/demo/drawer-fixed/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/2.0/demo/navbar-autohide/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/demo/sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/demo/visible-sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.2/demo/fixed-sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/demo/sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/demo/visible-sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.1/demo/fixed-sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/demo/sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/demo/visible-sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://materialstyle.github.io/docs/1.0/demo/fixed-sidebar/</loc>
-  <lastmod>2023-04-17T13:20:02+00:00</lastmod>
+  <lastmod>2023-09-27T13:45:54+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 
